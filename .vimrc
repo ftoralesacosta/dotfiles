@@ -33,6 +33,14 @@ set autoindent
 set ruler
 set laststatus=2
 set confirm
+set expandtab
+set tabstop=2
+set shiftwidth=2
+set autoindent
+set cindent	
+"set smartindent"
+set pastetoggle=<f5>
+"--------Color Scheme---------"
 "colorscheme onehalfdark"
 "colorscheme molokai"
 colorscheme vim-monokai-tasty
