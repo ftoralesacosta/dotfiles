@@ -19,6 +19,10 @@ alias v="vim"
 alias vv="vim ~/.vimrc"
 alias sv="source ~/.vimrc"
 
+#Make grep more user friendly by highlighting matches
+#and exclude grepping through .svn folders.
+alias grep='grep --color=auto --exclude-dir=\.svn'
+
 #Connecting to NERSC
 alias nersc="~/.ssh/./sshproxy.sh -u fernando"
 alias cori="ssh -i ~/.ssh/nersc fernando@cori02-224.nersc.gov"
@@ -35,3 +39,4 @@ alias r="root"
 
 #General
 export PATH="/usr/local/bin:$PATH"
+
