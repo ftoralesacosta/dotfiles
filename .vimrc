@@ -19,6 +19,8 @@ call plug#begin('~/.vim/plugged') "calls filetype indent and syntax enable
 Plug 'sonph/onehalf', { 'rtp': 'vim' }
 Plug 'tomasr/molokai'
 Plug 'patstockwell/vim-monokai-tasty'
+Plug 'ervandew/supertab'
+
 call plug#end()
 
 "--------Usability---------"
