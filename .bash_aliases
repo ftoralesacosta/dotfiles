@@ -1,7 +1,3 @@
-#Source and Edit
-alias sbp="source ~/.profile"
-alias ebp="vim ~/.profile"
-
 #Navigation
 alias rth="ls -lrtha"
 alias cdft="cd ~/Documents/"
