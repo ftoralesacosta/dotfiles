@@ -1,6 +1,6 @@
 #Navigation
-alias rth="ls -lrtha"
-alias cdft="cd ~/Documents/"
+alias rth="ls -lrth"
+alias la="ls -lrtha"
 
 #Emacs Typo Aliases
 alias emas="emacs"
