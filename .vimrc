@@ -16,10 +16,10 @@ autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
 
 call plug#begin('~/.vim/plugged') "calls filetype indent and syntax enable
 
-Plug 'sonph/onehalf', { 'rtp': 'vim' }
-Plug 'tomasr/molokai'
 Plug 'patstockwell/vim-monokai-tasty'
 Plug 'ervandew/supertab'
+Plug 'https://github.com/tpope/vim-repeat'
+Plug 'https://github.com/tpope/vim-surround'
 
 call plug#end()
 
@@ -42,10 +42,16 @@ set autoindent
 set cindent	
 "set smartindent"
 set pastetoggle=<f5>
+"--------Relative Numbers-----"
+:set number relativenumber
+
+:augroup numbertoggle
+:  autocmd!
+:  autocmd BufEnter,FocusGained,InsertLeave * set relativenumber
+:  autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
+:augroup END
 "--------Color Scheme---------"
-"colorscheme onehalfdark"
-"colorscheme molokai"
-colorscheme vim-monokai-tasty
+"colorscheme vim-monokai-tasty"
 "--------Mapings---------"
 map Y y$
 nnoremap <C-L> :nohl<CR><C-L>
