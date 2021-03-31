@@ -16,10 +16,14 @@ autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
 
 call plug#begin('~/.vim/plugged') "calls filetype indent and syntax enable
 
-Plug 'patstockwell/vim-monokai-tasty'
+"Quality of Life"
 Plug 'ervandew/supertab'
 Plug 'https://github.com/tpope/vim-repeat'
 Plug 'https://github.com/tpope/vim-surround'
+
+"Colors"
+Plug 'patstockwell/vim-monokai-tasty'
+Plug'https://github.com/jeffkreeftmeijer/vim-dim'
 
 call plug#end()
 
@@ -52,6 +56,7 @@ set pastetoggle=<f5>
 :augroup END
 "--------Color Scheme---------"
 "colorscheme vim-monokai-tasty"
+colorscheme dim
 "--------Mapings---------"
 map Y y$
 nnoremap <C-L> :nohl<CR><C-L>
