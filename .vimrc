@@ -20,6 +20,7 @@ call plug#begin('~/.vim/plugged') "calls filetype indent and syntax enable
 Plug 'ervandew/supertab'
 Plug 'https://github.com/tpope/vim-repeat'
 Plug 'https://github.com/tpope/vim-surround'
+Plug 'https://github.com/tpope/vim-commentary'
 
 "Colors"
 Plug 'patstockwell/vim-monokai-tasty'
@@ -44,8 +45,10 @@ set tabstop=2
 set shiftwidth=2
 set autoindent
 set cindent	
+setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 "set smartindent"
 set pastetoggle=<f5>
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 "--------Relative Numbers-----"
 :set number relativenumber
 
@@ -55,7 +58,7 @@ set pastetoggle=<f5>
 :  autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
 :augroup END
 "--------Color Scheme---------"
-"colorscheme vim-monokai-tasty"
+" colorscheme vim-monokai-tasty
 colorscheme dim
 "--------Mapings---------"
 map Y y$
