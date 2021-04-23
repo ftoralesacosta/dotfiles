@@ -30,6 +30,7 @@ alias tmx='tmux new-session -s'
 alias tkill='tmux kill-session -t'
 alias tks='tmux kill-server'
 alias vt='vim ~/.tmux.conf'
+alias vs='tmux source-file ~/.tmux.conf'
 #ROOT
 alias r="root"
 
