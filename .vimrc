@@ -63,3 +63,4 @@ colorscheme dim
 "--------Mapings---------"
 map Y y$
 nnoremap <C-L> :nohl<CR><C-L>
+nnoremap M :make
