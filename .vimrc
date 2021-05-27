@@ -64,3 +64,5 @@ colorscheme dim
 map Y y$
 nnoremap <C-L> :nohl<CR><C-L>
 nnoremap M :make
+nnoremap zz :update<cr>
+inoremap zz  <C-o>:update<cr>gi
