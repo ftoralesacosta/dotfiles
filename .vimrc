@@ -1,7 +1,4 @@
-"--------Basic--------"
-set nocompatible
-syntax on
-
+"--------Basic--------" set nocompatible syntax on
 "--------Plug---------"
 " Install vim-plug if not found
 if empty(glob('~/.vim/autoload/plug.vim'))
@@ -9,10 +6,11 @@ if empty(glob('~/.vim/autoload/plug.vim'))
     \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 endif
 
-" Run PlugInstall if there are missing plugins
-autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
-  \| PlugInstall --sync | source $MYVIMRC
-\| endif
+"Run PlugInstall if there are missing plugins
+autocmd VimEnter *
+  \  if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
+  \|   PlugInstall --sync | q
+  \| endif
 
 call plug#begin('~/.vim/plugged') "calls filetype indent and syntax enable
 
@@ -64,5 +62,5 @@ colorscheme dim
 map Y y$
 nnoremap <C-L> :nohl<CR><C-L>
 nnoremap M :make
-nnoremap zz :update<cr>
-inoremap zz  <C-o>:update<cr>gi
+nnoremap WW :update<cr>
+inoremap WW  <C-o>:update<cr>

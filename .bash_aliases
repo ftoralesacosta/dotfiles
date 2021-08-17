@@ -13,7 +13,6 @@ alias e="emacs"
 #Vim Aliases
 alias v="vim"
 alias vv="vim ~/.vimrc"
-alias sv="source ~/.vimrc"
 
 #Make grep more user friendly by highlighting matches
 #and exclude grepping through .svn folders.
