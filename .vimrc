@@ -24,6 +24,9 @@ Plug 'https://github.com/tpope/vim-commentary'
 Plug 'patstockwell/vim-monokai-tasty'
 Plug'https://github.com/jeffkreeftmeijer/vim-dim'
 
+"LaTeX"
+Plug 'lervag/vimtex'
+
 call plug#end()
 
 "--------Usability---------"
