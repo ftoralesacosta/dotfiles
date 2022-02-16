@@ -1,14 +1,6 @@
 #Navigation
-alias rth="ls -lrth"
+alias rth="ls -lrtha"
 alias la="ls -lrtha"
-
-#Emacs Typo Aliases
-alias emas="emacs"
-alias emac="emacs"
-alias eamcs="emacs"
-alias emcas="emacs"
-alias e="emacs"
-#alias emacs="vim"
 
 #Vim Aliases
 alias v="vim"
@@ -30,9 +22,11 @@ alias tkill='tmux kill-session -t'
 alias tks='tmux kill-server'
 alias vt='vim ~/.tmux.conf'
 alias vs='tmux source-file ~/.tmux.conf'
+
 #ROOT
 alias r="root"
 
 #General
-export PATH="/usr/local/bin:$PATH"
+alias eba="vim ~/.bash_aliases"
+#export PATH="/usr/local/bin:$PATH"
 
