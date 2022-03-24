@@ -1,3 +1,4 @@
+vim.opt.termguicolors = true --needs to be before packer calls for some reason
 vim.opt.cursorline = false
 vim.opt.tabline = '2'
 vim.opt.syntax = "enable"
