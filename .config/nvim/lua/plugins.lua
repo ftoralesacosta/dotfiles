@@ -68,7 +68,7 @@ return require('packer').startup(function(use)
   use "hrsh7th/cmp-cmdline" -- cmdline completions
 
   -- Snippets --
-  use "L3MON4D3/LuaSnip"
+  use "L3MON4D3/LuaSnip" -- needed for "require('luasnip')"
   use "rafamadriz/friendly-snippets"
 
   -- TreeSitter--

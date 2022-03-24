@@ -103,11 +103,12 @@ end
 
 local capabilities = vim.lsp.protocol.make_client_capabilities()
 
--- local status_ok, cmp_nvim_lsp = pcall(require, "cmp_nvim_lsp")
-local cmp_nvim_lsp = require "cmp_nvim_lsp"
--- if not status_ok then
---   return
--- end -- This results in returning a bool value, and yields errors anyway...
+-- local cmp_nvim_lsp = require "cmp_nvim_lsp"
+local status_ok, cmp_nvim_lsp = pcall(require, "cmp_nvim_lsp")
+if not status_ok then
+  print("Could NOT successfully require [cmp_nvim_lsp]")
+  return
+end
 
 M.capabilities = cmp_nvim_lsp.update_capabilities(capabilities)
 
