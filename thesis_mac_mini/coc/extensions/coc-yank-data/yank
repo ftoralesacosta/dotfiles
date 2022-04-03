@@ -1,0 +1,723 @@
+af1115b8e634235bfd3eeb11c502c8d6|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|508|10|v|tex
+	\eta|<0.67$
+ee2cdc76cdfa21554f12b118baf8b0fc|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|526|1|V|tex
+	\begin{itemize}
+641e33db76a8e2164610ce202fd001dc|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|529|10|V|tex
+	First, the impact of the number-of-local maximum (NLM) criteria for clusters is studied. The NLM $<3$ selection was used in previous isolated photon analyzes (e.g. Ref~\cite{Acharya:2019jkx,Erwann}), where it was found to help to improve the simulation description of the background shower-shape. Figure~\ref{fig:numberoflocalmaxima} shows the purity measurement with and without this selection in pp and \pPb~data. No significant difference is observed.
+777d34bd617fdc2f58c2896ab8e85d81|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|527|11|v|tex
+	irst, the 
+de2e8e4c12f4b66f14b2af76a730961b|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|527|298|v|tex
+	Figure~\ref{fig:numberoflocalmaxima} shows the 
+b0f1de9e6ab406da041f1839fca0e610|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|540|9|V|tex
+	Figure~\ref{fig:distancetobadchannel} shows the purity measurement by varying the distance-to-bad channel cut from the nominal $\geq 1$ to $\geq 2$. This change would remove about 20$\%$ of the \gammaiso~candidates. Onec again, no significant difference is observed. 
+06fe6e6a2694cc08d8f397c9f65bb5e3|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|529|11|v|tex
+	Figure~\ref{fig:distancetobadchannel} shows the 
+d2a919f88a1238e9d75b2c7760676a29|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|529|11|v|tex
+	The purity measurement by varying the distance-to-bad channel cut from the nominal $\geq 1$ to $\geq 2$. This change would remove about 20$\%$ of the \gammaiso~candidates. Onec again, no significant difference is observed. 
+	  \end{itemize}
+	
+	\begin{figure}
+		\center
+		\includegraphics[width=0.495\textwidth]{G-H_New/dPhi_to_0/NLMvariation_pp.png}
+		\includegraphics[width=0.495\textwidth]{Checks_Systematics/NLMvariation_pPb}
+		\caption{Purity measurement with and without cluster selection based on number-of-local maxima in pp (left) and \pPb~(right) collisions.}
+		\label{fig:numberoflocalmaxima}
+	\end{figure}
+	
+	
+	\begin{figure}
+		\center
+		\includegraphics[width=0.495\textwidth]{Checks_Systematics/ppbdistance.pdf}
+		\includegraphics[width=0.495\textwidth]{Checks_Systematics/ppbdistance.pdf}
+		\caption{Purity measurement with distance-to-bad channel $\geq 1$ (nominal) and $\geq 2$ in pp (left) and \pPb~(right) data.}
+		\label{fig:distancetobadchannel}
+	\end{figure}
+	
+cf3cde34647700e5f840372ca26c54d8|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|529|11|v|tex
+	The purity measurement by 
+ac713ea1652e7d0cb27558a76e154aed|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|534|10|V|tex
+	\begin{figure}
+		\center
+		\includegraphics[width=0.495\textwidth]{G-H_New/dPhi_to_0/NLMvariation_pp.png}
+		\includegraphics[width=0.495\textwidth]{Checks_Systematics/NLMvariation_pPb}
+		\caption{Purity measurement with and without cluster selection based on number-of-local maxima in pp (left) and \pPb~(right) collisions.}
+		\label{fig:numberoflocalmaxima}
+	\end{figure}
+	
+1a6bea877a0886c4755f77914c67cde5|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|534|1|V|tex
+	
+	\begin{figure}
+		\center
+		\includegraphics[width=0.495\textwidth]{Checks_Systematics/ppbdistance.pdf}
+		\includegraphics[width=0.495\textwidth]{Checks_Systematics/ppbdistance.pdf}
+		\caption{Purity measurement with distance-to-bad channel $\geq 1$ (nominal) and $\geq 2$ in pp (left) and \pPb~(right) data.}
+		\label{fig:distancetobadchannel}
+	\end{figure}
+d26536f197cfdde544e0d7c7c9b7dea0|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|535|1|V|tex
+	Figure~\ref{fig:TOF_purity} shows the purity measurement with and without cluster time selection. No significant difference is observed. 
+aa26d3b1f6a7e1f7d4abeb17bf226445|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|531|11|v|tex
+	Figure~\ref{fig:TOF_
+94e5c28e8eab739b0fb50e16c1437972|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|538|10|V|tex
+	\begin{figure}
+		\center
+		\includegraphics[width=0.495\textwidth]{Checks_Systematics/pptof.pdf}
+		\includegraphics[width=0.495\textwidth]{Checks_Systematics/ppbtof.pdf}
+		\caption{Purity measurement with and without time cut $(\Delta t<20$ ns) in pp (left) and \pPb~(right) data.}
+		\label{fig:TOF_purity}
+	\end{figure}
+	
+26dd3a46dfbaf61b91a0c65e9e48b183|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|538|10|V|tex
+	Figure~\ref{fig:exoticity} shows the purity measurement with an exoticity cut with a threshold of 5\% (nominal) and a variation of $3\%$. No significant difference is observed. 
+eaedfca5e7ec8768d33a65f4307543df|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|533|11|v|tex
+	Figure~\ref{fig:exoticity} shows the 
+40aa0604b23092661bb99de120e64fde|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|533|11|v|tex
+	Purity me
+471ef9ae3391174fa1040cabca6d7e6b|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|533|11|v|tex
+	asurement with 
+af17f9c79d9f0da1bbf6792b7475b590|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|542|10|V|tex
+	\begin{figure}
+		\center
+		\includegraphics[width=0.495\textwidth]{Checks_Systematics/ppemax.pdf}
+		\includegraphics[width=0.495\textwidth]{Checks_Systematics/ppbemax.pdf}
+		\caption{Purity measurement with an exoticity cut of 5$\%$ (nominal) and 3$\%$ in pp (left) and \pPb~(right) data.}
+		\label{fig:exoticity}
+	\end{figure}
+	
+257130341789b6348d480b92b8039c74|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|542|10|V|tex
+	Figure~\ref{fig:isolationvariation} shows the purity measurement with different isolation thresholds. The nominal threshold of 1.5 $\GeVc$ is varied by $\pm$ 0.2 \GeVc. As expected the higher (lower) isolation threshold results in a lower (higher) purity. However, the difference with respect to the nominal result is small compared to the statistical and systematic uncertainties. This indicates that the purity measurement has only a weak dependence on the choice of isolation threshold. 
+537193907d181971dd84d3dcbac47792|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|535|11|v|tex
+	Figure~\ref{fig:isolationvariation} shows the 
+8fe642e2801ff3c36ced04fb46666673|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|539|1|V|tex
+	\begin{figure}
+		\center
+		\includegraphics[width=0.495\textwidth]{Checks_Systematics/ppiso.pdf}
+		\includegraphics[width=0.495\textwidth]{Checks_Systematics/ppbiso.pdf}
+		\caption{Purity measurement with different isolation threshold requirements in pp (left) and \pPb~(right) data.}
+		\label{fig:isolationvariation}
+	\end{figure}
+	
+857f1f12eb0f8bf5d077ad400bf27749|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|543|329|v|tex
+	actually 
+a0e9c0a8dfaa878f8b2c2dcc704dfac9|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|591|1|v|tex
+	Figure~\ref{fig:smearingSignalShape} shows the purity obtained for $15<\pt<20$ \GeVc~as a function of smearing width used and the corresponding $\chi^{2}$/dof. 
+b66c2b2d35faf638cf042f4edcee68e7|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|583|1|V|tex
+	\begin{figure}
+		\center
+		\includegraphics[width=0.495\textwidth]{Checks_Systematics/smeared-chi2s-pp-cluster_Lambda-15-20.pdf}
+			\includegraphics[width=0.495\textwidth]{Checks_Systematics/smeared-purities-pp-cluster_Lambda-15-20.pdf}
+			\caption{Left: Signal template distribution for various smearing widths. Right: purity vs smearing width. The error bar represents the statistical uncertainty, which has been scaled by $\sqrt{\chi^{2}/\mathrm{dof}}$.}
+		\label{fig:smearingSignalShape}
+	\end{figure}
+68a52b597b3a58546df783576ffe293d|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|583|236|v|tex
+	that is observed with the smearing, the statisti
+f93e3a0cc3b5e0da52e7599b43727a31|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|583|236|v|tex
+	that is observed 
+fbcdf0a327a2ea84d2819abb16a78018|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|583|241|v|tex
+	with 
+547fa0205bec24149f1d9a74ba268c22|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|586|1|v|tex
+	A constant is fit to the purity values vs smearing widths (shown as band in Figure~\ref{fig:smearingSignalShape}). 
+33be3c2051ae89c2c29017bfafc0728b|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|591|83|v|tex
+	binning 
+2a51314db74d7d02837cd60e23eeffaa|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|591|92|v|tex
+	in principle 
+caa1849a6a250c684849b8eb8b0bd5ea|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|591|190|v|tex
+	Results are show
+b4967dc58cc45d2950779109d78f36d8|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|591|190|v|tex
+	n with double the 
+b022f8326df4f8e27bca4a2b9e4c3900|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|591|238|v|tex
+	  Th
+8ed461ea758602b7690d8e73160ffced|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|591|238|v|tex
+	is done for s
+86ccec3d9ff0e9c0514506e982cdc08b|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|591|238|v|tex
+	impl
+1b08854769446abc52bdc9d3d4edbcb9|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|591|238|v|tex
+	ity and 
+6956a947727d978449804aeb24b2d3d8|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|591|239|v|tex
+	is is done for simplicity and in order to 
+4ea856a320ec3ccbb348dc1307abbdd6|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|591|239|v|tex
+	be a
+6a7ee37b3826190189448e67218e0692|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|594|25|V|tex
+	\label{fig:dPhivariation}
+7a23f2e18a6ef89f0e349f8bb24b1b19|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|644|13|V|tex
+	%\label{fig:dPhivariation}
+55d877d21510e45ee041d469a0e6e1b8|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|591|396|v|tex
+	correlation function obtained with double the number of bins as the nominal result
+0d9e1da81fe1a8eb4c9b8105ceefbada|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|603|387|v|tex
+	shown in Sec
+f66b644171774adcf3aff48017bd6a47|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|603|387|v|tex
+	tion~\ref{sec:resul
+133dd5617ae56e6796648555e442c92f|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|603|387|v|tex
+	ts} 
+a23c0c7c1b653f1a598cdca6b6d8de74|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|567|471|v|tex
+	fig:Purity_Error_Function
+ed3b82dbcc68da40602fd93f88431263|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|591|395|v|tex
+	 comparison
+ee13a8b7f498f9271c1ae8cc986e3963|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|591|367|v|tex
+	fig:dPhivariation
+a99c044c6bff8f46673211684dc34a70|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|591|367|v|tex
+	fig:dph_bin_variation
+332d88102e5132827064afed0dc35456|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|683|346|v|tex
+	that have been documented at length \cite{zotero-348}
+4ebef830e47dda6d1a60f20a68d35e3b|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|591|607|v|tex
+	and the 
+78abe6ac09ad016ffd670f4bfb88d2e5|file:///Users/fernando/Documents/Thesis/Results.tex|9|1|V|tex
+	\chapter{First Photon-Tagged Fragmentation Results in \pPb}
+b4fef763f28e9c922b4f0facb4c1933c|file:///Users/fernando/Documents/Thesis/Results.tex|10|10|v|tex
+	First Photon-Tagged Fragmentation Results in \pPb
+6aad78131cb76ba728620ec00b07e6c1|file:///Users/fernando/Documents/Thesis/Results.tex|12|31|V|tex
+	\section{Fully Subtracted Correlation Functions}
+ed751fd9db8848c89897f2ed8d76dacf|file:///Users/fernando/Documents/Thesis/Results.tex|12|10|v|tex
+	Fully Subtracted 
+3decd7747a874833b8ca2944b66f3940|file:///Users/fernando/Documents/Thesis/Results.tex|42|562|v|tex
+	availabel 
+f0f48665a43b97906d8ad977e0239dc8|file:///Users/fernando/Documents/Thesis/Results.tex|38|454|V|tex
+	The darker colored bands at zero represents the uncertainty from the uncorrelated background estimate. The vertical bars indicate the statistical uncertainty only. The final correlation functions in each collision system demonstrate similar behavior: both show a signal consistent with zero at small $\Delta\varphi$, and a rising away-side peak at large $\Delta\varphi$ arising predominantly from the hard-scattered parton opposite to the trigger photon.
+b11d43640f5b60d6f68d2cf8923591c9|file:///Users/fernando/Documents/Thesis/Results.tex|53|512|v|tex
+	were 
+07c3c62fae229e8aeefb3c12ae11151a|file:///Users/fernando/Documents/Thesis/Discussion.tex|9|1|V|tex
+	\chapter{Discussion}
+a9322e47d5646b7e295fb8453f3469d9|file:///Users/fernando/Documents/Thesis/Discussion.tex|30|1|v|tex
+	In this work, azimuthal correlations of charged hadrons with isolated photons, $\gammaiso$, are presented in \pPb~and pp collisions with a center-of-mass energy of \sqrtsNN~ = 5.02 TeV. Isolated photons are measured at midrapidity, {$|\eta|<0.67$}, and with trans
+6511483df19d84f4726d0f26fc4c0523|file:///Users/fernando/Documents/Thesis/Discussion.tex|30|1|v|tex
+	verse momenta in the range $12 <\pt<40$ \GeVc, which yields the scaling 
+8bc4d3cc25b35cb812991f035f878e6a|file:///Users/fernando/Documents/Thesis/Discussion.tex|29|1|v|tex
+	dawvariable 
+7096694c0d0721e0db7fa259702d0233|file:///Users/fernando/Documents/Thesis/Discussion.tex|28|32|V|tex
+	\section{Kinematic Range Probed}
+2f49c5f839308ee9ca626c3b7e3047a7|file:///Users/fernando/Documents/Thesis/Discussion.tex|27|495|v|tex
+	has 
+4a9f5db3416285b268362cb41d4c663e|file:///Users/fernando/Documents/Thesis/Discussion.tex|27|511|v|tex
+	while measured nuclear effects are of non-perturbative origin
+ed3966c1c6beb611d4515052bc95d760|file:///Users/fernando/Documents/Thesis/Discussion.tex|29|249|v|tex
+	\pt~that roughly corresponds to the photon \pt~measured in this analysis
+2d5d0029bf3fd801f29ca76f89cc78f5|file:///Users/fernando/Documents/Thesis/Discussion.tex|33|222|v|tex
+	the constraints 
+d54b09e2c5bb2a6ca2b5234f311a0858|file:///Users/fernando/Documents/Thesis/Discussion.tex|33|315|v|tex
+	to answer 
+ff38632248f813667b37c9b8bdce82de|file:///Users/fernando/Documents/Thesis/Discussion.tex|33|319|v|tex
+	the study modi
+1fa8c34af6246e9ff587632449b02f9c|file:///Users/fernando/Documents/Thesis/Discussion.tex|33|319|v|tex
+	fications to the 
+98e95b6f9fff06138eeec4d74f396010|file:///Users/fernando/Documents/Thesis/Discussion.tex|35|93|v|tex
+	, and the importance of measuring  \textit{per-trigger} yields
+3a9202c0310ac667a6f6ad03d4f433de|file:///Users/fernando/Documents/Thesis/Discussion.tex|35|267|v|tex
+	should 
+b03b912b41f0f630a10c460e123f10cf|file:///Users/fernando/Documents/Thesis/Discussion.tex|33|289|v|tex
+	A very important question for the fragmentation function in \pPb~collisions compared to pp collisions is: How do we know if modifications to the observed $\gamma$-tagged associated yields are due to the PDF, and not in fact modifications to the fragmentation function?
+c7a3d3394ab4ed8a1424f1ed22c20e17|file:///Users/fernando/Documents/Thesis/Discussion.tex|35|362|v|tex
+	is most relevant 
+5ead37650197cbe37e7b71aecafa719b|file:///Users/fernando/Documents/Thesis/Discussion.tex|48|140|v|tex
+	To review, the parton distribution function is defined as the probability density for finding a particle with a certain longitudinal momentum fraction x at resolution scale $Q^2$ within a nucleon. 
+b803b0707f96e66c20df27033552633c|file:///Users/fernando/Documents/Thesis/Discussion.tex|65|210|v|tex
+	in this factorization scheme.
+8a093da932a457516c14ba2beffa9b9c|file:///Users/fernando/Documents/Thesis/Discussion.tex|48|1198|v|tex
+	It is important to note, however, that factorization in this scenario is not proven
+c741e7891f2ba9b71112f34eb3659779|file:///Users/fernando/Documents/Thesis/Discussion.tex|68|107|v|tex
+	 to be within the reported error bars
+0c0a6b07c34967aaf231c1d4068da61b|file:///Users/fernando/Documents/Thesis/Discussion.tex|68|248|v|tex
+	that are constrained by this measurement
+8ce0b10b245fd2666fef71a215157fba|file:///Users/fernando/Documents/Thesis/Discussion.tex|68|343|v|tex
+	was 
+38a565239b3bf1f1e696c732d7b36875|file:///Users/fernando/Documents/Thesis/Discussion.tex|73|138|v|tex
+	, where the PDF is defined as the probability density for finding a particle with a certain longitudinal momentum fraction $x$ at resolution scale $Q^2$
+abd0f41612b10e37fa17950f47c23282|file:///Users/fernando/Documents/Thesis/Discussion.tex|73|567|v|tex
+	This section will discuss how this is done 
+0f7212b9cbaac9528ca34cc1caa278ac|file:///Users/fernando/Documents/Thesis/Discussion.tex|75|103|v|tex
+	details how 
+1102259ad1505eaa8dcc1fcaed66e7d7|file:///Users/fernando/Documents/Thesis/Discussion.tex|75|207|v|tex
+	were considered
+0ae13887d8517c5b33af4ec06696998b|file:///Users/fernando/Documents/Thesis/Discussion.tex|75|228|v|tex
+	will be briefly discussed here.
+0ba3825f8c559c479600d0196595c4c7|file:///Users/fernando/Documents/Thesis/Discussion.tex|87|118|V|tex
+	  \textit{Dynamical shadowing}, or just shadowing, refers to suppression of the cross section in the small-x region. The effect can be interpreted as a generation of dynamical parton mass in the background gluon field of the nucleus \cite{Qiu2004}. It is included as an effective shift in the $x$ distribution of the partons, on which the nPDF depends. The precise value of the shift depends on the color factor of the partons involved, $C_F$, and the characteristic scale of multiple scattering per nucleon, $\xi^2$. The average values for these are obtained from RHIC data as inputs into the shift of the $x$ distribution.
+17bb44915044cac5ce923311de07dc3d|file:///Users/fernando/Documents/Thesis/Discussion.tex|87|118|v|tex
+	The effect can be interpreted as a generation of dynamical parton mass in the background gluon field of the nucleus \cite{Qiu2004}. 
+bc05fae593e3e0eef9510e4268bf3771|file:///Users/fernando/Documents/Thesis/Discussion.tex|87|230|v|tex
+	of the hadronic fluctuations of the virtual 
+b73f50fdaeb1586a3f9a876bf0ff56cf|file:///Users/fernando/Documents/Thesis/Discussion.tex|87|242|v|tex
+	of the target 
+7e6d975dd11ee08ef7893cf23d57e43f|file:///Users/fernando/Documents/Thesis/Discussion.tex|87|169|v|tex
+	(from whi
+fe08bd96ad0bbccd4d93b4044d5c5fc3|file:///Users/fernando/Documents/Thesis/Discussion.tex|87|169|v|tex
+	ch nPDFs are 
+43791ab5c634f33d2b6418bc5f9479b2|file:///Users/fernando/Documents/Thesis/Discussion.tex|87|169|v|tex
+	culated) 
+79ecb493f13d30195fa77fa858893d92|file:///Users/fernando/Documents/Thesis/Discussion.tex|87|491|v|tex
+	long 
+510b240d841efa95a4702afa3a3482f2|file:///Users/fernando/Documents/Thesis/Discussion.tex|89|494|v|tex
+	modification 
+d113991b2fc38ac8d8848834f5c85640|file:///Users/fernando/Documents/Thesis/Discussion.tex|92|121|v|tex
+	n the correct admixture of competing effects. 
+3b034f2979bbc73202f3ab913909028b|file:///Users/fernando/Documents/Thesis/Discussion.tex|92|3|v|tex
+	These contributions ultimately drive a model in which multiple parameters are fit to data, RHIC in this case, to obtai
+e4db87c65cce322d55d1741b22116c8c|file:///Users/fernando/Documents/Thesis/Discussion.tex|92|1|V|tex
+	  These contributions ultimately drive a model in which multiple parameters are fit to data, RHIC in this case, to obtain the correct admixture of competing effects. This is shown in Fig.~\ref{fig:CNM_calc}. 
+56ce6e774bea7e84935f428ecad99adc|file:///Users/fernando/Documents/Thesis/Discussion.tex|92|3|v|tex
+	These contributions ultimately drive a model in which multiple parameters are fit to data, RHIC in this case, to obtain the correct admixture of competing effects. 
+4aa8aaeaf1a9170ea445cbc4c5837370|file:///Users/fernando/Documents/Thesis/Discussion.tex|101|416|v|tex
+	 The 
+ea97680882a447bc228087bfd7fb9016|file:///Users/fernando/Documents/Thesis/Discussion.tex|101|620|v|tex
+	, leading to nucleon modification
+f05b285030dba7d19b5cac940fdb3993|file:///Users/fernando/Documents/Thesis/Discussion.tex|101|887|v|tex
+	,Norton2003
+01e4d62ce96853b2e476670a121d5a99|file:///Users/fernando/Documents/Thesis/Discussion.tex|124|9|v|tex
+	theory 
+90d9cc4ce7621068ac9faab2b3f8898d|file:///Users/fernando/Documents/Thesis/Discussion.tex|124|55|v|tex
+	done 
+7c9503e724a8b1714b86e10c96dc389f|file:///Users/fernando/Documents/Thesis/Discussion.tex|124|614|v|tex
+	enough 
+e6d23d7dfdc51fa2aa43ba5fcc7fcccd|file:///Users/fernando/Documents/Thesis/Discussion.tex|126|173|V|tex
+	The modification to the yield of associated hadrons in \pPb is quantified as the ratio of yields in \pPb and pp, $I_{pA}^{\gamma h}$. %For a given  $\zt$, this is given by: 
+b6fc7d9ee3e26c1f2c43d3f792c84b16|file:///Users/fernando/Documents/Thesis/Discussion.tex|131|135|v|tex
+	%For a given  $\zt$, this is given by: 
+c4bc419346787315d3b339e94f1179c0|file:///Users/fernando/Documents/Thesis/Discussion.tex|140|188|v|tex
+	due 
+f6dd7dad5ae9b2d8a1318d254c5c58d0|file:///Users/fernando/Documents/Thesis/Discussion.tex|140|250|v|tex
+	Discussed in more detail in 
+b64920c23262ca46c4728562053d005e|file:///Users/fernando/Documents/Thesis/Discussion.tex|140|280|v|tex
+	the data comparison does not refute this effect, but does not have sufficient statistical precision to 
+94c8303c52c349c81b9b09fe4a8d654c|file:///Users/fernando/Documents/Thesis/Discussion.tex|151|35|v|tex
+	atte
+ce3575c41e8bc2b3b3ca9bd30005246a|file:///Users/fernando/Documents/Thesis/Discussion.tex|151|35|v|tex
+	mpts to 
+056ba332fef0f107ff9bc39f3816db56|file:///Users/fernando/Documents/Thesis/Discussion.tex|151|393|v|tex
+	obtained 
+2166fe02e4d8137b24f72a6eadc65a42|file:///Users/fernando/Documents/Thesis/Discussion.tex|151|636|v|tex
+	which 
+2f3b80831fe6d7062a7ffb2654574372|file:///Users/fernando/Documents/Thesis/Discussion.tex|151|644|v|tex
+	effects 
+e66c75ac176cc3e7e868fe4a70ff724a|file:///Users/fernando/Documents/Thesis/Discussion.tex|162|496|v|tex
+	who 
+587dbbfadf08be9efb19b5f29e2431a7|file:///Users/fernando/Documents/Thesis/Discussion.tex|177|253|v|tex
+	 ratio
+c6ed688dd9b5a98d4f9372c45ece1fbb|file:///Users/fernando/Documents/Thesis/Discussion.tex|177|168|v|tex
+	than 
+e3eb16afdbabab150c5da0ade825a14d|file:///Users/fernando/Documents/Thesis/Discussion.tex|177|168|v|tex
+	the 
+0ea4632898b92ef8fdbd8104d97cf6b1|file:///Users/fernando/Documents/Thesis/Discussion.tex|177|167|v|tex
+	 data
+f4b0f41ac8a58bf96e95faaea94b7e56|file:///Users/fernando/Documents/Thesis/Discussion.tex|177|169|v|tex
+	though 
+fb85d1d61b72e6145fd587f2ca7ff48a|file:///Users/fernando/Documents/Thesis/Discussion.tex|177|695|v|tex
+	this 
+3c511c91c6dff4a77ed43480bbf9d681|file:///Users/fernando/Documents/Thesis/Discussion.tex|179|777|v|tex
+	 Even then
+a99e965bd5782a90743c365f892e6f1e|file:///Users/fernando/Documents/Thesis/Discussion.tex|179|851|v|tex
+	fit on 
+4b1d9010c628604ae17b6d6f2b8aec3d|file:///Users/fernando/Documents/Thesis/Discussion.tex|179|963|v|tex
+	 so even with the current statistical precision, such an effect may be observed. 
+51e040ebeaa81182828241aaac6c852a|file:///Users/fernando/Documents/Thesis/Discussion.tex|181|391|v|tex
+	is expected 
+9133c3a9d0ae9b13150607fdd2f2b6ef|file:///Users/fernando/Documents/Thesis/Conclusion.tex|11|389|v|tex
+	Additionally, 
+5f73775a34766f2f4e2c11a1aed1ce93|file:///Users/fernando/Documents/Thesis/Conclusion.tex|11|537|v|tex
+	also 
+a32b9aa7072f752aed27aac700ab590a|file:///Users/fernando/Documents/Thesis/Conclusion.tex|11|542|v|tex
+	well 
+66633e25a6f98a3453c96b1fe482b892|file:///Users/fernando/Documents/Thesis/Conclusion.tex|11|597|v|tex
+	This 
+f12138079208e8442694562e3b0e96e6|file:///Users/fernando/Documents/Thesis/Conclusion.tex|11|597|v|tex
+	means that any 
+63d175b39aee70d4c5528e10dfa1d544|file:///Users/fernando/Documents/Thesis/Conclusion.tex|13|61|v|tex
+	integrated 
+5564c5953514a84f01bf3f8803feecd8|file:///Users/fernando/Documents/Thesis/Conclusion.tex|13|791|v|tex
+	measurable event 
+017a4dde733ff3b8ed3742093b80330f|file:///Users/fernando/Documents/Thesis/Conclusion.tex|15|131|v|tex
+	of the collision can be precisely measured at the EIC with an integrated luminosity of $\mathcal{L}_{EIC}=10fb^{-1}$
+460617d2c079cb9324832695f65150b3|file:///Users/fernando/Documents/Thesis/Conclusion.tex|15|131|v|tex
+	. This not only enables measurements with much higher statistical precision, but also more rigorous comparisons to theoretical models
+2cf0c63e7666854db12df2680d5bb07c|file:///Users/fernando/Documents/Thesis/Conclusion.tex|15|131|v|tex
+	of the 
+7b481079fb63ff6d7c718bf5bf822d4b|file:///Users/fernando/Documents/Thesis/Conclusion.tex|15|400|v|tex
+	 models
+00f9843c740c8a01d08943e3be27fced|file:///Users/fernando/Documents/Thesis/Conclusion.tex|15|643|v|tex
+	While 
+1e7411ff9ede2372b0d357d55b1a65d1|file:///Users/fernando/Documents/Thesis/Conclusion.tex|15|729|v|tex
+	through 
+1ff4e458ec4aa12f6d1cbb8e593e52f2|file:///Users/fernando/Documents/Thesis/Conclusion.tex|15|741|v|tex
+	nucleus 
+57457f388f11cc2bc2eb1803f4063965|file:///Users/fernando/Documents/Thesis/Conclusion.tex|17|120|v|tex
+	from 
+ed12085a6761c88c3e96c3c74199ec19|file:///Users/fernando/Documents/Thesis/Conclusion.tex|17|120|v|tex
+	formation 
+e0d6a039aabfc0da565243314d1b5d92|file:///Users/fernando/Documents/Thesis/Conclusion.tex|17|189|v|tex
+	 attributed simply to the presence of a nucleus in the collision, all while probing the 
+1abf2a0bfa236020c35bf06fe2a31237|file:///Users/fernando/Documents/Thesis/Conclusion.tex|17|195|v|tex
+	phase diagram 
+46053edd2735514160d6a0ffff2a2883|file:///Users/fernando/Documents/Thesis/Conclusion.tex|17|264|v|tex
+	can more 
+d488765fa97463a59d1d8c302fc0e1a2|file:///Users/fernando/Documents/Thesis/Conclusion.tex|17|331|v|tex
+	behaviour of 
+e0adca9aa5c42666da41a4b99ff77e8c|file:///Users/fernando/Documents/Thesis/thesis.tex|130|1|V|tex
+	\include{EIC_Jets}
+4ec095c86e6db42b9db3c0c2c89c82a8|file:///Users/fernando/Documents/Thesis/Analysis.tex|241|43|v|tex
+	\footnote{Credit: Alwina Liu}
+6a2aec47317c9b4cf3e40e3124eae0f8|file:///Users/fernando/Documents/Thesis/Analysis.tex|567|35|v|tex
+	\footnote{Credit to Dhruv Dixit for his work on validating the ITS-only tracking. Please see his UC Berkeley Thesis for more details.}
+4927b46799c94d69ead9c34561ccb321|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|220|16|v|tex
+	\footnote{Please see Alwina Liu's UC Berkley Thesis for a more thorough discussion of systematics on the purity measurement}
+b2c45fa1972b90396ee3288dd2c4425b|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|428|65|v|tex
+	\footnote{Please see Dhruv Dixit's UCB Thesis for more details.}
+6e2d1afda10c08eb01ff4327f29bf436|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|508|54|v|tex
+	\footnote{Credit Alwina Liu. Please see her UCB Thesis for more detail.}
+b20b41b6abf21aae59b289f41b62eb5a|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|540|54|v|tex
+	\footnote{Credit Alwina Liu. Please see her UCB Thesis for more details.}
+2f094aaa24316b8d0513da20b52f03c0|file:///Users/fernando/Documents/Thesis/abstract.tex|5|715|v|tex
+	describing 
+2da3804e2cea440d85bca353f32bf413|file:///Users/fernando/Documents/Thesis/Discussion.tex|1|1|V|tex
+	\externaldocument{Introduction.tex}
+	\externaldocument{Experimental_Apparatus.tex}
+	\externaldocument{Results.tex}
+	\externaldocument{Analysis.tex}
+	\externaldocument{EIC_Jets.tex}
+	\externaldocument{Checks_and_Systematics.tex}
+	% \externaldocument{Discussion.tex}
+e52e6db4e619122bb868a094490de44e|file:///Users/fernando/Documents/Thesis/Results.tex|291|1|V|tex
+	\include{Discussion}
+94c15689877693c3cf2f45168fac76e3|file:///Users/fernando/Documents/Thesis/Experimental_Apparatus.tex|76|35|V|tex
+	\begin{tabular}{0.6\columnwidth}{\extracolsep{\fill}}{ccc}
+676e861b0c6cceb55690302b5368b13a|file:///Users/fernando/Documents/Thesis/Experimental_Apparatus.tex|76|25|v|tex
+	\toprule[1.5pt]
+c6a9c55915a01787269cd227978c6964|file:///Users/fernando/Documents/Thesis/Analysis.tex|828|90|v|tex
+	sec:ue_subtractions
+626436a1cbfd0590c386575056185bc2|file:///Users/fernando/Documents/Thesis/thesis.tex|129|1|V|tex
+	% \include{Discussion}
+bb3b38431c50519e0dc291e6e1eb09ca|file:///Users/fernando/Documents/Thesis/Results.tex|249|1|V|tex
+	%FIXME: talk about how properties of the nucleus as a medium are often modelled to effect the parton before it fragments, and are thus absorbed into the PDF. In this framework, the measurement is in principle sensitive to these effects, as the direct photon should not experience similar effects {reference for the parton effecting part}
+8aa74ff2b02c8e4d23499a07fe8c6b22|file:///Users/fernando/Documents/Thesis/Results.tex|249|1|V|tex
+	%FIXME: talk about CTEQ PDFs in pp briefly, and the specifics of the nPDF parametrization EPPS16. WHAT EFFECTS ARE INCLUDED?
+0324cd628ea5bb75a8cc1c0a352643db|file:///Users/fernando/Documents/Thesis/Results.tex|249|1|V|tex
+	%In the hadronic cross section equation, this is factorized as a separate contribution from the fragmentation function. In the factorized cross section, three scales are usually defined,  
+0174d6a2a404322a95fbf26bec11859c|file:///Users/fernando/Documents/Thesis/Results.tex|283|1|V|tex
+	% A common explanation for the observation of flow but no observation energy loss is that the droplet is too small to significantly modify a parton traversing the tiny droplet. 
+1a6f57ac9e754017a91f9abc03817c85|file:///Users/fernando/Documents/Thesis/Results.tex|58|15|V|tex
+	% \begin{table}
+	%    \centering
+	%    \caption{Summary of uncertainties on integrated away side yields in proton-lead and proton-proton collisions. The uncertainties quoted are absolute.} 
+	%    \begin{tabular*}{1.0\columnwidth}{@{\extracolsep{\fill}}llc@{}}
+	%     \hline
+	% $z_\mathrm{T}$ Range & pp $\pm$ Stat. $\pm$ Sys & p--Pb $\pm$ Stat. $\pm$ Sys. \\
+	% \hline
+	% 0.06--0.08 & 7.50$ \pm$ 2.23 $\pm$1.42 & 9.67$ \pm$ 1.82 $\pm$1.27 \\
+	% 0.08--0.11 & 7.66$ \pm$ 1.46 $\pm$1.46 & 7.22$ \pm$ 1.18 $\pm$0.94 \\
+	% 0.11--0.14 & 3.94$ \pm$ 0.96 $\pm$0.75 & 3.38$ \pm$ 0.76 $\pm$0.44 \\
+	% 0.14--0.19 & 1.43$ \pm$ 0.57 $\pm$0.27 & 2.58$ \pm$ 0.44 $\pm$0.34 \\
+	% 0.19--0.25 & 1.56$ \pm$ 0.36 $\pm$0.30 & 1.21$ \pm$ 0.25 $\pm$0.16 \\
+	% 0.25--0.34 & 0.47$ \pm$ 0.20 $\pm$0.09 & 0.50$ \pm$ 0.14 $\pm$0.07 \\
+	% 0.34--0.45 & 0.41$ \pm$ 0.12 $\pm$0.08 & 0.20$ \pm$ 0.07 $\pm$0.03 \\
+	% 0.45--0.60 & 0.12$ \pm$ 0.06 $\pm$0.02 & 0.08$ \pm$ 0.04 $\pm$0.01 \\
+	%   \end{tabular*}
+	%    \label{tab:FF_Summary}
+	% \end{table}
+	
+	
+	% \begin{table}[h]
+	%    \centering
+	%    \caption{Number of $\gammaiso$--hadron pairs per $\gammaiso$ integrated in $\Delta\varphi>7\pi/8$, for different $\zt$ intervals. The uncertainty quoted is statistical only. } 
+	%    \begin{tabular*}{1.0\columnwidth}{@{\extracolsep{\fill}}lccc@{}}
+	%     \hline
+	% $\zt$ range & pp & \pPb & \pPb/pp \\
+	% \hline
+	% 0.06 - 0.08 & 7.496 $\pm$ 2.230 & 9.666 $\pm$ 1.818 & 1.290 $\pm$ 0.454 \\
+	% 0.08 - 0.11 & 7.663 $\pm$ 1.457 & 7.216 $\pm$ 1.182 & 0.942 $\pm$ 0.236 \\
+	% 0.11 - 0.14 & 3.943 $\pm$ 0.959 & 3.379 $\pm$ 0.765 & 0.857 $\pm$ 0.285 \\
+	% 0.14 - 0.19 & 1.429 $\pm$ 0.571 & 2.584 $\pm$ 0.443 & 1.809 $\pm$ 0.786 \\
+	% 0.19 - 0.25 & 1.559 $\pm$ 0.356 & 1.207 $\pm$ 0.253 & 0.774 $\pm$ 0.240 \\
+	% 0.25 - 0.34 & 0.473 $\pm$ 0.201 & 0.503 $\pm$ 0.135 & 1.065 $\pm$ 0.536 \\
+	% 0.34 - 0.45 & 0.415 $\pm$ 0.116 & 0.198 $\pm$ 0.068 & 0.478 $\pm$ 0.211 \\
+	% 0.45 - 0.60 & 0.124 $\pm$ 0.061 & 0.081 $\pm$ 0.036 & 0.658 $\pm$ 0.434 \\
+f6a32ea629241df142ec3115840af2ac|file:///Users/fernando/Documents/Thesis/Results.tex|58|1|V|tex
+		
+	% \hline 
+	%    \end{tabular*}
+	%    \label{tab:ff}
+	% \end{table}
+	
+	% Figure~\ref{ffRatio} shows the ratio of \pPb~to pp data. The systematic uncertainties in the ratio are described in Section~\ref{sec:systematics}. The uncertainty due to UE-subtraction is fully uncorrelated with $\zt$ and is combined in quadrature with the statistical uncertainty and shown as bars. All other uncertainties are correlated with $\zt$ and shown in boxes. 
+	
+	
+	% \subsection{\pPb to pp ratio}
+	% \subsection{Integration Window}
+	% \subsection{Cold nuclear matter measurements at future EIC}
+	% \subsection{Transverse Momentum Dependent Distributions}
+	% \subsection{Probing $\hat{q}$ at the EIC}
+	% \subsection{An All-Sillicon Tracker for Jet Measurements at the EIC}
+	% \subsection{Charged Jet Fragmentation Function}
+	% \subsection{Electron-Jet Correlations}
+	% \cite{Fantoni_2011}
+	%\section{Photon Selection}
+3910ee59ddc031e0fb89061b47972f2f|file:///Users/fernando/Documents/Thesis/Introduction.tex|261|183|v|tex
+	Collins2004
+13c330cb2f8ae080928628b9915d6ba9|file:///Users/fernando/Documents/Thesis/Zotero.bib|1421|427|v|bib
+	$\rbrace\sphat\lbrace\lbrace$
+e4be6625d138fb12bebf17c4315a261f|file:///Users/fernando/Documents/Thesis/Zotero.bib|1421|15|v|bib
+	Dijet production has been measured in {$\$\$\backslash$}mathrm {$\lbrace$}p{$\rbrace\backslash$}mathrm {$\lbrace$}Pb{$\rbrace\$\$$} p Pb collisions at a nucleon\textendash nucleon centre-of-mass energy of 5.02 {$\$\$\backslash$},{$\backslash$}text {$\lbrace$}TeV{$\rbrace\$\$$} TeV . A data sample corresponding to an integrated luminosity of 35 {$\$\$\lbrace\lbrace\backslash$},{$\backslash$}text {$\lbrace$}nb{$\rbrace\sphat\lbrace\lbrace$}-1{$\rbrace\rbrace\rbrace\rbrace$} {$\$\$$} nb - 1 was collected using the Compact Muon Solenoid detector at the Large Hadron Collider. The dijet transverse momentum balance, azimuthal angle correlations, and pseudorapidity distributions are studied as a function of the transverse energy in the forward calorimeters ( {$\$\$$}E{$\_\backslash$}mathrm {$\lbrace$}T{$\rbrace\sphat\lbrace$}4{$<$}|{$\backslash$}eta |{$<\backslash$}mathrm {$\lbrace$}5.2{$\rbrace\rbrace$} {$\$\$$} E T 4 {$<$} | {$\eta$} | {$<$} 5.2 ). For {$\$\$\backslash$}mathrm {$\lbrace$}p{$\rbrace\backslash$}mathrm {$\lbrace$}Pb{$\rbrace\$\$$} p Pb collisions, the dijet transverse momentum ratio and the width of the distribution of dijet azimuthal angle difference are comparable to the same quantities obtained from a simulated {$\$\$\backslash$}mathrm {$\lbrace$}p{$\rbrace\backslash$}mathrm {$\lbrace$}p{$\rbrace\$\$$} p p reference and insensitive to {$\$\$$}E{$\_\backslash$}mathrm {$\lbrace$}T{$\rbrace\sphat\lbrace$}4{$<$}|{$\backslash$}eta |{$<\backslash$}mathrm {$\lbrace$}5.2{$\rbrace\rbrace$} {$\$\$$} E T 4 {$<$} | {$\eta$} | {$<$} 5.2 . In contrast, the mean value of the dijet pseudorapidity is found to change monotonically with increasing {$\$\$$}E{$\_\backslash$}mathrm {$\lbrace$}T{$\rbrace\sphat\lbrace$}4{$<$}|{$\backslash$}eta |{$<\backslash$}mathrm {$\lbrace$}5.2{$\rbrace\rbrace$} {$\$\$$} E T 4 {$<$} | {$\eta$} | {$<$} 5.2 , indicating a correlation between the energy emitted at large pseudorapidity and the longitudinal motion of the dijet frame. The pseudorapidity distribution of the dijet system in minimum bias {$\$\$\backslash$}mathrm {$\lbrace$}p{$\rbrace\backslash$}mathrm {$\lbrace$}Pb{$\rbrace\$\$$} p Pb collisions is compared with next-to-leading-order perturbative QCD predictions obtained from both nucleon and nuclear parton distribution functions, and the data more closely match the latter.
+5b8593609c1e3c7370ae68f6109c9ade|file:///Users/fernando/Documents/Thesis/Zotero.bib|2504|15|v|bib
+	PHENIX has measured elliptic and triangular flow of charged hadrons in {$\$$}p/d/{$\sphat\lbrace$}3{$\rbrace\$$}He{$\$$}+{$\$$}Au collisions at a center-of-mass energy of 200 GeV per nucleon pair, and elliptic flow in {$\$$}d{$\$$}+Au collisions at 200, 62.4, and 39 GeV. In order to asses the origin of collectivity in the smallest systems, these results are compared with several theoretical models that produce azimuthal particle correlations based on initial and/or final state effects. Hydrodynamical models, which include the formation of a droplet of quark-gluon plasma, provide the best simultaneous description of our observations.
+6ac75a14190cda3aea6bd582bc168be9|file:///Users/fernando/Documents/Thesis/Zotero.bib|2627|79|v|bib
+	{$\$$}p{$\$$} + {{Au}}
+3e2999aebfcf834bcb60ab0ba5fcd907|file:///Users/fernando/Documents/Thesis/Zotero.bib|2627|81|v|bib
+	{$\$$}d{$\$$} + {{Au}}
+bfa1042f0505394d5060edb163ff3387|file:///Users/fernando/Documents/Thesis/Zotero.bib|2627|97|v|bib
+	{$\$\sphat\lbrace$}3{$\rbrace\backslash$}mathrm{$\lbrace$}{{He}}{$\rbrace\$$} + {{Au}} 
+9722c65253e3e52add2652018bb185d6|file:///Users/fernando/Documents/Thesis/Zotero.bib|2627|137|v|bib
+	{$\$\backslash$}sqrt{$\lbrace\lbrace$}s{$\rbrace\_\lbrace$}{{NN}}{$\rbrace\rbrace$}=200{$\$$} {{GeV}}}
+2865a5b14e5a70273a7d311bfc150f4f|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|83|394|v|tex
+	singh
+38008dd81c2f4d7985ecf6e0ce8af1d1|file:///Users/fernando/Documents/Thesis/thesis.tex|48|17|v|tex
+	Spring
+e07434277585bc3696a7aac8bb5713d6|file:///Users/fernando/Documents/Thesis/thesis.tex|140|17|V|tex
+	\printbibliography
+879639aa9d1e5af5255b5d63505b5562|file:///Users/fernando/Documents/Thesis/ucbthesis.cls|231|1|V|tex
+	\aliaspagestyle{title}{simple}
+c3b1ebd1aa64576e2130665bebbf8d25|file:///Users/fernando/Documents/Thesis/ucbthesis.cls|227|1|V|tex
+	\pagestyle{simple}
+8dbdda48fb8748d6746f1965824e966a|file:///Users/fernando/Documents/Thesis/ucbthesis.cls|228|12|v|tex
+	simple
+d1e666423e88414936ce6886cac1a3b3|file:///Users/fernando/Documents/Thesis/Introduction.tex|261|50|v|tex
+	most often 
+b152134063a600863333f680e9b5faf3|file:///Users/fernando/Documents/Thesis/Analysis.tex|1005|25|V|tex
+	%TODO Get Figures in here
+	%TODO Decide on using inclusive shapes
+	%TODO Fix ERrors
+	
+262f810b55bc29c93ecd5543269265ce|file:///Users/fernando/Documents/Thesis/Introduction.tex|103|504|v|tex
+	first-order 
+d16e865ae6c06b9ba2a946dc65e95f02|file:///Users/fernando/Documents/Thesis/Introduction.tex|103|532|v|tex
+	is expected
+bebc9b54923028f2d858bece0230bb48|file:///Users/fernando/Documents/Thesis/abstract.tex|5|142|v|tex
+	LHC 
+218add2c2f6e661d1a5439f479b20e3b|file:///Users/fernando/Documents/Thesis/Introduction.tex|74|520|v|tex
+	The latter of 
+35fbd23d67f723f2a7d7cad2e92fc259|file:///Users/fernando/Documents/Thesis/Introduction.tex|97|518|v|tex
+	Fig 
+ed253d7959cca0a9946e4a8d656db6d3|file:///Users/fernando/Documents/Thesis/Analysis.tex|124|77|v|tex
+	tab:
+50abf9b68b725787fa55b06dbe087e92|file:///Users/fernando/Documents/Thesis/Analysis.tex|124|77|v|tex
+	triggers
+a7a3ae9f8f380d784dd8e4bb8255db6e|file:///Users/fernando/Documents/Thesis/Analysis.tex|124|77|v|tex
+	trings
+e30794e495d8265bed9093f0d5cb6ea7|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|99|643|v|tex
+	fig:phiEff
+4947d667bc186854ce5dfcd7f22b7cd6|file:///Users/fernando/Documents/Thesis/EIC_Jets.tex|115|11|V|tex
+	\end{table}
+d52633a48a4725c6160a45e40cc417d2|file:///Users/fernando/Documents/Thesis/EIC_Jets.tex|116|1|V|tex
+	
+	\begin{table}
+1300a49fbd40d26c47a61e82c0f271e9|file:///Users/fernando/Documents/Thesis/EIC_Jets.tex|117|1|V|tex
+	\begin{table}
+d4d0c177a1fdb2ddd08f8fcdaa4470e9|file:///Users/fernando/Documents/Thesis/EIC_Jets.tex|93|12|V|tex
+	  \centering
+73c5e8d755e171f7fe41fd6d8747aa9b|file:///Users/fernando/Documents/Thesis/EIC_Jets.tex|116|11|V|tex
+	\parbox{.99\linewidth}{
+e0d8f100f0e5caf3f442bc23fdffd76f|file:///Users/fernando/Documents/Thesis/EIC_Jets.tex|376|1|V|tex
+	    \caption{Minimum $p_\mathrm{T}$-threshold (in MeV/$c$) for charged jet constituents.}
+c48b1416f58121710d9fec0478bb0d34|file:///Users/fernando/Documents/Thesis/thesis.tex|18|13|V|tex
+	\usepackage{}
+88b62df6b2e8b95d427d3ee2d04bfe29|file:///Users/fernando/Documents/Thesis/EIC_Jets.tex|376|19|V|tex
+	\begin{tabularx}{\textwidth}{  c | c | c | c | c | c  }
+7cb3fa01736738b36952790bfeca0a3e|file:///Users/fernando/Documents/Thesis/EIC_Jets.tex|373|1|V|tex
+	\begin{table}[htb]
+f2f89d359610d9b098ec53bdee6de8ac|file:///Users/fernando/Documents/Thesis/EIC_Jets.tex|381|1|V|tex
+	\label{tab:min_pt1}
+2fcb56fe9d758dccedf70c9266231eff|file:///Users/fernando/Documents/Thesis/EIC_Jets.tex|373|12|V|tex
+	\begin{float}
+7668cc90bd3821ef4dad88852695162b|file:///Users/fernando/Documents/Thesis/EIC_Jets.tex|375|4|V|tex
+	  \end{float}
+0cf31b2c283ce3431794586df7b0996d|file:///Users/fernando/Documents/Thesis/EIC_Jets.tex|374|3|V|tex
+	    
+07483cfb513aa877ab6468151249579c|file:///Users/fernando/Documents/Thesis/Results.tex|16|9|v|tex
+	sidewaysfigure
+cb071d80d1a54f21c8867a038f6a6c66|file:///Users/fernando/Documents/Thesis/Results.tex|28|21|v|tex
+	figure
+f436dcb9b20b883c23c3ae96f619d533|file:///Users/fernando/Documents/Thesis/EIC_Jets/eic.bib|1060|5|V|bib
+	    journal = "{https://wiki.bnl.gov/conferences/images/2/23/20190711-eRD16.v1.pdf}",
+ac5c111b7b789d66f77be21f5a95f600|file:///Users/fernando/Documents/Thesis/Zotero.bib|2256|656|v|bib
+	and Boglione, M. and Bond\`i, M. and Boora, P. and Borsa, I. and Boss\`u, F. and Bozzi, G. and Brandenburg, J. D. and Brei, N. and Bressan, A. and Brooks, W. K. and Bufalino, S. and Bukhari, M. H. S. and Burkert, V. and Buttimore, N. H. and Camsonne, A. and Celentano, A. and Celiberto, F. G. and Chang, W. and Chatterjee, C. and Chen, K. and Chetry, T. and Chiarusi, T. and Chien, Y.-T. and Chiosso, M. and Chu, X. and Chudakov, E. and Cicala, G. and Cisbani, E. and Cloet, I. C. and Cocuzza, C. and Cole, P. L. and Colella, D. and Collins II, J. L. and Constantinou, M. and Contalbrigo, M. and Contin, G. and Corliss, R. and Cosyn, W. and Courtoy, A. and Crafts, J. and Cruz-Torres, R. and Cuevas, R. C. and D'Alesio, U. and Torre, S. Dalla and Das, D. and Dasgupta, S. S. and Da Silva, C. and Deconinck, W. and Defurne, M. and DeGraw, W. and Dehmelt, K. and Del Dotto, A. and Delcarro, F. and Deshpande, A. and Detmold, W. and De Vita, R. and Diefenthaler, M. and Dilks, C. and Dixit, D. U. and Dulat, S. and Dumitru, A. and Dupr\'e, R. and Durham, J. M. and Echevarria, M. G. and Fassi, L. El and Elia, D. and Ent, R. and Esha, R. and Ethier, J. J. and Evdokimov, O. and Eyser, K. O. and Fanelli, C. and Fatemi, R. and Fazio, S. and Fernandez-Ramirez, C. and Finger, M. and Finger Jr., M. and Fitzgerald, D. and Flore, C. and Frederico, T. and Fri\v{s}\v{c}i\'c, I. and Fucini, S. and Furletov, S. and Furletova, Y. and Gal, C. and Gamberg, L. and Gao, H. and Garg, P. and Gaskell, D. and Gates, K. and Ducati, M. B. Gay and Gericke, M. and family=Silveira, given=G. Gil, prefix=da, useprefix=true and Girod, F.-X. and Glazier, D. I. and Gnanvo, K. and Goncalves, V. P. and Gonella, L. and Hernandez, J. O. Gonzalez and Goto, Y. and Grancagnolo, F. and Greiner, L. C. and Guryn, W. and Guzey, V. and Hatta, Y. and Hattawy, M. and Hauenstein, F. and He, X. and Hemmick, T. K. and Hen, O. and Heyes, G. and Higinbotham, D. W. and Blin, A. N. Hiller and Hobbs, T. J. and Hohlmann, M. and Horn, T. and Hou, T.-J. and Huang, J. and Huang, Q. and Huber, G. M. and Hyde, C. E. and Iakovidis, G. and Ilieva, Y. and Jacak, B. V. and Jacobs, P. M. and Jadhav, M. and Janoska, Z. and Jentsch, A. and Jezo, T. and Jing, X. and Jones, P. G. and Joo, K. and Joosten, S. and Kafka, V. and Kalantarians, N. and Kalicy, G. and Kang, D. and Kang, Z. B. and Kauder, K. and Kay, S. J. D. and Keppel, C. E. and Kim, J. and Kiselev, A. and Klasen, M. and Klein, S. and Klest, H. T. and Korchak, O. and Kostina, A. and Kotko, P. and Kovchegov, Y. V. and Krelina, M. and Kuleshov, S. and Kumano, S. and Kumar, K. S. and Kumar, R. and Kumar, L. and Kumeri\v{c}ki, K. and Kusina, A. and Kutak, K. and Lai, Y. S. and Lalwani, K. and Lappi, T. and Lauret, J. and Lavinsky, M. and Lawrence, D. and Lednicky, D. and Lee, C. and Lee, K. and Lee, S. H. and Levorato, S. and Li, H. and Li, S. and Li, W. and Li, X. and Li, X. and Li, W. B. and Ligonzo, T. and Liu, H. and Liu, M. X. and Liu, X. and Liuti, S. and Liyanage, N. and Lorc\'e, C. and Lu, Z. and Lucero, G. and Lukow, N. S. and Lunghi, E. and Majka, R. and Makris, Y. and Mandjavidze, I. and Mantry, S. and M\"antysaari, H. and Marhauser, F. and Markowitz, P. and Marsicano, L. and Mastroserio, A. and Mathieu, V. and Mehtar-Tani, Y. and Melnitchouk, W. and Mendez, L. and Metz, A. and Meziani, Z.-E. and Mezrag, C. and Mihovilovi\v{c}, M. and Milner, R. and Mirazita, M. and Mkrtchyan, H. and Mkrtchyan, A. and Mochalov, V. and Moiseev, V. and Mondal, M. M. and Morreale, A. and Morrison, D. and Motyka, L. and Moutarde, H. and Camacho, C. Mu\~noz and Murgia, F. and Murray, M. J. and Musico, P. and Nadel-Turonski, P. and Nadolsky, P. M. and Nam, J. and Newman, P. R. and Neyret, D. and Nguyen, D. and Nocera, E. R. and Noferini, F. and Noto, F. and Nunes, A. S. and Okorokov, V. A. and Olness, F. and Osborn, J. D. and Page, B. S. and Park, S. and Parker, A. and Paschke, K. and Pasquini, B. and Paukkunen, H. and Paul, S. and Pecar, C. and Pegg, I. L. and Pellegrino, C. and Peng, C. and Pentchev, L. and Perrino, R. and Petriello, F. and Petti, R. and Pilloni, A. and Pinkenburg, C. and Pire, B. and Pisano, C. and Pitonyak, D. and Poblaguev, A. A. and Polakovic, T. and Posik, M. and Potekhin, M. and Preghenella, R. and Preins, S. and Prokudin, A. and Pujahari, P. and Purschke, M. L. and Pybus, J. R. and Radici, M. and Rajput-Ghoshal, R. and Reimer, P. E. and Rinaldi, M. and Ringer, F. and Roberts, C. D. and Rodini, S. and Rojo, J. and Romanov, D. and Rossi, P. and Santopinto, E. and Sarsour, M. and Sassot, R. and Sato, N. and Schenke, B. and Schmidke, W. B. and Schmidt, I. and Schmidt, A. and Schmookler, B. and Schnell, G. and Schweitzer, P. and Schwiening, J. and Scimemi, I. and Scopetta, S. and Segovia, J. and Seidl, R. and Sekula, S. and Semenov-Tian-Shanskiy, K. and Shao, D. Y. and Sherrill, N. and Sichtermann, E. and Siddikov, M. and Signori, A. and Singh, B. K. and \v{S}irca, S. and Slifer, K. and Slominski, W. and Sokhan, D. and Sondheim, W. E. and Song, Y. and Soto, O. and Spiesberger, H. and Stasto, A. M. and Stepanov, P. and Sterman, G. and Stevens, J. R. and Stewart, I. W. and Strakovsky, I. and Strikman, M. and Sturm, M. and Stutzman, M. L. and Sullivan, M. and Surrow, B. and Svihra, P. and Syritsyn, S. and Szczepaniak, A. and Sznajder, P. and Szumila-Vance, H. and Szymanowski, L. and Tadepalli, A. S. and Takaki, J. D. Tapia and Tassielli, G. F. and Terry, J. and Tessarotto, F. and Tezgin, K. and Tomasek, L. and Acosta, F. Torales and Tribedy, P. and Tricoli, A. and {Triloki} and Tripathi, S. and Trotta, R. L. and Tsai, O. D. and Tu, Z. and Tuv\`e, C. and Ullrich, T. and Ungaro, M. and Urciuoli, G. M. and Valentini, A. and Vancura, P. and Vandenbroucke, M. and Van Hulse, C. and Varner, G. and Venugopalan, R. and Vitev, I. and Vladimirov, A. and Volpe, G. and Vossen, A. and Voutier, E. and Wagner, J. and Wallon, S. and Wang, H. and Wang, Q. and Wang, X. and Wei, S. Y. and Weiss, C. and Wenaus, T. and Wennl\"of, H. and Wickramaarachchi, N. and Wikramanayake, A. and Winney, D. and Wong, C. P. and Woody, C. and Xia, L. and Xiao, B. W. and Xie, J. and Xing, H. and Xu, Q. H. and Zhang, J. and Zhang, S. and Zhang, Z. and Zhao, Z. W. and Zhao, Y. X. and Zheng, L. and Zhou, Y. and Zurita, P.
+46604b491d267c090697c6271bc105bb|file:///Users/fernando/Documents/Thesis/Zotero.bib|1736|147|v|bib
+	{{https://alice-notes.web.cern.ch/system/files/notes/analysis/741/.}}}
+c6e11ef102fdc10a79262dd5b73decb1|file:///Users/fernando/Documents/Thesis/Zotero.bib|640|67|v|bib
+	{$\$\backslash$}sqrt{$\lbrace$}s{$\rbrace$}=13{$\$$} {{TeV Using}} the {{ALICE Detector}}},
+	  author = {
+46606c996876f171060f8ebec8b53b89|file:///Users/fernando/Documents/Thesis/Zotero.bib|640|67|v|bib
+	{$\$\back
+85453e34082362673861a6cc8296925f|file:///Users/fernando/Documents/Thesis/Zotero.bib|640|67|v|bib
+	sh$}
+453c0c0e392cae8adb0b4a9a40c9b12f|file:///Users/fernando/Documents/Thesis/Zotero.bib|2219|136|v|bib
+	$\lbrace$}{{
+7098e8754173b7e99454e807c99da42f|file:///Users/fernando/Documents/Thesis/Zotero.bib|2219|137|v|bib
+	}}{$\rbrace\backslash$};{$\backslash$}mathrm{$\lbrace$}{{
+301638e345503d0697bbecdf089012de|file:///Users/fernando/Documents/Thesis/Zotero.bib|2219|146|v|bib
+	{$\$\$$}{{
+9696b9530d56d3bd696f045c10f8f759|file:///Users/fernando/Documents/Thesis/Analysis.tex|567|636|v|tex
+	. ITS-o
+beee500ca19e26e6fe77daeba2242096|file:///Users/fernando/Documents/Thesis/Analysis.tex|567|636|v|tex
+	nly tracki
+ce2c547980502fc008d932a31ff09f0a|file:///Users/fernando/Documents/Thesis/Analysis.tex|567|636|v|tex
+	ng i
+241e9b6c9ac6343be5c3455caacf7ffb|file:///Users/fernando/Documents/Thesis/Analysis.tex|567|636|v|tex
+	n ALICE is 
+f082a43aca4b7291771a0c946b9ec07f|file:///Users/fernando/Documents/Thesis/Analysis.tex|567|638|v|tex
+	new 
+5c4bcf097ca9314be9b6c7d7c0a6235a|file:///Users/fernando/Documents/Thesis/Zotero.bib|2220|169|v|bib
+	and Er\"o, J. and Flechl, M. and Friedl, M. and Fr\"uhwirth, R. and Ghete, V. M. and Hartl, C. and H\"ormann, N. and Hrubec, J. and Jeitler, M. and K\"onig, A. and Kr\"atschmer, I. and Liko, D. and Matsushita, T. and Mikulec, I. and Rabady, D. and Rad, N. and Rahbaran, B. and Rohringer, H. and Schieck, J. and Strauss, J. and Treberer-Treberspurg, W. and Waltenberger, W. and Wulz, C.-E. and Mossolov, V. and Shumeiko, N. and Suarez Gonzalez, J. and Alderweireldt, S. and De Wolf, E. A. and Janssen, X. and Lauwers, J. and Van De Klundert, M. and Van Haevermaet, H. and Van Mechelen, P. and Van Remortel, N. and Van Spilbeeck, A. and Abu Zeid, S. and Blekman, F. and D'Hondt, J. and Daci, N. and De Bruyn, I. and Deroover, K. and Heracleous, N. and Lowette, S. and Moortgat, S. and Moreels, L. and Olbrechts, A. and Python, Q. and Tavernier, S. and Van Doninck, W. and Van Mulders, P. and Van Parijs, I. and Brun, H. and Caillol, C. and Clerbaux, B. and De Lentdecker, G. and Delannoy, H. and Fasanella, G. and Favart, L. and Goldouzian, R. and Grebenyuk, A. and Karapostoli, G. and Lenzi, T. and L\'eonard, A. and Luetic, J. and Maerschalk, T. and Marinov, A. and Randle-conde, A. and Seva, T. and Vander Velde, C. and Vanlaer, P. and Yonamine, R. and Zenoni, F. and Zhang, F. and Cimmino, A. and Cornelis, T. and Dobur, D. and Fagot, A. and Garcia, G. and Gul, M. and Poyraz, D. and Salva, S. and Sch\"ofbeck, R. and Tytgat, M. and Van Driessche, W. and Yazgan, E. and Zaganidis, N. and Bakhshiansohi, H. and Beluffi, C. and Bondu, O. and Brochet, S. and Bruno, G. and Caudron, A. and De Visscher, S. and Delaere, C. and Delcourt, M. and Forthomme, L. and Francois, B. and Giammanco, A. and Jafari, A. and Jez, P. and Komm, M. and Lemaitre, V. and Magitteri, A. and Mertens, A. and Musich, M. and Nuttens, C. and Piotrzkowski, K. and Quertenmont, L. and Selvaggi, M. and Vidal Marono, M. and Wertz, S. and Beliy, N. and Ald\'a J\'unior, W. L. and Alves, F. L. and Alves, G. A. and Brito, L. and Hensel, C. and Moraes, A. and Pol, M. E. and Rebello Teles, P. and Belchior Batista Das Chagas, E. and Carvalho, W. and Chinellato, J. and Cust\'odio, A. and Da Costa, E. M. and Da Silveira, G. G. and De Jesus Damiao, D. and De Oliveira Martins, C. and Fonseca De Souza, S. and Huertas Guativa, L. M. and Malbouisson, H. and Matos Figueiredo, D. and Mora Herrera, C. and Mundim, L. and Nogima, H. and Prado Da Silva, W. L. and Santoro, A. and Sznajder, A. and Tonelli Manganote, E. J. and Vilela Pereira, A. and Ahuja, S. and Bernardes, C. A. and Dogra, S. and Fernandez Perez Tomei, T. R. and Gregores, E. M. and Mercadante, P. G. and Moon, C. S. and Novaes, S. F. and Padula, Sandra S. and Romero Abad, D. and Ruiz Vargas, J. C. and Aleksandrov, A. and Hadjiiska, R. and Iaydjiev, P. and Rodozov, M. and Stoykova, S. and Sultanov, G. and Vutova, M. and Dimitrov, A. and Glushkov, I. and Litov, L. and Pavlov, B. and Petkov, P. and Fang, W. and Ahmad, M. and Bian, J. G. and Chen, G. M. and Chen, H. S. and Chen, M. and Chen, Y. and Cheng, T. and Jiang, C. H. and Leggat, D. and Liu, Z. and Romeo, F. and Shaheen, S. M. and Spiezia, A. and Tao, J. and Wang, C. and Wang, Z. and Zhang, H. and Zhao, J. and Ban, Y. and Chen, G. and Li, Q. and Liu, S. and Mao, Y. and Qian, S. J. and Wang, D. and Xu, Z. and Avila, C. and Cabrera, A. and Chaparro Sierra, L. F. and Florez, C. and Gomez, J. P. and Gonz\'alez Hern\'andez, C. F. and Ruiz Alvarez, J. D. and Sanabria, J. C. and Godinovic, N. and Lelas, D. and Puljak, I. and Ribeiro Cipriano, P. M. and Antunovic, Z. and Kovac, M. and Brigljevic, V. and Ferencek, D. and Kadija, K. and Micanovic, S. and Sudic, L. and Susa, T. and Attikis, A. and Mavromanolakis, G. and Mousa, J. and Nicolaou, C. and Ptochos, F. and Razis, P. A. and Rykaczewski, H. and Finger, M. and Finger, M. and Carrera Jarrin, E. and Ellithi Kamel, A. and Mahmoud, M. A. and Radi, A. and Calpas, B. and Kadastik, M. and Murumaa, M. and Perrini, L. and Raidal, M. and Tiko, A. and Veelken, C. and Eerola, P. and Pekkanen, J. and Voutilainen, M. and H\"ark\"onen, J. and Karim\"aki, V. and Kinnunen, R. and Lamp\'en, T. and Lassila-Perini, K. and Lehti, S. and Lind\'en, T. and Luukka, P. and Peltola, T. and Tuominiemi, J. and Tuovinen, E. and Wendland, L. and Talvitie, J. and Tuuva, T. and Besancon, M. and Couderc, F. and Dejardin, M. and Denegri, D. and Fabbro, B. and Faure, J. L. and Favaro, C. and Ferri, F. and Ganjour, S. and Ghosh, S. and Givernaud, A. and Gras, P. and Hamel de Monchenault, G. and Jarry, P. and Kucher, I. and Locci, E. and Machet, M. and Malcles, J. and Rander, J. and Rosowsky, A. and Titov, M. and Zghiche, A. and Abdulsalam, A. and Antropov, I. and Baffioni, S. and Beaudette, F. and Busson, P. and Cadamuro, L. and Chapon, E. and Charlot, C. and Davignon, O. and Granier de Cassagnac, R. and Jo, M. and Lisniak, S. and Min\'e, P. and Nguyen, M. and Ochando, C. and Ortona, G. and Paganini, P. and Pigard, P. and Regnard, S. and Salerno, R. and Sirois, Y. and {The CMS collaboration}
+8cd18979202e3174080c61712e4cedb8|file:///Users/fernando/Documents/Thesis/EIC_Jets.tex|443|18|v|tex
+	height=0.4\textwidth
+632f913df119b5d417bf6c957f2615d6|file:///Users/fernando/Documents/Thesis/Zotero.bib|1743|22|v|bib
+	\textemdash{} {{
+c947420c8015736255d3733e72a7ec7b|file:///Users/fernando/Documents/Thesis/Zotero.bib|3102|168|v|bib
+	and Fr\"uhwirth, R. and Jeitler, M. and Krammer, N. and Kr\"atschmer, I. and Liko, D. and Madlener, T. and Mikulec, I. and Rad, N. and Schieck, J. and Sch\"ofbeck, R. and Spanring, M. and Waltenberger, W. and Wulz, C.-E. and Zarucki, M. and Drugakov, V. and Mossolov, V. and Suarez Gonzalez, J. and Darwish, M. R. and De Wolf, E. A. and Di Croce, D. and Janssen, X. and Kello, T. and Lelek, A. and Pieters, M. and Rejeb Sfar, H. and Van Haevermaet, H. and Van Mechelen, P. and Van Putte, S. and Van Remortel, N. and Blekman, F. and Bols, E. S. and Chhibra, S. S. and D'Hondt, J. and De Clercq, J. and Lontkovskyi, D. and Lowette, S. and Marchesini, I. and Moortgat, S. and Python, Q. and Tavernier, S. and Van Doninck, W. and Van Mulders, P. and Beghin, D. and Bilin, B. and Clerbaux, B. and De Lentdecker, G. and Delannoy, H. and Dorney, B. and Favart, L. and Grebenyuk, A. and Kalsi, A. K. and Moureaux, L. and Popov, A. and Postiau, N. and Starling, E. and Thomas, L. and Vander Velde, C. and Vanlaer, P. and Vannerom, D. and Cornelis, T. and Dobur, D. and Khvastunov, I. and Niedziela, M. and Roskas, C. and Skovpen, K. and Tytgat, M. and Verbeke, W. and Vermassen, B. and Vit, M. and Bruno, G. and Caputo, C. and David, P. and Delaere, C. and Delcourt, M. and Giammanco, A. and Lemaitre, V. and Prisciandaro, J. and Saggio, A. and Vischia, P. and Zobec, J. and Alves, G. A. and Correia Silva, G. and Hensel, C. and Moraes, A. and Belchior Batista Das Chagas, E. and Carvalho, W. and Chinellato, J. and Coelho, E. and Da Costa, E. M. and Da Silveira, G. G. and De Jesus Damiao, D. and De Oliveira Martins, C. and Fonseca De Souza, S. and Malbouisson, H. and Martins, J. and Matos Figueiredo, D. and Medina Jaime, M. and Melo De Almeida, M. and Mora Herrera, C. and Mundim, L. and Nogima, H. and Prado Da Silva, W. L. and Rebello Teles, P. and Sanchez Rosas, L. J. and Santoro, A. and Sznajder, A. and Thiel, M. and Tonelli Manganote, E. J. and Torres Da Silva De Araujo, F. and Vilela Pereira, A. and Bernardes, C. A. and Calligaris, L. and Fernandez Perez Tomei, T. R. and Gregores, E. M. and Lemos, D. S. and Mercadante, P. G. and Novaes, S. F. and Padula, SandraS. and Aleksandrov, A. and Antchev, G. and Hadjiiska, R. and Iaydjiev, P. and Misheva, M. and Rodozov, M. and Shopova, M. and Sultanov, G. and Bonchev, M. and Dimitrov, A. and Ivanov, T. and Litov, L. and Pavlov, B. and Petkov, P. and Petrov, A. and Fang, W. and Gao, X. and Yuan, L. and Ahmad, M. and Hu, Z. and Wang, Y. and Chen, G. M. and Chen, H. S. and Chen, M. and Jiang, C. H. and Leggat, D. and Liao, H. and Liu, Z. and Spiezia, A. and Tao, J. and Yazgan, E. and Zhang, H. and Zhang, S. and Zhao, J. and Agapitos, A. and Ban, Y. and Chen, G. and Levin, A. and Li, J. and Li, L. and Li, Q. and Mao, Y. and Qian, S. J. and Wang, D. and Wang, Q. and Xiao, M. and Avila, C. and Cabrera, A. and Florez, C. and Gonz\'alez Hern\'andez, C. F. and Segura Delgado, M. A. and Mejia Guisao, J. and Ruiz Alvarez, J. D. and Salazar Gonz\'alez, C. A. and Vanegas Arbelaez, N. and Giljanov\'ic, D. and Godinovic, N. and Lelas, D. and Puljak, I. and Sculac, T. and Antunovic, Z. and Kovac, M. and Brigljevic, V. and Ferencek, D. and Kadija, K. and Majumder, D. and Mesic, B. and Roguljic, M. and Starodumov, A. and Susa, T. and Ather, M. W. and Attikis, A. and Erodotou, E. and Ioannou, A. and Kolosova, M. and Konstantinou, S. and Mavromanolakis, G. and Mousa, J. and Nicolaou, C. and Ptochos, F. and Razis, P. A. and Rykaczewski, H. and Saka, H. and Tsiakkouri, D. and Finger, M. and Finger, M. and Kveton, A. and Tomsa, J. and Ayala, E. and Carrera Jarrin, E. and Mohamed, A. and Salama, E. and Bhowmik, S. and Carvalho Antunes De Oliveira, A. and Dewanjee, R. K. and Ehataht, K. and Kadastik, M. and Raidal, M. and Veelken, C. and Eerola, P. and Forthomme, L. and Kirschenmann, H. and Osterberg, K. and Voutilainen, M. and Br\"ucken, E. and Garcia, F. and Havukainen, J. and Heikkil\"a, J. K. and Karim\"aki, V. and Kim, M. S. and Kinnunen, R. and Lamp\'en, T. and Lassila-Perini, K. and Laurila, S. and Lehti, S. and Lind\'en, T. and Siikonen, H. and Tuominen, E. and Tuominiemi, J. and Luukka, P. and Tuuva, T. and Besancon, M. and Couderc, F. and Dejardin, M. and Denegri, D. and Fabbro, B. and Faure, J. L. and Ferri, F. and Ganjour, S. and Givernaud, A. and Gras, P. and Hamel de Monchenault, G. and Jarry, P. and Leloup, C. and Lenzi, B. and Locci, E. and Malcles, J. and Rander, J. and Rosowsky, A. and Sahin, M. \"O. and Savoy-Navarro, A. and Titov, M. and Yu, G. B. and Ahuja, S. and Amendola, C. and Beaudette, F. and Bonanomi, M. and Busson, P. and Charlot, C. and Diab, B. and Falmagne, G. and Granier de Cassagnac, R. and Kucher, I. and Lobanov, A. and Martin Perez, C. and Nguyen, M. and Ochando, C. and Paganini, P. and Rembser, J. and Salerno, R. and Sauvan, J. B. and Sirois, Y. and Zabi, A. and Zghiche, A. and Agram, J.-L. and Andrea, J. and Bloch, D. and Bourgatte, G. and Brom, J.-M. and Chabert, E. C. and Collard, C. and Conte, E. and {The CMS collaboration}
+12326ba87c6784b61bde2adf95512ba8|file:///Users/fernando/Documents/Thesis/Zotero.bib|3101|89|v|bib
+	at {$\$\$$} {$\backslash$}s
+68ef145e973c4c93d89cd625b7f58697|file:///Users/fernando/Documents/Thesis/Zotero.bib|3101|97|v|bib
+	{$\_\lbrace\backslash$}mathrm{$\lbrace$}{{
+ae92299c5488f740dd48bf0bd63886a3|file:///Users/fernando/Documents/Thesis/Zotero.bib|3101|100|v|bib
+	{$\rbrace\rbrace\rbrace$} {$\$\$$}
+d4ee4a716175fce7006fb686ce7db531|file:///Users/fernando/Documents/Thesis/Zotero.bib|3149|416|v|bib
+	and Bielcik, J. and Bielcikova, J. and Bland, L. C. and Bordyuzhin, I. G. and Bouchet, J. and Brandenburg, J. D. and Brandin, A. V. and Brown, D. and Bunzarov, I. and Butterworth, J. and Caines, H. and Calder\'on de la Barca S\'anchez, M. and Campbell, J. M. and Cebra, D. and Chakaberia, I. and Chaloupka, P. and Chang, Z. and Chankova-Bunzarova, N. and Chatterjee, A. and Chattopadhyay, S. and Chen, X. and Chen, J. H. and Chen, X. and Cheng, J. and Cherney, M. and Christie, W. and Contin, G. and Crawford, H. J. and Das, S. and De Silva, L. C. and Debbe, R. R. and Dedovich, T. G. and Deng, J. and Derevschikov, A. A. and Didenko, L. and Dilks, C. and Dong, X. and Drachenberg, J. L. and Draper, J. E. and Dunkelberger, L. E. and Dunlop, J. C. and Efimov, L. G. and Elsey, N. and Engelage, J. and Eppley, G. and Esha, R. and Esumi, S. and Evdokimov, O. and Ewigleben, J. and Eyser, O. and Fatemi, R. and Fazio, S. and Federic, P. and Federicova, P. and Fedorisin, J. and Feng, Z. and Filip, P. and Finch, E. and Fisyak, Y. and Flores, C. E. and Fulek, L. and Gagliardi, C. A. and Garand, D. and Geurts, F. and Gibson, A. and Girard, M. and Grosnick, D. and Gunarathne, D. S. and Guo, Y. and Gupta, A. and Gupta, S. and Guryn, W. and Hamad, A. I. and Hamed, A. and Harlenderova, A. and Harris, J. W. and He, L. and Heppelmann, S. and Heppelmann, S. and Hirsch, A. and Hoffmann, G. W. and Horvat, S. and Huang, T. and Huang, B. and Huang, X. and Huang, H. Z. and Humanic, T. J. and Huo, P. and Igo, G. and Jacobs, P. M. and Jacobs, W. W. and Jentsch, A. and Jia, J. and Jiang, K. and Jowzaee, S. and Judd, E. G. and Kabana, S. and Kalinkin, D. and Kang, K. and Kauder, K. and Ke, H. W. and Keane, D. and Kechechyan, A. and Khan, Z. and Kiko\l a, D. P. and Kisel, I. and Kisiel, A. and Kochenda, L. and Kocmanek, M. and Kollegger, T. and Kosarzewski, L. K. and Kraishan, A. F. and Kravtsov, P. and Krueger, K. and Kulathunga, N. and Kumar, L. and Kvapil, J. and Kwasizur, J. H. and Lacey, R. and Landgraf, J. M. and Landry, K. D. and Lauret, J. and Lebedev, A. and Lednicky, R. and Lee, J. H. and Li, X. and Li, C. and Li, W. and Li, Y. and Lidrych, J. and Lin, T. and Lisa, M. A. and Liu, H. and Liu, P. and Liu, Y. and Liu, F. and Ljubicic, T. and Llope, W. J. and Lomnitz, M. and Longacre, R. S. and Luo, S. and Luo, X. and Ma, G. L. and Ma, L. and Ma, Y. G. and Ma, R. and Magdy, N. and Majka, R. and Mallick, D. and Margetis, S. and Markert, C. and Matis, H. S. and Meehan, K. and Mei, J. C. and Miller, Z. W. and Minaev, N. G. and Mioduszewski, S. and Mishra, D. and Mizuno, S. and Mohanty, B. and Mondal, M. M. and Morozov, D. A. and Mustafa, M. K. and Nasim, Md. and Nayak, T. K. and Nelson, J. M. and Nie, M. and Nigmatkulov, G. and Niida, T. and Nogach, L. V. and Nonaka, T. and Nurushev, S. B. and Odyniec, G. and Ogawa, A. and Oh, K. and Okorokov, V. A. and Olvitt, D. and Page, B. S. and Pak, R. and Pandit, Y. and Panebratsev, Y. and Pawlik, B. and Pei, H. and Perkins, C. and Pile, P. and Pluta, J. and Poniatowska, K. and Porter, J. and Posik, M. and Poskanzer, A. M. and Pruthi, N. K. and Przybycien, M. and Putschke, J. and Qiu, H. and Quintero, A. and Ramachandran, S. and Ray, R. L. and Reed, R. and Rehbein, M. J. and Ritter, H. G. and Roberts, J. B. and Rogachevskiy, O. V. and Romero, J. L. and Roth, J. D. and Ruan, L. and Rusnak, J. and Rusnakova, O. and Sahoo, N. R. and Sahu, P. K. and Salur, S. and Sandweiss, J. and Saur, M. and Schambach, J. and Schmah, A. M. and Schmidke, W. B. and Schmitz, N. and Schweid, B. R. and Seger, J. and Sergeeva, M. and Seyboth, P. and Shah, N. and Shahaliev, E. and Shanmuganathan, P. V. and Shao, M. and Sharma, A. and Sharma, M. K. and Shen, W. Q. and Shi, Z. and Shi, S. S. and Shou, Q. Y. and Sichtermann, E. P. and Sikora, R. and Simko, M. and Singha, S. and Skoby, M. J. and Smirnov, N. and Smirnov, D. and Solyst, W. and Song, L. and Sorensen, P. and Spinka, H. M. and Srivastava, B. and Stanislaus, T. D. S. and Strikhanov, M. and Stringfellow, B. and Sugiura, T. and Sumbera, M. and Summa, B. and Sun, Y. and Sun, X. M. and Sun, X. and Surrow, B. and Svirida, D. N. and Tang, A. H. and Tang, Z. and Taranenko, A. and Tarnowsky, T. and Tawfik, A. and Th\"ader, J. and Thomas, J. H. and Timmins, A. R. and Tlusty, D. and Todoroki, T. and Tokarev, M. and Trentalange, S. and Tribble, R. E. and Tribedy, P. and Tripathy, S. K. and Trzeciak, B. A. and Tsai, O. D. and Ullrich, T. and Underwood, D. G. and Upsal, I. and Van Buren, G. and family=Nieuwenhuizen, given=G., prefix=van, useprefix=true and Vasiliev, A. N. and Videb\ae k, F. and Vokal, S. and Voloshin, S. A. and Vossen, A. and Wang, G. and Wang, Y. and Wang, F. and Wang, Y. and Webb, J. C. and Webb, G. and Wen, L. and Westfall, G. D. and Wieman, H. and Wissink, S. W. and Witt, R. and Wu, Y. and Xiao, Z. G. and Xie, W. and Xie, G. and Xu, J. and Xu, N. and Xu, Q. H. and Xu, Y. F. and Xu, Z. and Yang, Y. and Yang, Q. and Yang, C. and Yang, S. and Ye, Z. and Ye, Z. and Yi, L. and Yip, K. and Yoo, I.-K. and Yu, N. and Zbroszczyk, H. and Zha, W. and Zhang, Z. and Zhang, X. P. and Zhang, J. B. and Zhang, S. and Zhang, J. and Zhang, Y. and Zhang, J. and Zhang, S. and Zhao, J. and Zhong, C. and Zhou, L. and Zhou, C. and Zhu, X. and Zhu, Z. and Zyzak, M.
+99276af56ba51ee1d6c96952cd162914|file:///Users/fernando/Documents/Thesis/Zotero.bib|2612|467|v|bib
+	and Boissevain, J. G. and Borel, H. and Brooks, M. L. and Brown, D. S. and Bruner, N. and Bucher, D. and Buesching, H. and Bumazhnov, V. and Bunce, G. and Burward-Hoy, J. M. and Butsyk, S. and Camard, X. and Chand, P. and Chang, W. C. and Chernichenko, S. and Chi, C. Y. and Chiba, J. and Chiu, M. and Choi, I. J. and Choudhury, R. K. and Chujo, T. and Cianciolo, V. and Cobigo, Y. and Cole, B. A. and Comets, M. P. and Constantin, P. and Csan\'ad, M. and Cs\"org\H{o}, T. and Cussonneau, J. P. and family=Enterria, given=D., prefix=d', useprefix=true and Das, K. and David, G. and De\'ak, F. and Delagrange, H. and Denisov, A. and Deshpande, A. and Desmond, E. J. and Devismes, A. and Dietzsch, O. and Drachenberg, J. L. and Drapier, O. and Drees, A. and Durum, A. and Dutta, D. and Dzhordzhadze, V. and Efremenko, Y. V. and En'yo, H. and Espagnon, B. and Esumi, S. and Fields, D. E. and Finck, C. and Fleuret, F. and Fokin, S. L. and Fox, B. D. and Fraenkel, Z. and Frantz, J. E. and Franz, A. and Frawley, A. D. and Fukao, Y. and Fung, S.-Y. and Gadrat, S. and Germain, M. and Glenn, A. and Gonin, M. and Gosset, J. and Goto, Y. and family=Cassagnac, given=R. Granier, prefix=de, useprefix=true and Grau, N. and Greene, S. V. and Perdekamp, M. Grosse and Gustafsson, H.-\AA. and Hachiya, T. and Haggerty, J. S. and Hamagaki, H. and Hansen, A. G. and Hartouni, E. P. and Harvey, M. and Hasuko, K. and Hayano, R. and He, X. and Heffner, M. and Hemmick, T. K. and Heuser, J. M. and Hidas, P. and Hiejima, H. and Hill, J. C. and Hobbs, R. and Holzmann, W. and Homma, K. and Hong, B. and Hoover, A. and Horaguchi, T. and Ichihara, T. and Ikonnikov, V. V. and Imai, K. and Inaba, M. and Inuzuka, M. and Isenhower, D. and Isenhower, L. and Ishihara, M. and Issah, M. and Isupov, A. and Jacak, B. V. and Jia, J. and Jinnouchi, O. and Johnson, B. M. and Johnson, S. C. and Joo, K. S. and Jouan, D. and Kajihara, F. and Kametani, S. and Kamihara, N. and Kaneta, M. and Kang, J. H. and Katou, K. and Kawabata, T. and Kazantsev, A. V. and Kelly, S. and Khachaturov, B. and Khanzadeev, A. and Kikuchi, J. and Kim, D. J. and Kim, E. and Kim, G.-B. and Kim, H. J. and Kinney, E. and Kiss, A. and Kistenev, E. and Kiyomichi, A. and Klein-Boesing, C. and Kobayashi, H. and Kochenda, L. and Kochetkov, V. and Kohara, R. and Komkov, B. and Konno, M. and Kotchetkov, D. and Kozlov, A. and Kroon, P. J. and Kuberg, C. H. and Kunde, G. J. and Kurita, K. and Kweon, M. J. and Kwon, Y. and Kyle, G. S. and Lacey, R. and Lajoie, J. G. and Bornec, Y. Le and Lebedev, A. and Leckey, S. and Lee, D. M. and Leitch, M. J. and Leite, M. A. L. and Li, X. H. and Lim, H. and Litvinenko, A. and Liu, M. X. and Maguire, C. F. and Makdisi, Y. I. and Malakhov, A. and Manko, V. I. and Mao, Y. and Martinez, G. and Masui, H. and Matathias, F. and Matsumoto, T. and McCain, M. C. and McGaughey, P. L. and Miake, Y. and Miller, T. E. and Milov, A. and Mioduszewski, S. and Mishra, G. C. and Mitchell, J. T. and Mohanty, A. K. and Morrison, D. P. and Moss, J. M. and Mukhopadhyay, D. and Muniruzzaman, M. and Nagamiya, S. and Nagle, J. L. and Nakamura, T. and Newby, J. and Nyanin, A. S. and Nystrand, J. and O'Brien, E. and Ogilvie, C. A. and Ohnishi, H. and Ojha, I. D. and Okada, H. and Okada, K. and Oskarsson, A. and Otterlund, I. and Oyama, K. and Ozawa, K. and Pal, D. and Palounek, A. P. T. and Pantuev, V. and Papavassiliou, V. and Park, J. and Park, W. J. and Pate, S. F. and Pei, H. and Penev, V. and Peng, J.-C. and Pereira, H. and Peresedov, V. and Pierson, A. and Pinkenburg, C. and Pisani, R. P. and Purschke, M. L. and Purwar, A. K. and Qualls, J. M. and Rak, J. and Ravinovich, I. and Read, K. F. and Reuter, M. and Reygers, K. and Riabov, V. and Riabov, Y. and Roche, G. and Romana, A. and Rosati, M. and Rosendahl, S. S. E. and Rosnet, P. and Rykov, V. L. and Ryu, S. S. and Saito, N. and Sakaguchi, T. and Sakai, S. and Samsonov, V. and Sanfratello, L. and Santo, R. and Sato, H. D. and Sato, S. and Sawada, S. and Schutz, Y. and Semenov, V. and Seto, R. and Shea, T. K. and Shein, I. and Shibata, T.-A. and Shigaki, K. and Shimomura, M. and Sickles, A. and Silva, C. L. and Silvermyr, D. and Sim, K. S. and Soldatov, A. and Soltz, R. A. and Sondheim, W. E. and Sorensen, S. P. and Sourikova, I. V. and Staley, F. and Stankus, P. W. and Stenlund, E. and Stepanov, M. and Ster, A. and Stoll, S. P. and Sugitate, T. and Sullivan, J. P. and Takagi, S. and Takagui, E. M. and Taketani, A. and Tanaka, K. H. and Tanaka, Y. and Tanida, K. and Tannenbaum, M. J. and Taranenko, A. and Tarj\'an, P. and Thomas, T. L. and Togawa, M. and Tojo, J. and Torii, H. and Towell, R. S. and Tram, V-N. and Tserruya, I. and Tsuchimoto, Y. and Tydesj\"o, H. and Tyurin, N. and Uam, T. J. and family=Hecke, given=H. W., prefix=van, useprefix=true and Velkovska, J. and Velkovsky, M. and Veszpr\'emi, V. and Vinogradov, A. A. and Volkov, M. A. and Vznuzdaev, E. and Wang, X. R. and Watanabe, Y. and White, S. N. and Willis, N. and Wohn, F. K. and Woody, C. L. and Xie, W. and Yanovich, A. and Yokkaichi, S. and Young, G. R. and Yushmanov, I. E. and Zajc, W. A. and Zhang, C. and Zhou, S. and Zim\'anyi, J. and Zolin, L. and Zong, X.
+792eb5a7abb9f26734a56723e4e46aa8|file:///Users/fernando/Documents/Thesis/Zotero.bib|2628|463|v|bib
+	M. L. and Bryslawskyj, J. and Bumazhnov, V. and Campbell, S. and Canoa Roman, V. and Cervantes, R. and Chen, C.-H. and Chi, C. Y. and Chiu, M. and Choi, I. J. and Choi, J. B. and Chujo, T. and Citron, Z. and Connors, M. and Cronin, N. and Csan\'ad, M. and Cs\"org\H{o}, T. and Danley, T. W. and Datta, A. and Daugherity, M. S. and David, G. and DeBlasio, K. and Dehmelt, K. and Denisov, A. and Deshpande, A. and Desmond, E. J. and Dion, A. and Diss, P. B. and Dixit, D. and Do, J. H. and Drees, A. and Drees, K. A. and Durham, J. M. and Durum, A. and Enokizono, A. and En'yo, H. and Esumi, S. and Fadem, B. and Fan, W. and Feege, N. and Fields, D. E. and Finger, M. and Finger, M. and Fokin, S. L. and Frantz, J. E. and Franz, A. and Frawley, A. D. and Fukuda, Y. and Gal, C. and Gallus, P. and Garg, P. and Ge, H. and Giordano, F. and Glenn, A. and Goto, Y. and Grau, N. and Greene, S. V. and Grosse Perdekamp, M. and Gunji, T. and Guragain, H. and Hachiya, T. and Haggerty, J. S. and Hahn, K. I. and Hamagaki, H. and Hamilton, H. F. and Han, S. Y. and Hanks, J. and Hasegawa, S. and Haseler, T. O. S. and Hashimoto, K. and He, X. and Hemmick, T. K. and Hill, J. C. and Hill, K. and Hodges, A. and Hollis, R. S. and Homma, K. and Hong, B. and Hoshino, T. and Hotvedt, N. and Huang, J. and Huang, S. and Imai, K. and Imrek, J. and Inaba, M. and Iordanova, A. and Isenhower, D. and Ivanishchev, D. and Jacak, B. V. and Jezghani, M. and Ji, Z. and Jia, J. and Jiang, X. and Johnson, B. M. and Jorjadze, V. and Jouan, D. and Jumper, D. S. and Kanda, S. and Kang, J. H. and Kapukchyan, D. and Karthas, S. and Kawall, D. and Kazantsev, A. V. and Key, J. A. and Khachatryan, V. and Khanzadeev, A. and Kim, C. and Kim, D. J. and Kim, E.-J. and Kim, G. W. and Kim, M. and Kim, M. H. and Kimelman, B. and Kincses, D. and Kistenev, E. and Kitamura, R. and Klatsky, J. and Kleinjan, D. and Kline, P. and Koblesky, T. and Komkov, B. and Kotov, D. and Kudo, S. and Kurgyis, B. and Kurita, K. and Kurosawa, M. and Kwon, Y. and Lacey, R. and Lajoie, J. G. and Lebedev, A. and Lee, S. and Lee, S. H. and Leitch, M. J. and Leung, Y. H. and Lewis, N. A. and Li, X. and Li, X. and Lim, S. H. and Liu, M. X. and Loggins, V.-R. and L\"ok\"os, S. and Lovasz, K. and Lynch, D. and Majoros, T. and Makdisi, Y. I. and Makek, M. and Manion, A. and Manko, V. I. and Mannel, E. and Masuda, H. and McCumber, M. and McGaughey, P. L. and McGlinchey, D. and McKinney, C. and Meles, A. and Mendoza, M. and Metzger, W. J. and Mignerey, A. C. and Mihalik, D. E. and Milov, A. and Mishra, D. K. and Mitchell, J. T. and Mitsuka, G. and Miyasaka, S. and Mizuno, S. and Mohanty, A. K. and Montuenga, P. and Moon, T. and Morrison, D. P. and Morrow, S. I. and Moukhanova, T. V. and Murakami, T. and Murata, J. and Mwai, A. and Nagai, K. and Nagashima, K. and Nagashima, T. and Nagle, J. L. and Nagy, M. I. and Nakagawa, I. and Nakagomi, H. and Nakano, K. and Nattrass, C. and Netrakanti, P. K. and Niida, T. and Nishimura, S. and Nouicer, R. and Nov\'ak, T. and Novitzky, N. and Nyanin, A. S. and O'Brien, E. and Ogilvie, C. A. and Orjuela Koop, J. D. and Osborn, J. D. and Oskarsson, A. and Ottino, G. J. and Ozawa, K. and Pak, R. and Pantuev, V. and Papavassiliou, V. and Park, J. S. and Park, S. and Pate, S. F. and Patel, M. and Peng, J.-C. and Peng, W. and Perepelitsa, D. V. and Perera, G. D. N. and Peressounko, D. Yu. and PerezLara, C. E. and Perry, J. and Petti, R. and Phipps, M. and Pinkenburg, C. and Pinson, R. and Pisani, R. P. and Pun, A. and Purschke, M. L. and Radzevich, P. V. and Rak, J. and Ramson, B. J. and Ravinovich, I. and Read, K. F. and Reynolds, D. and Riabov, V. and Riabov, Y. and Richford, D. and Rinn, T. and Rolnick, S. D. and Rosati, M. and Rowan, Z. and Rubin, J. G. and Runchey, J. and Safonov, A. S. and Sahlmueller, B. and Saito, N. and Sakaguchi, T. and Sako, H. and Samsonov, V. and Sarsour, M. and Sato, K. and Sato, S. and Schaefer, B. and Schmoll, B. K. and Sedgwick, K. and Seidl, R. and Sen, A. and Seto, R. and Sett, P. and Sexton, A. and Sharma, D. and Shein, I. and Shibata, T.-A. and Shigaki, K. and Shimomura, M. and Shioya, T. and Shukla, P. and Sickles, A. and Silva, C. L. and Silvermyr, D. and Singh, B. K. and Singh, C. P. and Singh, V. and Skoby, M. J. and Slune\v{c}ka, M. and Snowball, M. and Soltz, R. A. and Sondheim, W. E. and Sorensen, S. P. and Sourikova, I. V. and Stankus, P. W. and Stepanov, M. and Stoll, S. P. and Sugitate, T. and Sukhanov, A. and Sumita, T. and Sun, J. and Sziklai, J. and Takeda, A. and Taketani, A. and Tanida, K. and Tannenbaum, M. J. and Tarafdar, S. and Taranenko, A. and Tarnai, G. and Tieulent, R. and Timilsina, A. and Todoroki, T. and Tom\'a\v{s}ek, M. and Towell, C. L. and Towell, R. and Towell, R. S. and Tserruya, I. and Ueda, Y. and Ujvari, B. and family=Hecke, given=H. W., prefix=van, useprefix=true and Vazquez-Carson, S. and Velkovska, J. and Virius, M. and Vrba, V. and Vukman, N. and Wang, X. R. and Wang, Z. and Watanabe, Y. and Watanabe, Y. S. and Wei, F. and White, A. S. and Wong, C. P. and Woody, C. L. and Wysocki, M. and Xia, B. and Xu, C. and Xu, Q. and Xue, L. and Yalcin, S. and Yamaguchi, Y. L. and Yamamoto, H. and Yanovich, A. and Yin, P. and Yoo, J. H. and Yoon, I. and Yu, H. and Yushmanov, I. E. and Zajc, W. A. and Zelenski, A. and Zharko, S. and Zhou, S. and Zou, L.
+07179e800143195522e8165d3d35b309|file:///Users/fernando/Documents/Thesis/Zotero.bib|2660|187|v|bib
+	 and Al-Ta'ani, H. and Angerami, A. and Aoki, K. and Apadula, N. and Aramaki, Y. and Asano, H. and Aschenauer, E. C. and Atomssa, E. T. and Averbeck, R. and Awes, T. C. and Azmoun, B. and Babintsev, V. and Bai, M. and Baksay, G. and Baksay, L. and Bannier, B. and Barish, K. N. and Bassalleck, B. and Basye, A. T. and Bathe, S. and Baublis, V. and Baumann, C. and Baumgart, S. and Bazilevsky, A. and Belikov, S. and Belmont, R. and Bennett, R. and Berdnikov, A. and Berdnikov, Y. and Bhom, J. H. and Bichon, L. and Bickley, A. A. and Black, D. and Blankenship, B. and Blau, D. S. and Bok, J. S. and Borisov, V. and Boyle, K. and Brooks, M. L. and Bryslawskyj, J. and Buesching, H. and Bumazhnov, V. and Bunce, G. and Butsyk, S. and Camacho, C. M. and Campbell, S. and Canoa Roman, V. and Caringi, A. and Castera, P. and Chen, C.-H. and Chi, C. Y. and Chiu, M. and Choi, I. J. and Choi, J. B. and Choi, S. and Choudhury, R. K. and Christiansen, P. and Chujo, T. and Chung, P. and Chvala, O. and Cianciolo, V. and Citron, Z. and Cole, B. A. and Conesa del Valle, Z. and Connors, M. and Constantin, P. and Cronin, N. and Crossette, N. and Csan\'ad, M. and Cs\"org\H{o}, T. and Dahms, T. and Dairaku, S. and Danchev, I. and Das, K. and Datta, A. and Daugherity, M. S. and David, G. and Dayananda, M. K. and DeBlasio, K. and Dehmelt, K. and Denisov, A. and Deshpande, A. and Desmond, E. J. and Dharmawardane, K. V. and Dietzsch, O. and Ding, L. and Dion, A. and Do, J. H. and Donadelli, M. and D'Orazio, L. and Drapier, O. and Drees, A. and Drees, K. A. and Durham, J. M. and Durum, A. and Dutta, D. and Edwards, S. and Efremenko, Y. V. and Ellinghaus, F. and Engelmore, T. and Enokizono, A. and En'yo, H. and Esha, R. and Esumi, S. and Eyser, K. O. and Fadem, B. and Fan, W. and Fields, D. E. and Finger, M. and Finger, M. and Firak, D. and Fitzgerald, D. and Fleuret, F. and Fokin, S. L. and Fraenkel, Z. and Frantz, J. E. and Franz, A. and Frawley, A. D. and Fujiwara, K. and Fukao, Y. and Fusayasu, T. and Gainey, K. and Gal, C. and Garg, P. and Garishvili, A. and Garishvili, I. and Giordano, F. and Glenn, A. and Gong, H. and Gong, X. and Gonin, M. and Goto, Y. and Granier de Cassagnac, R. and Grau, N. and Greene, S. V. and Grim, G. and Grosse Perdekamp, M. and Gu, Y. and Gunji, T. and Guo, L. and Gustafsson, H.-\AA. and Hachiya, T. and Haggerty, J. S. and Hahn, K. I. and Hamagaki, H. and Hamblen, J. and Han, R. and Han, S. Y. and Hanks, J. and Hartouni, E. P. and Hasegawa, S. and Hashimoto, K. and Haslum, E. and Hayano, R. and Hayashi, S. and He, X. and Heffner, M. and Hemmick, T. K. and Hester, T. and Hill, J. C. and Hodges, A. and Hohlmann, M. and Hollis, R. S. and Holzmann, W. and Homma, K. and Hong, B. and Horaguchi, T. and Hori, Y. and Hornback, D. and Huang, J. and Huang, S. and Ichihara, T. and Ichimiya, R. and Ide, J. and Iinuma, H. and Ikeda, Y. and Imai, K. and Imazu, Y. and Imrek, J. and Inaba, M. and Iordanova, A. and Isenhower, D. and Ishihara, M. and Isinhue, A. and Isobe, T. and Issah, M. and Isupov, A. and Ivanishchev, D. and Iwanaga, Y. and Jacak, B. V. and Javani, M. and Ji, Z. and Jia, J. and Jiang, X. and Jin, J. and Johnson, B. M. and Jones, T. and Joo, K. S. and Jouan, D. and Jumper, D. S. and Kajihara, F. and Kametani, S. and Kamihara, N. and Kamin, J. and Kaneti, S. and Kang, B. H. and Kang, J. H. and Kang, J. S. and Kapustinsky, J. and Karatsu, K. and Kasai, M. and Kawall, D. and Kawashima, M. and Kazantsev, A. V. and Kempel, T. and Key, J. A. and Khachatryan, V. and Khandai, P. K. and Khanzadeev, A. and Khatiwada, A. and Kijima, K. M. and Kikuchi, J. and Kim, A. and Kim, B. I. and Kim, C. and Kim, D. H. and Kim, D. J. and Kim, E. and Kim, E.-J. and Kim, H. J. and Kim, K.-B. and Kim, S. H. and Kim, Y.-J. and Kim, Y. K. and Kincses, D. and Kinney, E. and Kiriluk, K. and Kiss, \'A. and Kistenev, E. and Klatsky, J. and Kleinjan, D. and Kline, P. and Kochenda, L. and Komatsu, Y. and Komkov, B. and Konno, M. and Koster, J. and Kotchetkov, D. and Kotov, D. and Kozlov, A. and Kr\'al, A. and Kravitz, A. and Krizek, F. and Kunde, G. J. and Kurgyis, B. and Kurita, K. and Kurosawa, M. and Kwon, Y. and Kyle, G. S. and Lacey, R. and Lai, Y. S. and Lajoie, J. G. and Larionova, D. and Larionova, M. and Lebedev, A. and Lee, B. and Lee, D. M. and Lee, J. and Lee, K. and Lee, K. B. and Lee, K. S. and Lee, S. H. and Lee, S. R. and Leitch, M. J. and Leite, M. A. L. and Leitgab, M. and Leitner, E. and Lenzi, B. and Lewis, B. and Lewis, N. A. and Li, X. and Li, X. and Lichtenwalner, P. and Liebing, P. and Lim, S. H. and Linden Levy, L. A. and Li\v{s}ka, T. and Litvinenko, A. and Liu, H. and Liu, M. X. and L\"ok\"os, S. and Love, B. and Luechtenborg, R. and Lynch, D. and Maguire, C. F. and Majoros, T. and Makdisi, Y. I. and Makek, M. and Malakhov, A. and Malik, M. D. and Manion, A. and Manko, V. I. and Mannel, E. and Mao, Y. and Masui, H. and Masumoto, S. and Matathias, F. and McCumber, M. and McGaughey, P. L. and McGlinchey, D. and McKinney, C. and Means, N. and Meles, A. and Mendoza, M. and Meredith, B. and Metzger, W. J. and Miake, Y. and Mibe, T. and Midori, J. and Mignerey, A. C. and Mike\v{s}, P. and Miki, K. and Milov, A. and Mishra, D. K. and Mishra, M. and Mitchell, J. T. and Mitrankov, Iu. and Miyachi, Y. and Miyasaka, S. and Mohanty, A. K. and Mohapatra, S. and Moon, H. J. and Moon, T. and Morino, Y. and Morreale, A. and Morrison, D. P. and Morrow, S. I. and Moskowitz, M. and Motschwiller, S. and Moukhanova, T. V. and Mulilo, B. and Murakami, T. and Murata, J. and Mwai, A. and Nagae, T. and Nagamiya, S. and Nagle, J. L. and Naglis, M. and Nagy, M. I. and Nakagawa, I. and Nakamiya, Y. and Nakamura, K. R. and Nakamura, T. and Nakano, K. and Nam, S. and Nattrass, C. and Nederlof, A. and Nelson, S. and Netrakanti, P. K. and Newby, J. and Nguyen, M. and Nihashi, M. and Niida, T. and Nouicer, R. and Novitzky, N. and Nukariya, A. and Nyanin, A. S. and Oakley, C. and Obayashi, H. and O'Brien, E. and Oda, S. X. and Ogilvie, C. A. and Oka, M. and Okada, K. and Onuki, Y. and Osborn, J. D. and Oskarsson, A. and Ouchida, M. and Ozawa, K. and Pak, R. and Pantuev, V. and Papavassiliou, V. and Park, B. H. and Park, I. H. and Park, J. and Park, S. and Park, S. K. and Park, W. J. and Pate, S. F. and Patel, L. and Patel, M. and Pei, H. and Peng, J.-C. and Peng, W. and Pereira, H. and Perepelitsa, D. V. and Peresedov, V. and Peressounko, D. Yu. and PerezLara, C. E. and Petti, R. and Pinkenburg, C. and Pisani, R. P. and Potekhin, M. and Proissl, M. and Pun, A. and Purschke, M. L. and Purwar, A. K. and Qu, H. and Radzevich, P. V. and Rak, J. and Rakotozafindrabe, A. and Ramasubramanian, N. and Ravinovich, I. and Read, K. F. and Rembeczki, S. and Reygers, K. and Reynolds, D. and Riabov, V. and Riabov, Y. and Richardson, E. and Richford, D. and Rinn, T. and Riveli, N. and Roach, D. and Roche, G. and Rolnick, S. D. and Rosati, M. and Rosen, C. A. and Rosendahl, S. S. E. and Rosnet, P. and Rukoyatkin, P. and Runchey, J. and Ru\v{z}i\v{c}ka, P. and Ryu, M. S. and Sahlmueller, B. and Saito, N. and Sakaguchi, T. and Sakashita, K. and Sako, H. and Samsonov, V. and Sano, M. and Sano, S. and Sarsour, M. and Sato, S. and Sato, T. and Sawada, S. and Sedgwick, K. and Seele, J. and Seidl, R. and Semenov, A. Yu. and Sen, A. and Seto, R. and Sett, P. and Sharma, D. and Shein, I. and Shibata, T.-A. and Shigaki, K. and Shimomura, M. and Shoji, K. and Shukla, P. and Sickles, A. and Silva, C. L. and Silvermyr, D. and Silvestre, C. and Sim, K. S. and Singh, B. K. and Singh, C. P. and Singh, V. and Skolnik, M. and Slune\v{c}ka, M. and Smith, K. L. and Solano, S. and Soltz, R. A. and Sondheim, W. E. and Sorensen, S. P. and Sourikova, I. V. and Sparks, N. A. and Stankus, P. W. and Steinberg, P. and Stenlund, E. and Stepanov, M. and Ster, A. and Stoll, S. P. and Sugitate, T. and Sukhanov, A. and Sun, J. and Sun, X. and Sun, Z. and Sziklai, J. and Takagui, E. M. and Takahara, A. and Taketani, A. and Tanabe, R. and Tanaka, Y. and Taneja, S. and Tanida, K. and Tannenbaum, M. J. and Tarafdar, S. and Taranenko, A. and Tarj\'an, P. and Tennant, E. and Themann, H. and Thomas, D. and Thomas, T. L. and Todoroki, T. and Togawa, M. and Toia, A. and Tom\'a\v{s}ek, L. and Tom\'a\v{s}ek, M. and Torii, H. and Towell, R. S. and Tserruya, I. and Tsuchimoto, Y. and Tsuji, T. and Ueda, Y. and Ujvari, B. and Vale, C. and Valle, H. and family=Hecke, given=H. W., prefix=van, useprefix=true and Vargyas, M. and Vazquez-Zambrano, E. and Veicht, A. and Velkovska, J. and V\'ertesi, R. and Vinogradov, A. A. and Virius, M. and Voas, B. and Vossen, A. and Vrba, V. and Vznuzdaev, E. and Wang, X. R. and Watanabe, D. and Watanabe, K. and Watanabe, Y. and Watanabe, Y. S. and Wei, F. and Wei, R. and Wessels, J. and Whitaker, S. and White, S. N. and Winter, D. and Wolin, S. and Wong, C. P. and Wood, J. P. and Woody, C. L. and Wright, R. M. and Wu, Y. and Wysocki, M. and Xia, B. and Xie, W. and Xu, Q. and Yamaguchi, Y. L. and Yamaura, K. and Yang, R. and Yanovich, A. and Ying, J. and Yokkaichi, S. and Yoon, I. and You, Z. and Young, G. R. and Younus, I. and Yushmanov, I. E. and Zajc, W. A. and Zelenski, A. and Zhai, Y. and Zhang, C. and Zharko, S. and Zhou, S. and Zolin, L. and Zou, L.
+acab042946293ffd11262aa25a2c3f8a|file:///Users/fernando/Documents/Thesis/Zotero.bib|2184|193|v|bib
+	M. and Hammer, J. and H\"ansel, S. and Hartl, C. and Hoch, M. and H\"ormann, N. and Hrubec, J. and Jeitler, M. and Kasieczka, G. and Kiesenhofer, W. and Krammer, M. and Liko, D. and Mikulec, I. and Pernicka, M. and Rohringer, H. and Sch\"ofbeck, R. and Strauss, J. and Taurok, A. and Teischinger, F. and Waltenberger, W. and Walzel, G. and Widl, E. and Wulz, C.-E. and Mossolov, V. and Shumeiko, N. and Suarez Gonzalez, J. and Benucci, L. and Ceard, L. and De Wolf, E. A. and Janssen, X. and Maes, T. and Mucibello, L. and Ochesanu, S. and Roland, B. and Rougny, R. and Selvaggi, M. and Van Haevermaet, H. and Van Mechelen, P. and Van Remortel, N. and Adler, V. and Beauceron, S. and Blyweert, S. and D'Hondt, J. and Devroede, O. and Kalogeropoulos, A. and Maes, J. and Maes, M. and Tavernier, S. and Van Doninck, W. and Van Mulders, P. and Villella, I. and Chabert, E. C. and Charaf, O. and Clerbaux, B. and De Lentdecker, G. and Dero, V. and Gay, A. P. R. and Ham-mad, G. H. and Hreus, T. and Marage, P. E. and Vander Velde, C. and Vanlaer, P. and Wickens, J. and Costantini, S. and Grunewald, M. and Klein, B. and Marinov, A. and Ryckbosch, D. and Thyssen, F. and Tytgat, M. and Vanelderen, L. and Verwilligen, P. and Walsh, S. and Zaganidis, N. and Basegmez, S. and Bruno, G. and Caudron, J. and De Favereau De Jeneret, J. and Delaere, C. and Demin, P. and Favart, D. and Giammanco, A. and Gr\'egoire, G. and Hollar, J. and Lemaitre, V. and Militaru, O. and Ovyn, S. and Pagano, D. and Pin, A. and Piotrzkowski, K. and Quertenmont, L. and Schul, N. and Beliy, N. and Caebergs, T. and Daubie, E. and Alves, G. A. and De Jesus Damiao, D. and Pol, M. E. and Souza, M. H. G. and Carvalho, W. and Da Costa, E. M. and De Oliveira Martins, C. and De Souza, S. Fonseca and Mundim, L. and Nogima, H. and Oguri, V. and Otalora Goicochea, J. M. and Da Silva, W. L. Prado and Santoro, A. and Silva Do Amaral, S. M. and Sznajder, A. and Torres Da Silva De Araujo, F. and Dias, F. A. and Dias, M. A. F. and Fernandez Perez Tomei, T. R. and Gregores, E. M. and Marinho, F. and Novaes, S. F. and Padula, Sandra S. and Darmenov, N. and Dimitrov, L. and Genchev, V. and Iaydjiev, P. and Piperov, S. and Rodozov, M. and Stoykova, S. and Sultanov, G. and Tcholakov, V. and Trayanov, R. and Vankov, I. and Dyulendarova, M. and Hadjiiska, R. and Kozhuharov, V. and Litov, L. and Marinova, E. and Mateev, M. and Pavlov, B. and Petkov, P. and Bian, J. G. and Chen, G. M. and Chen, H. S. and Jiang, C. H. and Liang, D. and Liang, S. and Wang, J. and Wang, J. and Wang, X. and Wang, Z. and Yang, M. and Zang, J. and Zhang, Z. and Ban, Y. and Guo, S. and Hu, Z. and Li, W. and Mao, Y. and Qian, S. J. and Teng, H. and Zhu, B. and Cabrera, A. and Gomez Moreno, B. and Ocampo Rios, A. A. and Osorio Oliveros, A. F. and Sanabria, J. C. and Godinovic, N. and Lelas, D. and Lelas, K. and Plestina, R. and Polic, D. and Puljak, I. and Antunovic, Z. and Dzelalija, M. and Brigljevic, V. and Duric, S. and Kadija, K. and Morovic, S. and Attikis, A. and Fereos, R. and Galanti, M. and Mousa, J. and Nicolaou, C. and Ptochos, F. and Razis, P. A. and Rykaczewski, H. and Assran, Y. and Mahmoud, M. A. and Hektor, A. and Kadastik, M. and Kannike, K. and M\"untel, M. and Raidal, M. and Rebane, L. and Azzolini, V. and Eerola, P. and Czellar, S. and H\"ark\"onen, J. and Heikkinen, A. and Karim\"aki, V. and Kinnunen, R. and Klem, J. and Kortelainen, M. J. and Lamp\'en, T. and Lassila-Perini, K. and Lehti, S. and Lind\'en, T. and Luukka, P. and M\"aenp\"a\"a, T. and Tuominen, E. and Tuominiemi, J. and Tuovinen, E. and Ungaro, D. and Wendland, L. and Banzuzi, K. and Korpela, A. and Tuuva, T. and Sillou, D. and Besancon, M. and Dejardin, M. and Denegri, D. and Descamps, J. and Fabbro, B. and Faure, J. L. and Ferri, F. and Ganjour, S. and Gentit, F. X. and Givernaud, A. and Gras, P. and family=Monchenault, given=G. Hamel, prefix=de, useprefix=true and Jarry, P. and Locci, E. and Malcles, J. and Marionneau, M. and Millischer, L. and Rander, J. and Rosowsky, A. and Rousseau, D. and Titov, M. and Verrecchia, P. and Baffioni, S. and Bianchini, L. and Bluj, M. and Broutin, C. and Busson, P. and Charlot, C. and Dobrzynski, L. and family=Cassagnac, given=R. Granier, prefix=de, useprefix=true and Haguenauer, M. and Min\'e, P. and Mironov, C. and Ochando, C. and Paganini, P. and Sabes, D. and Salerno, R. and Sirois, Y. and Thiebaux, C. and Zabi, A. and Agram, J.-L. and Besson, A. and Bloch, D. and Bodin, D. and Brom, J.-M. and Cardaci, M. and Conte, E. and Drouhin, F. and Ferro, C. and Fontaine, J.-C. and Gel\'e, D. and Goerlach, U. and Greder, S. and Juillot, P. and Karim, M. and Le Bihan, A.-C. and Mikami, Y. and Van Hove, P. and Fassi, F. and Mercier, D. and Baty, C. and Beaupere, N. and Bedjidian, M. and Bondu, O. and Boudoul, G. and Boumediene, D. and Brun, H. and Chanon, N. and Chierici, R. and Contardo, D. and Depasse, P. and El Mamouni, H. and Falkiewicz, A. and {The CMS collaboration}
+76304bb99e8f7c44096321e4a10d0bc1|file:///Users/fernando/Documents/Thesis/Zotero.bib|2219|25|v|bib
+	Transverse Momentum Balance Contributions
+36b4d6b950105c147f4da9ea227a5845|file:///Users/fernando/Documents/Thesis/Zotero.bib|2219|71|v|bib
+	Quenched Jets
+0d0ebe419ebd23f372e2eb6132efb5ee|file:///Users/fernando/Documents/Thesis/Zotero.bib|2219|88|v|bib
+	PbPb
+0289e2bf1c12517b3df378089036ca81|file:///Users/fernando/Documents/Thesis/Zotero.bib|2219|93|v|bib
+	Collisions
+5b98a0846de3ed6f7cf162abc2b4f26f|file:///Users/fernando/Documents/Thesis/Zotero.bib|2219|115|v|bib
+	{$\backslash$}s
+0de09a5af52833dab1eaf10e831fdf2c|file:///Users/fernando/Documents/Thesis/Zotero.bib|2219|106|v|bib
+	{$\$\$$} 
+0f4e1561626ece5cc0b4c94bed35b3d1|file:///Users/fernando/Documents/Thesis/Zotero.bib|2219|112|v|bib
+	{$\lbrace$}s{$\
+b12882b789c6f7d38a48c35d69fd5b85|file:///Users/fernando/Documents/Thesis/Zotero.bib|2219|113|v|bib
+	\lbrace\backslash$}mathrm{$\lbrace$}{{
+d1bbb73c8dba8f45b2e1364a64a1e294|file:///Users/fernando/Documents/Thesis/Zotero.bib|2219|115|v|bib
+	{$\rbrace\rbrace\rbrace$}=2.76 {$\$\$$}{{TeV}}}
+26c51ba1b305bbf8917c12b0fac1e644|file:///Users/fernando/Documents/Thesis/Zotero.bib|2219|115|v|bib
+	{$\rbrace\rbrace\rbrace$}=
+153f5e43f121967a9b596377102dfa95|file:///Users/fernando/Documents/Thesis/Zotero.bib|2219|120|v|bib
+	 {$\$\$$}{{
+e3b06d776ab32b891b713bbb81bf0351|file:///Users/fernando/Documents/Thesis/Zotero.bib|1910|21|v|bib
+	Hydrodynamic Descriptions
+eeae921d94203881d8084b72395c59e3|file:///Users/fernando/Documents/Thesis/Zotero.bib|1910|72|v|bib
+	{$\lbrace$}
+bf9580ea526e0e5edb1be99de8ab4421|file:///Users/fernando/Documents/Thesis/Zotero.bib|1910|75|v|bib
+	{$\rbrace$}=
+91765d0007f4f2b1a1d5387664fd8ff8|file:///Users/fernando/Documents/Thesis/Zotero.bib|3032|105|v|bib
+	\textsubscript{{\textsubscript{NN}}}
+a6ac140c6b14ead68583c51056d5ec75|file:///Users/fernando/Documents/Thesis/Zotero.bib|3032|103|v|bib
+	s\textsubscript{{\textsubscript{NN}}} =
+9a46b9af0e01b85bd8c8c290b6246e3b|file:///Users/fernando/Documents/Thesis/Zotero.bib|3032|118|v|bib
+	\textsubscript{NN}
+bf33f698057aa5de57e72943a73caae7|file:///Users/fernando/Documents/Thesis/Zotero.bib|3032|103|v|bib
+	\textsubscript\textsubscript{
+7cd69f56c37ea263fe82e474c496f99b|file:///Users/fernando/Documents/Thesis/Zotero.bib|3148|29|v|bib
+	Jet Quenching
+4ef6b900ba9c2efc06aad2820da1cbd4|file:///Users/fernando/Documents/Thesis/Zotero.bib|3148|48|v|bib
+	Semi-Inclusive Hadron
+8c88565cb04f9c9f8cb8c9cb9309d1f2|file:///Users/fernando/Documents/Thesis/Zotero.bib|3148|74|v|bib
+	Distributions
+abe304d0a5f6ef609fbc63003ad9b35f|file:///Users/fernando/Documents/Thesis/Zotero.bib|3148|90|v|bib
+	{$\$\backslash$}text{$\lbrace$}{{
+d8a83118a73f7934c63cc16adcf061cf|file:///Users/fernando/Documents/Thesis/Zotero.bib|3148|92|v|bib
+	}}{$\rbrace$}+{$\backslash$}text{$\lbrace$}{{
+d52b9af2dd2b857dc4f3c6d9845030d4|file:///Users/fernando/Documents/Thesis/Zotero.bib|3148|95|v|bib
+	{$\rbrace\$$} {{
+65394c5a239865cd16e9cf6e5643cce8|file:///Users/fernando/Documents/Thesis/Zotero.bib|3148|108|v|bib
+	 {$\$\
+06e9df7279f3db54ce9000915c90a871|file:///Users/fernando/Documents/Thesis/Zotero.bib|3148|105|v|bib
+	 atbackslash
+9d107cebd4bff5bef2c0ac728f212bd2|file:///Users/fernando/Documents/Thesis/Zotero.bib|3148|109|v|bib
+	{$\$\backslash$}s
+7d7a673176ebc3ae069f48486a65a690|file:///Users/fernando/Documents/Thesis/Zotero.bib|3148|115|v|bib
+	{$\lbrace\lbrace$}
+0d69833d38abcfad4a40d6f18e96398a|file:///Users/fernando/Documents/Thesis/Zotero.bib|3148|118|v|bib
+	{$\rbrace\_\lbrace$}{{
+051a6f4f72156dc6119a98faa6c1bd6e|file:///Users/fernando/Documents/Thesis/Zotero.bib|3148|120|v|bib
+	{$\rbrace\rbrace$}=
+2186fdf19536653764a2db4f74b7225f|file:///Users/fernando/Documents/Thesis/Zotero.bib|3148|124|v|bib
+	{$\$$} 
+eeec5769df48bceddc30e61749f8950b|file:///Users/fernando/Documents/Thesis/Zotero.bib|2659|28|v|bib
+	Jet-Medium Interactions
+48275eae0e66c8010eca5f9a2b4f49d3|file:///Users/fernando/Documents/Thesis/Zotero.bib|2659|56|v|bib
+	Direct Photon-Hadron Correlations
+402620d852c93048f2ee9b818ca6f018|file:///Users/fernando/Documents/Thesis/Zotero.bib|2659|92|v|bib
+	{$\$\backslash$}mathrm{$\lbrace$}{{
+7d4321ca26652fc2a453687e45b98257|file:///Users/fernando/Documents/Thesis/Zotero.bib|2659|94|v|bib
+	}}{$\rbrace$}+{$\backslash$}mathrm{$\lbrace$}{{
+dc93cf19e9514c87589b0ab91ecb8069|file:///Users/fernando/Documents/Thesis/Zotero.bib|2659|97|v|bib
+	{$\rbr
+d9e2c2d3292c000acf5b8cd24b4246c1|file:///Users/fernando/Documents/Thesis/Zotero.bib|2659|97|v|bib
+	ace\$$} 
+f5ebf64b1b17ada69399400ee1c9ef2e|file:///Users/fernando/Documents/Thesis/Zotero.bib|2659|102|v|bib
+	{$\$$}
+c8ea1b3b0878b9dae34896056eecc89c|file:///Users/fernando/Documents/Thesis/Zotero.bib|2659|104|v|bib
+	{$\backslash$}mathrm{$\lbrace$}{{
+2955b933b5cac895f8e3b0cae8cf108f|file:///Users/fernando/Documents/Thesis/Zotero.bib|640|98|v|bib
+	$\$\backslash$
+55614aaaa7491b59e012ad3fcb20478a|file:///Users/fernando/Documents/Thesis/Zotero.bib|640|98|v|bib
+	$\$\back
+fb6c0c0e524d17fdb448d0dad6d40bda|file:///Users/fernando/Documents/Thesis/Zotero.bib|640|111|v|bib
+	TeV Using
+45f5a90975bedc3b175b1a0d0a9176d0|file:///Users/fernando/Documents/Thesis/Zotero.bib|640|127|v|bib
+	ALICE Detector
+94d12e9584d50cd0b1b5cbd14db5c1e3|file:///Users/fernando/Documents/Thesis/Zotero.bib|640|21|v|bib
+	{$\$\backslash$}{{
+d8a97790e72d47fe10fa23bf668e3eee|file:///Users/fernando/Documents/Thesis/Zotero.bib|640|28|v|bib
+	Hadron Correlations
+f730c0818ab244a8164b1e60fa51a1ae|file:///Users/fernando/Documents/Thesis/Zotero.bib|1736|146|v|bib
+	 {{https://alice-notes.web.cern.ch/system/files/notes/analysis/741/.}}}
+c81e2750c413841edbd0d8ab6ff55e52|file:///Users/fernando/Documents/Thesis/Zotero.bib|1736|148|v|bib
+	https://alice-notes.web.cern.ch/system/files/notes/analysis/741/.
+cee8798539f5e7faf3b885a79e649e6b|file:///Users/fernando/Documents/Thesis/Zotero.bib|1736|147|v|bib
+	https://alice-notes
+926c4e1e49de2b9c44e89a66ed4fb34f|file:///Users/fernando/Documents/Thesis/Zotero.bib|1736|147|v|bib
+	.web
+fafbfcfc296ca18027f5e697b879ffcf|file:///Users/fernando/Documents/Thesis/Zotero.bib|1736|147|v|bib
+	.cern
+d06cbb06733ca5f85958558960dad319|file:///Users/fernando/Documents/Thesis/Zotero.bib|1736|147|v|bib
+	.ch/system/files/notes/analysis/741/
+b6b818304a439f91fc90b3fe8dd35be8|file:///Users/fernando/Documents/Thesis/Zotero.bib|1736|137|v|bib
+	ALICE
+5a2ebfb8baa378cfcfcba58bbb1380c2|file:///Users/fernando/Documents/Thesis/Zotero.bib|2254|21|v|bib
+	Requirements
+21477129e62bbf85e90249ad3f261022|file:///Users/fernando/Documents/Thesis/Zotero.bib|2254|38|v|bib
+	Detector Concepts
+0df2da9cf88450e6758356da45b4d04f|file:///Users/fernando/Documents/Thesis/Zotero.bib|2254|64|v|bib
+	Electron
+0e70f668c8b216328b90e7c817287bac|file:///Users/fernando/Documents/Thesis/Zotero.bib|2254|73|v|bib
+	Ion Collider
+91ca6df6a8452d78ab182e7c9a0b9aec|file:///Users/fernando/Documents/Thesis/Zotero.bib|2254|87|v|bib
+	EIC Yellow Report
+287fffdcf8f2e62342d498d4c735811c|file:///Users/fernando/Documents/Thesis/Zotero.bib|2261|85|V|bib
+	  primaryclass = {hep-ex, physics:hep-ph, physics:nucl-ex, physics:nucl-th, physics:physics},
+50621672fdcf8345c03c993a8af91dfd|file:///Users/fernando/Documents/Thesis/Checks_and_Systematics.tex|327|1|V|tex
+	   \begin{tabular*}{1.0\columnwidth}{@{\extracolsep{\fill}}l|c@{}}
+23945e5d3fe02d59082867f28be8e5cc|file:///Users/fernando/Documents/Thesis/EIC_Jets.tex|93|17|v|tex
+	linewidth
+3b95bef3b0e9666053c5904441c930e4|file:///Users/fernando/Documents/Thesis/EIC_Jets.tex|93|1|V|tex
+	    \parbox{.45\columnwidth}{
+1414ddde6c5ebb981bb20f2385a66458|file:///Users/fernando/Documents/Thesis/EIC_Jets.tex|111|23|V|tex
+	\parbox{.45\columnwidth}{
+29052461ee786de8484d08f8d48b297a|file:///Users/fernando/Documents/Thesis/EIC_Jets.tex|115|43|v|tex
+	rlrrrrrrr
+452fd0fa22b21926f0c872923206da08|file:///Users/fernando/Documents/Thesis/EIC_Jets.tex|116|22|V|tex
+	\begin{tabular}{c|ccc}
+ff285c877ab66e07738097041b157438|file:///Users/fernando/Documents/Thesis/EIC_Jets.tex|115|1|V|tex
+	\resizebox{\textwidth}{!}{\begin{tabular}{c|ccc}
+d8235e45ea72b511f36ee76715fb9345|file:///Users/fernando/Documents/Thesis/EIC_Jets.tex|115|1|V|tex
+	\resizebox{0.55\textwidth}{!}{\begin{tabular}{c|ccc}
+3508c4372ccaa2420a2510d048e05f9d|file:///Users/fernando/Documents/Thesis/EIC_Jets.tex|98|1|V|tex
+	\begin{tabular}{c|cc}
+6e768b86dc06209345a94d297589d3fb|file:///Users/fernando/Documents/Thesis/EIC_Jets.tex|110|1|V|tex
+	\centering
+722caeb67fc0b21bd9abbad36112feee|file:///Users/fernando/.bash_profile|38|1|V|sh
+	alias jlab="cd /Users/fernando/Documents/ && jupyter-lab --no-browser && open -a Jupyter" 
