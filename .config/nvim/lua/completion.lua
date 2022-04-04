@@ -9,8 +9,6 @@ local snip_status_ok, luasnip = pcall(require, "luasnip")
 if not snip_status_ok then
   print("Could NOT successfully require [luasnip]")
   return
-else
-  print("Successfully require [luasnip]")
 end
 
 require("luasnip/loaders/from_vscode").lazy_load()
@@ -22,13 +20,13 @@ end
 
 --   פּ ﯟ   some other good icons
 -- local kind_icons = {
---   Text = "",
+--   Text = "T",
 --   Method = "m",
---   Function = "",
---   Constructor = "",
---   Field = "",
---   Variable = "",
---   Class = "",
+--   Function = "𝒇",
+--   Constructor = "⚒︎",
+--   Field = "⊞",
+--   Variable = "ꭓ",
+--   Class = "",
 --   Interface = "",
 --   Module = "",
 --   Property = "",
@@ -107,6 +105,7 @@ cmp.setup {
       -- vim_item.kind = string.format('%s %s', kind_icons[vim_item.kind], vim_item.kind) -- This concatonates the icons with the name of the item kind
       vim_item.menu = ({
         nvim_lsp = "[LSP]",
+        nvim_lua = "[NVIM_Lua]",
         luasnip = "[Snippet]",
         buffer = "[Buffer]",
         path = "[Path]",
@@ -116,6 +115,7 @@ cmp.setup {
   },
   sources = {
     { name = "nvim_lsp" },
+    { name = "nvim_lua" },
     { name = "luasnip" },
     { name = "buffer" },
     { name = "path" },

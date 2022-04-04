@@ -48,6 +48,8 @@ return require('packer').startup(function(use)
   use "tpope/vim-commentary" -- gc<motion> to (un)comment
   use "oncomouse/vim-surround" -- ys to add, cs to change, ds to delete. f, F for function, t, T for tag
   use "tpope/vim-repeat" -- "." repeats plug-in actions
+  use "antoinemadec/FixCursorHold.nvim" -- fix lsp highlight
+  use "folke/which-key.nvim"
 
   -- ColorSchemes --
   use "morhetz/gruvbox"
@@ -61,13 +63,15 @@ return require('packer').startup(function(use)
 
   -- CMP --
   use "hrsh7th/nvim-cmp" -- The completion plugin
-  use "hrsh7th/cmp-nvim-lsp"
-  use "saadparwaiz1/cmp_luasnip" -- snippet completions
   use "hrsh7th/cmp-buffer" -- buffer completions
   use "hrsh7th/cmp-path" -- path completions
   use "hrsh7th/cmp-cmdline" -- cmdline completions
 
+  use "hrsh7th/cmp-nvim-lsp" -- lsp completions 
+  use "hrsh7th/cmp-nvim-lua" -- helps with config
+
   -- Snippets --
+  use "saadparwaiz1/cmp_luasnip" -- snippet completions
   use "L3MON4D3/LuaSnip" -- needed for "require('luasnip')"
   use "rafamadriz/friendly-snippets"
 
