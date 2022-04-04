@@ -5,8 +5,8 @@ require('options')
 require('plugins')
 require('maps')
 require('colorscheme')
-require('lsp')
 require('completion')
+require('whichkey')
 
 ----------------
 -- TreeSitter --
@@ -19,5 +19,3 @@ configs.setup
 		highlight = { enable = true,}, --enable highlighting
 		indent = { enable = true,} --default is disabled anyways
 	}
-
-
