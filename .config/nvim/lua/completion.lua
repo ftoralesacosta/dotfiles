@@ -1,7 +1,7 @@
 local cmp_status_ok, cmp = pcall(require, "cmp")
 
 if not cmp_status_ok then
-  print("Could NOT successfully require [cmp]")
+  vim.notify("Could NOT successfully require [cmp]")
   return
 end
 
