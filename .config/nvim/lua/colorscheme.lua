@@ -1,4 +1,4 @@
-vim.opt.termguicolors = true
+-- vim.opt.termguicolors = true
 
 -- Background --
 -- vim.o.background = "dark" -- or "light" 
