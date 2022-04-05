@@ -1,4 +1,4 @@
-local status_ok, which_key = pcall(require, "which-key")
+lcal status_ok, which_key = pcall(require, "which-key")
 if not status_ok then
   return
 end
@@ -96,6 +96,21 @@ local mappings = {
   ["F"] = { "<cmd>Telescope live_grep theme=ivy<cr>", "Find Text" },
   ["P"] = { "<cmd>lua require('telescope').extensions.projects.projects()<cr>", "Projects" },
   ["n"] = { "<cmd> set nu! rnu! <cr>", "Toggle Line Numbers" },
+
+  -- from thesis latex setup. will probably make sub-keys under 'L' or 'l'
+  -- let g:which_key_map['b'] = [ 'VimtexCompile'         , 'build' ]
+  -- let g:which_key_map['p'] = [ 'VimtexView'            , 'preview' ]
+  -- let g:which_key_map['i'] = [ 'VimtexTocOpen'         , 'index' ]
+  -- let g:which_key_map['k'] = [ 'VimtexClean'           , 'kill aux' ]                               
+  -- let g:which_key_map['l'] = [ 'VimtexErrors'          , 'error log' ]
+
+  x = {
+    name = "LaTeX",
+    b = { "<cmd> VimtexCompile <cr>", "Build" },
+    p = { "<cmd> VimtexCompile <cr>", "Preview" },
+    k = { "<cmd> VimtexClean <cr>", "Kill .aux" },
+    e = { "<cmd> VimtexErrors <cr>", "Error Log" },
+  },
 
   p = {
     name = "Packer",
