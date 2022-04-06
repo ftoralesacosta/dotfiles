@@ -50,6 +50,10 @@ return require('packer').startup(function(use)
   use "tpope/vim-repeat" -- "." repeats plug-in actions
   use "antoinemadec/FixCursorHold.nvim" -- fix lsp highlight
   use "folke/which-key.nvim"
+  
+  --Prerequisite Plugins (for Telescope, and others)
+  -- use "nvim-lua/popup.nvim"
+  use "nvim-lua/plenary.nvim"
 
   -- ColorSchemes --
   use "morhetz/gruvbox"
@@ -75,10 +79,18 @@ return require('packer').startup(function(use)
   use "L3MON4D3/LuaSnip" -- needed for "require('luasnip')"
   use "rafamadriz/friendly-snippets"
 
-  -- TreeSitter--
+  -- TreeSitter --
   use {'nvim-treesitter/nvim-treesitter',
         run = ':TSUpdate'
       }
+
+  -- Telescope & Finders  --
+  use "nvim-telescope/telescope.nvim"
+  use "nvim-telescope/telescope-media-files.nvim"
+  -- REQUIRED: brew install ripgrep and https://github.com/sharkdp/fd
+
+  use "kyazdani42/nvim-web-devicons"
+  use "kyazdani42/nvim-tree.lua"
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
