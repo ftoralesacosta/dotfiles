@@ -7,6 +7,8 @@ require('maps')
 require('colorscheme')
 require('completion')
 require('whichkey')
+require('tele_scope')
+require('nvim_tree')
 
 ----------------
 -- TreeSitter --
