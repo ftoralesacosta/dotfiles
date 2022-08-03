@@ -1,0 +1,27 @@
+# Figure Properties
+figure.figsize: 12, 10
+axes.linewidth: 1.2
+axes.prop_cycle: cycler('color',['348ABD','C70039','FF5733','FFC300','65E88F','40E0D0'])
+
+#set the font-size and size of things
+axes.labelsize: 22
+axes.titlesize: 28
+xtick.labelsize: 20
+ytick.labelsize: 20
+legend.fontsize: 20
+
+# x-axis
+xtick.direction: in
+xtick.top: True
+xtick.major.size: 12
+xtick.major.width: 1.2
+xtick.minor.size: 6
+xtick.minor.width: 1
+
+# y-axis
+ytick.direction: in
+ytick.right: True
+ytick.major.size: 12
+ytick.major.width: 1.2
+ytick.minor.size: 6
+ytick.minor.width: 1
