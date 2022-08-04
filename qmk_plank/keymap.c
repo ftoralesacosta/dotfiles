@@ -37,6 +37,27 @@ enum planck_keycodes {
   EXT_PLV
 };
 
+enum {
+  TD_ROTARYPUSH_MEDIA 
+};
+
+void dance_media (qk_tap_dance_state_t *state, void *user_data) {
+    if (state->count == 1) {
+        tap_code(KC_MPLY);
+    } else if (state->count == 2) {
+        tap_code (KC_MNXT);
+    } else if (state->count == 3) {
+        tap_code(KC_MPRV);
+    } else {
+        reset_tap_dance (state);
+    }
+}
+
+qk_tap_dance_action_t tap_dance_actions[] = {
+ [TD_ROTARYPUSH_MEDIA] = ACTION_TAP_DANCE_FN (dance_media),
+};
+
+
 #define LOWER MO(_LOWER)
 #define RAISE MO(_RAISE)
 
@@ -54,11 +75,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * `-----------------------------------------------------------------------------------'
  */
 [_QWERTY] = LAYOUT_planck_grid(
-    KC_TAB,  KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,    KC_BSPC,
-    KC_ESC,  KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN, KC_QUOT,
-    KC_LSFT, KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_ENT ,
-    KC_LCTL, KC_MEDIA_PLAY_PAUSE, KC_LALT, KC_LGUI, LOWER,   KC_SPC,  KC_SPC,  RAISE,   KC_LEFT, KC_DOWN, KC_UP, KC_MEDIA_PLAY_PAUSE
-    /* BACKLIT, KC_LCTL, KC_LALT, KC_LGUI, LOWER,   KC_SPC,  KC_SPC,  RAISE,   KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT */
+    TD(TD_ROTARYPUSH_MEDIA),  KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,    KC_BSPC,
+    KC_TAB,  KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN, KC_QUOT,
+    MT(MOD_LSFT, KC_ESC), KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, MT(MOD_RSFT,KC_ENT),
+    MT(MOD_LCTL,KC_ESC), RGB_TOG, KC_LALT,  LOWER, KC_LGUI, KC_SPC,  KC_SPC, KC_RGUI,  LT(4,KC_LEFT), KC_UP, KC_DOWN, KC_RGHT
 ),
 
 /* Colemak
@@ -257,6 +277,79 @@ uint16_t muse_counter = 0;
 uint8_t muse_offset = 70;
 uint16_t muse_tempo = 50;
 
+bool encoder_update_user(uint8_t index, bool clockwise) {
+        if (clockwise) {
+            tap_code_delay(KC_VOLU, 10);
+        } else {
+            tap_code_delay(KC_VOLD, 10);
+        }
+    return false;
+}
+
+bool dip_switch_update_user(uint8_t index, bool active) {
+    switch (index) {
+        case 0: {
+#ifdef AUDIO_ENABLE
+            static bool play_sound = false;
+#endif
+            if (active) {
+#ifdef AUDIO_ENABLE
+                if (play_sound) { PLAY_SONG(plover_song); }
+#endif
+                layer_on(_ADJUST);
+            } else {
+#ifdef AUDIO_ENABLE
+                if (play_sound) { PLAY_SONG(plover_gb_song); }
+#endif
+                layer_off(_ADJUST);
+            }
+#ifdef AUDIO_ENABLE
+            play_sound = true;
+#endif
+            break;
+        }
+        case 1:
+            if (active) {
+                muse_mode = true;
+            } else {
+                muse_mode = false;
+            }
+    }
+    return true;
+}
+
+void matrix_scan_user(void) {
+#ifdef AUDIO_ENABLE
+    if (muse_mode) {
+        if (muse_counter == 0) {
+            uint8_t muse_note = muse_offset + SCALE[muse_clock_pulse()];
+            if (muse_note != last_muse_note) {
+                stop_note(compute_freq_for_midi_note(last_muse_note));
+                play_note(compute_freq_for_midi_note(muse_note), 0xF);
+                last_muse_note = muse_note;
+            }
+        }
+        muse_counter = (muse_counter + 1) % muse_tempo;
+    } else {
+        if (muse_counter) {
+            stop_all_notes();
+            muse_counter = 0;
+        }
+    }
+#endif
+}
+
+bool music_mask_user(uint16_t keycode) {
+  switch (keycode) {
+    case RAISE:
+    case LOWER:
+      return false;
+    default:
+      return true;
+  }
+}
+
+
 /* bool encoder_update_user(uint8_t index, bool clockwise) { */
 /*   if (muse_mode) { */
 /*     if (IS_LAYER_ON(_RAISE)) { */
@@ -274,115 +367,18 @@ uint16_t muse_tempo = 50;
 /*     } */
 /*   } else { */
 /*     if (clockwise) { */
-/* #ifdef MOUSEKEY_ENABLE */
-/*       tap_code(KC_MS_WH_DOWN); */
-/* #else */
-/*       tap_code(KC_PGDN); */
-/* #endif */
+/*       #ifdef MOUSEKEY_ENABLE */
+/*         tap_code(KC_MS_WH_DOWN); */
+/*       #else */
+/*         tap_code(KC_PGDN); */
+/*       #endif */
 /*     } else { */
-/* #ifdef MOUSEKEY_ENABLE */
-/*       tap_code(KC_MS_WH_UP); */
-/* #else */
-/*       tap_code(KC_PGUP); */
-/* #endif */
+/*       #ifdef MOUSEKEY_ENABLE */
+/*         tap_code(KC_MS_WH_UP); */
+/*       #else */
+/*         tap_code(KC_PGUP); */
+/*       #endif */
 /*     } */
 /*   } */
-/*   return true; */
+/*     return true; */
 /* } */
-
-bool dip_switch_update_user(uint8_t index, bool active) {
-  switch (index) {
-    case 0: {
-#ifdef AUDIO_ENABLE
-              static bool play_sound = false;
-#endif
-              if (active) {
-#ifdef AUDIO_ENABLE
-                if (play_sound) { PLAY_SONG(plover_song); }
-#endif
-                layer_on(_ADJUST);
-              } else {
-#ifdef AUDIO_ENABLE
-                if (play_sound) { PLAY_SONG(plover_gb_song); }
-#endif
-                layer_off(_ADJUST);
-              }
-#ifdef AUDIO_ENABLE
-              play_sound = true;
-#endif
-              break;
-            }
-    case 1:
-            if (active) {
-              muse_mode = true;
-            } else {
-              muse_mode = false;
-            }
-  }
-  return true;
-}
-
-void matrix_scan_user(void) {
-#ifdef AUDIO_ENABLE
-  if (muse_mode) {
-    if (muse_counter == 0) {
-      uint8_t muse_note = muse_offset + SCALE[muse_clock_pulse()];
-      if (muse_note != last_muse_note) {
-        stop_note(compute_freq_for_midi_note(last_muse_note));
-        play_note(compute_freq_for_midi_note(muse_note), 0xF);
-        last_muse_note = muse_note;
-      }
-    }
-    muse_counter = (muse_counter + 1) % muse_tempo;
-  } else {
-    if (muse_counter) {
-      stop_all_notes();
-      muse_counter = 0;
-    }
-  }
-#endif
-}
-
-bool music_mask_user(uint16_t keycode) {
-  switch (keycode) {
-    case RAISE:
-    case LOWER:
-      return false;
-    default:
-      return true;
-  }
-}
-
-bool encoder_update_user(uint8_t index, bool clockwise) {
-  if (index == 0) { /* First encoder */
-        if (clockwise) {
-            tap_code_delay(KC_VOLU, 10);
-        } else {
-            tap_code_delay(KC_VOLD, 10);
-        }
-    } else if (index == 1) { /* Second encoder */
-        if (clockwise) {
-            rgb_matrix_increase_hue();
-        } else {
-            rgb_matrix_decrease_hue();
-        }
-    }
-    return false;
-}
-
-void dip_switch_updated_user(uint8_t index, bool active)
-{
-  switch (index) {
-    case 0:
-      if(active)
-      {
-       tap_code(KC_MEDIA_PLAY_PAUSE);
-        /* tap_code_delay(KC_MEDIA_PLAY_PAUSE, 10); */
-      }
-      else
-      {
-        //do nothing
-      }
-      break;
-  }
-}

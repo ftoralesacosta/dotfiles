@@ -46,10 +46,8 @@
 //#define MIDI_TONE_KEYCODE_OCTAVES 2
 
 // Most tactile encoders have detents every 4 stages
-#define ENCODER_RESOLUTION 4
-
-// Likely only have one pad on plank ez/rev4
-#define ENCODERS_PAD_A { B12 }
-#define ENCODERS_PAD_B { B13 }
-
-#define DIP_SWICH_PINS {B2}
+#define ENCODER_RESOLUTION 3
+/* #define TAPPING_TERM 400 */
+#define TAPPING_TERM 200
+/* #define ENCODERS_PAD_A { BF3 } */
+/* #define DIP_SWICH_PINS {BF4} */
