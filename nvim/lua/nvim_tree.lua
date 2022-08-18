@@ -1,28 +1,7 @@
 -- following options are the default
 -- each of these are documented in `:help nvim-tree.OPTION_NAME`
-vim.g.nvim_tree_icons = {
-  default = "",
-  symlink = "",
-  git = {
-    unstaged = "",
-    staged = "S",
-    unmerged = "",
-    renamed = "➜",
-    deleted = "",
-    untracked = "U",
-    ignored = "◌",
-  },
-  folder = {
-    default = "",
-    open = "",
-    empty = "",
-    empty_open = "",
-    symlink = "",
-  },
-}
 
 -- vimscript globals. Incrementally moved to setup function
-vim.g.nvim_tree_git_hl = true
 vim.g.root_folder_modifier = ':t'
 vim.g.show_icons = {
   git = 1,
@@ -60,6 +39,40 @@ nvim_tree.setup {
   --   enable = true,
   --   auto_open = true,
   -- },
+  renderer = {
+    add_trailing = false,
+    group_empty = false,
+    highlight_git = true,
+    full_name = false,
+    highlight_opened_files = "none",
+    icons = {
+      show={
+        file = true,
+        folder = true,
+        git = true,
+      },
+      glyphs = {
+        default = "",
+        symlink = "",
+        git = {
+          unstaged = "",
+          staged = "S",
+          unmerged = "",
+          renamed = "➜",
+          deleted = "",
+          untracked = "U",
+          ignored = "◌",
+        },
+        folder = {
+          default = "",
+          open = "",
+          empty = "",
+          empty_open = "",
+          symlink = "",
+        },
+      },
+    },
+  },
   diagnostics = {
     enable = true,
     icons = {
