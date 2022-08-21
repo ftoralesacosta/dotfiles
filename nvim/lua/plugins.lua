@@ -44,7 +44,7 @@ return require('packer').startup(function(use)
 	-- Let packer manage itself --
   use "wbthomason/packer.nvim"
 
-  -- List of plugins here --
+  -- Text Editing Plugins--
   use "tpope/vim-commentary" -- gc<motion> to (un)comment
   use "oncomouse/vim-surround" -- ys to add, cs to change, ds to delete. f, F for function, t, T for tag
   use "tpope/vim-repeat" -- "." repeats plug-in actions
@@ -91,6 +91,9 @@ return require('packer').startup(function(use)
 
   use "kyazdani42/nvim-web-devicons"
   use "kyazdani42/nvim-tree.lua"
+
+  -- Miscelanious --
+  use "dstein64/vim-startuptime"
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
