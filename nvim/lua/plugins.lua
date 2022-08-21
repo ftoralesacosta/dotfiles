@@ -94,6 +94,7 @@ return require('packer').startup(function(use)
 
   -- Miscelanious --
   use "dstein64/vim-startuptime"
+  use 'lewis6991/impatient.nvim'
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
