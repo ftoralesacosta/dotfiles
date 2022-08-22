@@ -52,8 +52,8 @@ return require('packer').startup(function(use)
   use "folke/which-key.nvim"
   
   --Prerequisite Plugins (for Telescope, and others)
-  -- use "nvim-lua/popup.nvim"
   use "nvim-lua/plenary.nvim"
+  -- use "nvim-lua/popup.nvim"
 
   -- ColorSchemes --
   use "morhetz/gruvbox"
@@ -74,6 +74,8 @@ return require('packer').startup(function(use)
   use "hrsh7th/cmp-nvim-lsp" -- lsp completions 
   use "hrsh7th/cmp-nvim-lua" -- helps with config
 
+  use "jc-doyle/cmp-pandoc-references" -- pandoc
+
   -- Snippets --
   use "saadparwaiz1/cmp_luasnip" -- snippet completions
   use "L3MON4D3/LuaSnip" -- needed for "require('luasnip')"
@@ -93,6 +95,7 @@ return require('packer').startup(function(use)
   use "kyazdani42/nvim-tree.lua"
 
   -- Miscelanious --
+  use 'lervag/vimtex'
   use "dstein64/vim-startuptime"
   use 'lewis6991/impatient.nvim'
 
