@@ -1,24 +1,5 @@
----------------
--- Lua Files --
----------------
-require('impatient')
-require('options')
-require('plugins')
-require('maps')
-require('colorscheme')
-require('completion')
-require('whichkey')
-require('tele_scope')
-require('nvim_tree')
+-- -- disable netrw at the very start of your init.lua to avoid race with nvim-tree
+-- vim.g.loaded_netrw = 1
+-- vim.g.loaded_netrwPlugin = 1
 
-----------------
--- TreeSitter --
-----------------
-local configs = require'nvim-treesitter.configs'
-configs.setup
-	{	--"maintained" list does not fully compile
-		ensure_installed = "bash","cpp","python","lua",
-				"latex","yaml","cmake","c","c_sharp",
-		highlight = { enable = true,}, --enable highlighting
-		indent = { enable = true,} --default is disabled anyways
-	}
+require("fernando")
