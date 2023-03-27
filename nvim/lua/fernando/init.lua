@@ -1,4 +1,8 @@
 require("fernando.set")
-require("fernando.remap")
-require("fernando.packer")
--- require("fernando.options") --from last config :p
+require("fernando.lazy")
+require("fernando.which_key")
+require("fernando.colors")
+require("fernando.nvim_tree")
+require("fernando.telescope")
+require("fernando.treesitter")
+require("fernando.undotree")
