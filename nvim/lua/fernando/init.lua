@@ -1,5 +1,6 @@
 require("fernando.set")
 require("fernando.lazy")
+require("fernando.lsp")
 require("fernando.which_key")
 require("fernando.colors")
 require("fernando.nvim_tree")

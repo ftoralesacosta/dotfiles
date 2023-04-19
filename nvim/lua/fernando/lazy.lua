@@ -1,4 +1,6 @@
+-- Setup Lazy -- 
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
+
 if not vim.loop.fs_stat(lazypath) then
     vim.fn.system({
         "git",
@@ -9,11 +11,9 @@ if not vim.loop.fs_stat(lazypath) then
         lazypath,
     })
 end
-
 vim.opt.rtp:prepend(lazypath)
+--leader key must be set before setup (done in set.lua)
 
---Make sure leader key is set before this setup call
---done in set.lua
 require('lazy').setup({
 
     -- Fuzzy Finder --
@@ -77,6 +77,23 @@ require('lazy').setup({
     "folke/which-key.nvim",
     "mbbill/undotree",
     'lervag/vimtex',
+
+    --Trouble--
+    {
+        "folke/trouble.nvim",
+        lbuild = function()
+            require("trouble").setup {
+                -- your configuration comes here
+                -- or leave it empty to use the default settings
+                -- refer to the configuration section below
+            }
+        end,
+        dependencies = { "nvim-tree/nvim-web-devicons" }
+    }
+    -- {
+    --     "folke/trouble.nvim",
+    --     dependencies = { "nvim-tree/nvim-web-devicons",}
+    -- }
 
 })
 
