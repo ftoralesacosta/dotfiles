@@ -71,12 +71,15 @@ require('lazy').setup({
     'dracula/vim',
 
     -- MISC --
-    "zbirenbaum/copilot.lua",
+    -- "zbirenbaum/copilot.lua",
     "tpope/vim-commentary" ,
     "tpope/vim-surround",
     "folke/which-key.nvim",
     "mbbill/undotree",
     'lervag/vimtex',
+
+    -- CoPilot --
+    "github/copilot.vim",
 
     --Trouble--
     {
