@@ -29,10 +29,19 @@ wk.register(
             e = {"<plug>(vimtex-errors)","Errors"},
         },
 
+        a = {name = "Animations",
+            -- r = {"<cmd> CellularAutomaton make_it_rain <cr>", "Make it Rain"},
+            l = {"<cmd> CellularAutomaton game_of_life <cr>", "Game of Life"},
+            r = {"<cmd> CellularAutomaton make_it_rain <cr>", "Make it Rain"},
+            -- d = {"<cmd> Zone dvd <cr>", "Make it Rain"},
+            d = {"<plug>(CellularAutomaton game_of_life)","DVD"},
+        },
+
         e = {"<cmd> NvimTreeToggle <cr>", "Explorer (NvimTree)"},
         w = {"<cmd> w  <cr>", "Write File"},
         q = {"<cmd> wq <cr>", "Quit File"},
         s = {"<cmd> so <cr>", "Source File"},
+        Q = {"<cmD> q  <cr>", "Quit, w/o Saveing"},
     },
 
     { prefix = "<leader>" })

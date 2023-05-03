@@ -34,8 +34,7 @@ require('lazy').setup({
         dependencies = {'nvim-treesitter/playground'}
     },
 
-    {
-        -- LSP --
+    {-- LSP --
         'VonHeikemen/lsp-zero.nvim',
         branch = 'v1.x',
         dependencies = {
@@ -71,15 +70,17 @@ require('lazy').setup({
     'dracula/vim',
 
     -- MISC --
-    -- "zbirenbaum/copilot.lua",
     "tpope/vim-commentary" ,
     "tpope/vim-surround",
     "folke/which-key.nvim",
     "mbbill/undotree",
     'lervag/vimtex',
+    'eandrju/cellular-automaton.nvim',
+    'tamton-aquib/zone.nvim',
 
     -- CoPilot --
     "github/copilot.vim",
+    --"zbirenbaum/copilot.lua",
 
     --Trouble--
     {
@@ -99,5 +100,4 @@ require('lazy').setup({
     -- }
 
 })
-
 
