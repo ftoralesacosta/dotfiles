@@ -82,18 +82,27 @@ require('lazy').setup({
     "github/copilot.vim",
     --"zbirenbaum/copilot.lua",
 
-    --Trouble--
-    {
+    
+    {--Trouble--
         "folke/trouble.nvim",
-        lbuild = function()
+        build = function()
             require("trouble").setup {
+                icons=false
                 -- your configuration comes here
                 -- or leave it empty to use the default settings
                 -- refer to the configuration section below
             }
         end,
         dependencies = { "nvim-tree/nvim-web-devicons" }
-    }
+    },
+    -- {-- Highlight, edit, and navigate code
+    --     'nvim-treesitter/nvim-treesitter',
+    --     build = function()
+    --         pcall(require ('nvim-treesitter.install').update { with_sync = true })
+    --     end,
+    --     dependencies = {'nvim-treesitter/playground'}
+    -- },
+
     -- {
     --     "folke/trouble.nvim",
     --     dependencies = { "nvim-tree/nvim-web-devicons",}
