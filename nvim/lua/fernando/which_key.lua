@@ -1,21 +1,32 @@
 local wk = require("which-key")
 
+vim.keymap.set("n", "<leader>mr", "<cmd>CellularAutomaton make_it_rain<CR>");
+vim.keymap.set("n", "<leader>gl", "<cmd>CellularAutomaton game_of_life<CR>");
+vim.keymap.set("n", "<leader>dvd", "<cmd>Zone  dvd<CR>");
+
 wk.register(
     {
-        f = { name = " File Finder", 
+        f = { name = " File Finder",
             f = { "<cmd>Telescope find_files<cr>", "Find File" },
             g = { "<cmd>Telescope git_files<cr>", "Git Files" },
             l = { "<cmd>Telescope live_grep<cr>", "Live Grep [ripgrep]" },
         },
 
-        t = { "<cmd>Telescope live_grep<cr>", "Text Finder [ripgrep]" },
+        t = { "<cmd> Telescope live_grep<cr>", "Text Finder [ripgrep]" },
 
         u = { "<cmd> UndotreeToggle <cr>", "Undo Tree" },
+
+        x = { "<cmd> TroubleToggle <cr>", "Trouble" },
 
         n = {name = " NumberLines",
             n = {"<cmd> set nu! rnu! <cr>", "Toggle Numbers"},
             a = {"<cmd> set nu! <cr>", "Absolute Numbers"},
             r = {"<cmd> set rnu! <cr>", "Relative Numbers"},
+        },
+
+        c = {name = "copilot",
+            e = {"<cmd> Copilot enable <cr> <cmd> Copilot status <cr>", "Enable Copilot"},
+            d = {"<cmd> Copilot disable <cr> <cmd> Copilot status <cr>", "Disable Copilot"},
         },
 
         l = {name = " LaTeX",
@@ -29,12 +40,12 @@ wk.register(
             e = {"<plug>(vimtex-errors)","Errors"},
         },
 
-        a = {name = "Animations",
+        a = {name = " Animations",
             -- r = {"<cmd> CellularAutomaton make_it_rain <cr>", "Make it Rain"},
-            l = {"<cmd> CellularAutomaton game_of_life <cr>", "Game of Life"},
-            r = {"<cmd> CellularAutomaton make_it_rain <cr>", "Make it Rain"},
-            -- d = {"<cmd> Zone dvd <cr>", "Make it Rain"},
-            d = {"<plug>(CellularAutomaton game_of_life)","DVD"},
+            l = {"CellularAutomaton game_of_life ", "Game of Life"},
+            r = {"<cmd> CellularAutomaton make_it_rain <CR>", "Make it Rain"},
+            d = {"<cmd> Zone dvd <cr>", "DVD"},
+            -- d = {"<plug>(CellularAutomaton game_of_life)","DVD"},
         },
 
         e = {"<cmd> NvimTreeToggle <cr>", "Explorer (NvimTree)"},
