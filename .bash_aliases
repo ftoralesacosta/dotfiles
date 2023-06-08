@@ -2,6 +2,9 @@
 alias rth="ls -lrtha"
 alias la="ls -lrtha"
 
+#QoL
+alias howbig="du -h -d 1"
+
 #Vim Aliases
 alias v="vim"
 alias vv="vim ~/.config/nvim/init.lua"
