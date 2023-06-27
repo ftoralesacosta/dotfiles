@@ -1,4 +1,5 @@
 local wk = require("which-key")
+local chatgpt = require("chatgpt")
 
 vim.keymap.set("n", "<leader>mr", "<cmd>CellularAutomaton make_it_rain<CR>");
 vim.keymap.set("n", "<leader>gl", "<cmd>CellularAutomaton game_of_life<CR>");
@@ -27,7 +28,21 @@ wk.register(
         c = {name = "copilot",
             e = {"<cmd> Copilot enable <cr> <cmd> Copilot status <cr>", "Enable Copilot"},
             d = {"<cmd> Copilot disable <cr> <cmd> Copilot status <cr>", "Disable Copilot"},
+            p = {"<cmd> Copilot panel <cr>", "Panel"},
         },
+
+        p = {name = "ChatGPT",
+            e = {
+                function()
+                    chatgpt.edit_with_instructions()
+                end,
+                "Edit with instructions",
+            },
+        },
+        -- {
+        --         prefix = "<leader>",
+        --         mode = "v",
+        -- },
 
         l = {name = " LaTeX",
             i = {"<plug>(vimtex-info)","VimtexInfo"},
@@ -40,13 +55,11 @@ wk.register(
             e = {"<plug>(vimtex-errors)","Errors"},
         },
 
-        a = {name = " Animations",
-            -- r = {"<cmd> CellularAutomaton make_it_rain <cr>", "Make it Rain"},
-            l = {"CellularAutomaton game_of_life ", "Game of Life"},
-            r = {"<cmd> CellularAutomaton make_it_rain <CR>", "Make it Rain"},
-            d = {"<cmd> Zone dvd <cr>", "DVD"},
-            -- d = {"<plug>(CellularAutomaton game_of_life)","DVD"},
-        },
+        -- a = {name = " Animations", #NOT WORKING
+            -- l = {"<cmd> CellularAutomaton game_of_life <CR>", "Game of Life"},
+            -- r = {"<cmd> CellularAutomaton make_it_rain <CR>", "Make it Rain"},
+            -- d = {"<cmd> Zone dvd <cr>", "DVD"},
+        -- },
 
         e = {"<cmd> NvimTreeToggle <cr>", "Explorer (NvimTree)"},
         w = {"<cmd> w  <cr>", "Write File"},

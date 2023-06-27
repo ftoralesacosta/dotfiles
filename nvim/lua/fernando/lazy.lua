@@ -72,29 +72,54 @@ require('lazy').setup({
     -- MISC --
     "tpope/vim-commentary" ,
     "tpope/vim-surround",
-    "folke/which-key.nvim",
+    "tpope/vim-fugitive",
+    -- "folke/game_of_life-game_of_life.nvim",
     "mbbill/undotree",
     'lervag/vimtex',
     'eandrju/cellular-automaton.nvim',
     'tamton-aquib/zone.nvim',
+    'folke/which-key.nvim',
 
     -- CoPilot --
-    "github/copilot.vim",
-    --"zbirenbaum/copilot.lua",
+    -- "github/copilot.vim",
 
-    
-    {--Trouble--
-        "folke/trouble.nvim",
-        build = function()
-            require("trouble").setup {
-                icons=false
-                -- your configuration comes here
-                -- or leave it empty to use the default settings
-                -- refer to the configuration section below
-            }
+    { -- ChatGPT -- 
+        "jackMort/ChatGPT.nvim",
+        event = "VeryLazy",
+        config = function()
+            require("chatgpt").setup()
         end,
-        dependencies = { "nvim-tree/nvim-web-devicons" }
+        dependencies = {
+            "MunifTanjim/nui.nvim",
+            "nvim-lua/plenary.nvim",
+            "nvim-telescope/telescope.nvim"
+        }
     },
+
+    {-- Highlight, edit, and navigate code
+        'nvim-treesitter/nvim-treesitter',
+        build = function()
+            pcall(require ('nvim-treesitter.install').update { with_sync = true })
+        end,
+        dependencies = {'nvim-treesitter/playground'}
+    },
+
+
+
+
+    -- {--Trouble--
+    --     "folke/trouble.nvim",
+    --     build = function()
+    --         require("trouble").setup {
+    --             icons=false
+    --             -- your configuration comes here
+    --             -- or leave it empty to use the default settings
+    --             -- refer to the configuration section below
+    --         }
+    --     end,
+    --     dependencies = { "nvim-tree/nvim-web-devicons" }
+    -- },
+
     -- {-- Highlight, edit, and navigate code
     --     'nvim-treesitter/nvim-treesitter',
     --     build = function()
