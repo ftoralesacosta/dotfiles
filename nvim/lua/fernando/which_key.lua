@@ -5,6 +5,7 @@ vim.keymap.set("n", "<leader>mr", "<cmd>CellularAutomaton make_it_rain<CR>");
 vim.keymap.set("n", "<leader>gl", "<cmd>CellularAutomaton game_of_life<CR>");
 vim.keymap.set("n", "<leader>dvd", "<cmd>Zone  dvd<CR>");
 
+
 wk.register(
     {
         f = { name = " File Finder",
@@ -17,12 +18,39 @@ wk.register(
 
         u = { "<cmd> UndotreeToggle <cr>", "Undo Tree" },
 
-        x = { "<cmd> TroubleToggle <cr>", "Trouble" },
+
+        x = {name = "Trouble",
+            x = {"<cmd> TroubleToggle <cr>", "TroubleToggle"},
+            r = {"<cmd> TroubleRefresh <cr>", "TroubleRefresh"},
+            w = {function() require("trouble").open("workspace_diagnostics") end,
+                "open workspace_diagnostics"},
+            q = {function() require("trouble").open("quickfix") end,
+                "quickfix"},
+            k = {function() require("trouble").previous({skip_groups = false,
+                jump = true}) end, "previous"},
+            j = {function() require("trouble").next({skip_groups = true,
+                jump = true}) end, "next"},
+            -- R = {function() require("trouble").open("lsp_references") end,
+                -- "open LSP?"},
+        },
+
+-- -- jump to the next item, skipping the groups
+-- require("trouble").next({skip_groups = true, jump = true});
+-- -- jump to the previous item, skipping the groups
+-- require("trouble").previous({skip_groups = true, jump = true});
+-- -- jump to the first item, skipping the groups
+-- require("trouble").first({skip_groups = true, jump = true});
+-- -- jump to the last item, skipping the groups
+-- require("trouble").last({skip_groups = true, jump = true});
+
+
 
         n = {name = " NumberLines",
             n = {"<cmd> set nu! rnu! <cr>", "Toggle Numbers"},
             a = {"<cmd> set nu! <cr>", "Absolute Numbers"},
             r = {"<cmd> set rnu! <cr>", "Relative Numbers"},
+        },
+        g = {name = "FuGitive",
         },
 
         c = {name = "copilot",

@@ -44,10 +44,10 @@ vim.opt.updatetime = 50
 vim.cmd "set whichwrap+=<,>,[,],h,l"
 
 --Kill search on escape
-vim.keymap.set("n", "<ESC>", ":noh<CR><ESC>", opts) 
+vim.keymap.set("n", "<ESC>", ":noh<CR><ESC>", opts)
 
 --prevents comment on newline 
-vim.api.nvim_exec([[ autocmd BufEnter * set fo-=o fo-=c fo-=r ]],false) 
+vim.api.nvim_exec([[ autocmd BufEnter * set fo-=o fo-=c fo-=r ]],false)
 -- vim.o.formatoptions = 'jqlr' --how it's supposet to work
 -- conflict from ~/nvim-macos/share/nvim/runtime/ftplugin/lua.vim line 19
 
@@ -58,3 +58,6 @@ vim.opt.termguicolors = true     -- mac term colors suck. Just use inside tmux..
 vim.opt.wrap.timeoutlen = 100     -- time (ms) to wait for a mapped sequence to complete
 vim.opt.conceallevel = 0          -- so that `` is visible in markdown files
 vim.opt.clipboard = "unnamedplus" -- allows neovim to access the system clipboard
+
+-- vim.g.copilot_no_tab_map = true
+
