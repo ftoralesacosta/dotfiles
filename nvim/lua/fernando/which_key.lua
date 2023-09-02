@@ -34,16 +34,6 @@ wk.register(
                 -- "open LSP?"},
         },
 
--- -- jump to the next item, skipping the groups
--- require("trouble").next({skip_groups = true, jump = true});
--- -- jump to the previous item, skipping the groups
--- require("trouble").previous({skip_groups = true, jump = true});
--- -- jump to the first item, skipping the groups
--- require("trouble").first({skip_groups = true, jump = true});
--- -- jump to the last item, skipping the groups
--- require("trouble").last({skip_groups = true, jump = true});
-
-
 
         n = {name = " NumberLines",
             n = {"<cmd> set nu! rnu! <cr>", "Toggle Numbers"},
@@ -55,8 +45,10 @@ wk.register(
         },
 
         c = {name = "copilot",
-            e = {"<cmd> Copilot enable <cr> <cmd> Copilot status <cr>", "Enable Copilot"},
-            d = {"<cmd> Copilot disable <cr> <cmd> Copilot status <cr>", "Disable Copilot"},
+            e = {"<cmd> Copilot enable <cr> <cmd> Copilot status <cr>",
+                "Enable Copilot"},
+            d = {"<cmd> Copilot disable <cr> <cmd> Copilot status <cr>",
+                "Disable Copilot"},
             p = {"<cmd> Copilot panel <cr>", "Panel"},
         },
 
@@ -68,10 +60,6 @@ wk.register(
                 "Edit with instructions",
             },
         },
-        -- {
-        --         prefix = "<leader>",
-        --         mode = "v",
-        -- },
 
         l = {name = "LaTeX",
             i = {"<plug>(vimtex-info)","VimtexInfo"},
@@ -91,12 +79,6 @@ wk.register(
             t = {"<cmd>LBTest<cr>", "Run Code" },
             s = {"<cmd>LBSubmit<cr>", "Submit Code" },
         },
-
-        -- a = {name = " Animations", #NOT WORKING
-            -- l = {"<cmd> CellularAutomaton game_of_life <CR>", "Game of Life"},
-            -- r = {"<cmd> CellularAutomaton make_it_rain <CR>", "Make it Rain"},
-            -- d = {"<cmd> Zone dvd <cr>", "DVD"},
-        -- },
 
         e = {"<cmd> NvimTreeToggle <cr>", "Explorer (NvimTree)"},
         w = {"<cmd> w  <cr>", "Write File"},

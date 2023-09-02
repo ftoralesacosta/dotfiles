@@ -16,11 +16,11 @@ vim.opt.rtp:prepend(lazypath)
 
 require('lazy').setup({
 
-    -- Fuzzy Finder --
+    -- File Explorer Tree  --
     'nvim-tree/nvim-tree.lua',
 
 
-    {-- File Explorer --
+    {-- Fuzzy Finder (Text or Files) --
         'nvim-telescope/telescope.nvim',
         dependencies =  {'nvim-lua/plenary.nvim'},
     },
@@ -63,6 +63,11 @@ require('lazy').setup({
         }
     },
 
+    {--Trouble--
+        "folke/trouble.nvim",
+        dependencies = { "nvim-tree/nvim-web-devicons" }
+    },
+
     -- Colorschemes --
     "morhetz/gruvbox",
     "sainnhe/everforest",
@@ -84,7 +89,8 @@ require('lazy').setup({
     -- CoPilot --
     "github/copilot.vim",
 
-    { -- ChatGPT -- 
+
+    {-- ChatGPT -- 
         "jackMort/ChatGPT.nvim",
         event = "VeryLazy",
         config = function()
