@@ -50,6 +50,7 @@ wk.register(
             a = {"<cmd> set nu! <cr>", "Absolute Numbers"},
             r = {"<cmd> set rnu! <cr>", "Relative Numbers"},
         },
+
         g = {name = "FuGitive",
         },
 
@@ -72,7 +73,7 @@ wk.register(
         --         mode = "v",
         -- },
 
-        l = {name = " LaTeX",
+        l = {name = "LaTeX",
             i = {"<plug>(vimtex-info)","VimtexInfo"},
             c = {"<plug>(vimtex-compile)","Compile"},
             l = {"<plug>(vimtex-log)","Log"},
@@ -81,6 +82,14 @@ wk.register(
             s = {"<plug>(vimtex-status)","Status"},
             w = {"<plug>(vimtex-clean)","Wipe (Clean)"},
             e = {"<plug>(vimtex-errors)","Errors"},
+        },
+
+        b = {name = "LeetCode Buddy",
+            q = {"<cmd>LBQuestions<cr>", "List Questions" },
+            l = {"<cmd>LBQuestion<cr>", "View Question" },
+            r = {"<cmd>LBReset<cr>", "Reset Code" },
+            t = {"<cmd>LBTest<cr>", "Run Code" },
+            s = {"<cmd>LBSubmit<cr>", "Submit Code" },
         },
 
         -- a = {name = " Animations", #NOT WORKING

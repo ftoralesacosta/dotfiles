@@ -2,7 +2,7 @@ require('onedarker').setup({
     disable_background = true
 })
 
-function ColorMyPencils(color) 
+function ColorMyPencils(color)
 	color = color or "onedarker"
 	vim.cmd.colorscheme(color)
 

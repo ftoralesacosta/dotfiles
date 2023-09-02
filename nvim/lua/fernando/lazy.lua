@@ -25,6 +25,7 @@ require('lazy').setup({
         dependencies =  {'nvim-lua/plenary.nvim'},
     },
 
+
     -- TreeSitter --
     {-- Highlight, edit, and navigate code
         'nvim-treesitter/nvim-treesitter',
@@ -81,7 +82,7 @@ require('lazy').setup({
     'folke/which-key.nvim',
 
     -- CoPilot --
-    -- "github/copilot.vim",
+    "github/copilot.vim",
 
     { -- ChatGPT -- 
         "jackMort/ChatGPT.nvim",
@@ -103,35 +104,6 @@ require('lazy').setup({
         end,
         dependencies = {'nvim-treesitter/playground'}
     },
-
-
-
-
-    -- {--Trouble--
-    --     "folke/trouble.nvim",
-    --     build = function()
-    --         require("trouble").setup {
-    --             icons=false
-    --             -- your configuration comes here
-    --             -- or leave it empty to use the default settings
-    --             -- refer to the configuration section below
-    --         }
-    --     end,
-    --     dependencies = { "nvim-tree/nvim-web-devicons" }
-    -- },
-
-    -- {-- Highlight, edit, and navigate code
-    --     'nvim-treesitter/nvim-treesitter',
-    --     build = function()
-    --         pcall(require ('nvim-treesitter.install').update { with_sync = true })
-    --     end,
-    --     dependencies = {'nvim-treesitter/playground'}
-    -- },
-
-    {
-        "folke/trouble.nvim",
-        dependencies = { "nvim-tree/nvim-web-devicons",}
-    }
 
 })
 
