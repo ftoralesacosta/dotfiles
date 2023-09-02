@@ -20,11 +20,11 @@ require'nvim-treesitter.configs'.setup {
   -- CLI installed locally
   auto_install = true,
 
-  -- Setting this to true will run `:h syntax` 
-  -- and tree-sitter at the same time.
   highlight = {
     enable = true,
-    additional_vim_regex_highlighting = false,
+    disable = { "latex" },
+    additional_vim_regex_highlighting = { "latex", "markdown" },
+    -- additional_vim_regex_highlighting = false,
   },
 
   indent = { enable = true,}
