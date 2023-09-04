@@ -11,6 +11,7 @@ if not vim.loop.fs_stat(lazypath) then
         lazypath,
     })
 end
+
 vim.opt.rtp:prepend(lazypath)
 --leader key must be set before setup (done in set.lua)
 
@@ -30,10 +31,12 @@ require('lazy').setup({
     {-- Highlight, edit, and navigate code
         'nvim-treesitter/nvim-treesitter',
         build = function()
-            pcall(require ('nvim-treesitter.install').update { with_sync = true })
+            pcall(require ('nvim-treesitter.install').update /
+                { with_sync = true })
         end,
         dependencies = {'nvim-treesitter/playground'}
     },
+
 
     {-- LSP --
         'VonHeikemen/lsp-zero.nvim',
@@ -47,6 +50,7 @@ require('lazy').setup({
                     pcall(vim.cmd, 'MasonUpdate')
                 end,
             },
+
             {'williamboman/mason-lspconfig.nvim'}, -- Optional
 
             -- Autocompletion
@@ -68,6 +72,18 @@ require('lazy').setup({
         dependencies = { "nvim-tree/nvim-web-devicons" }
     },
 
+
+    { -- Chat GPT for Coding -- 
+        "dpayne/CodeGPT.nvim",
+        dependencies = {
+            'nvim-lua/plenary.nvim',
+            'MunifTanjim/nui.nvim',
+        },
+        config = function()
+            require("codegpt.config")
+        end
+    },
+
     -- Colorschemes --
     "morhetz/gruvbox",
     "sainnhe/everforest",
@@ -76,40 +92,12 @@ require('lazy').setup({
     'dracula/vim',
 
     -- MISC --
+    'folke/which-key.nvim',
     "tpope/vim-commentary" ,
     "tpope/vim-surround",
     "tpope/vim-fugitive",
-    -- "folke/game_of_life-game_of_life.nvim",
     "mbbill/undotree",
     'lervag/vimtex',
     'eandrju/cellular-automaton.nvim',
-    'tamton-aquib/zone.nvim',
-    'folke/which-key.nvim',
-
-    -- CoPilot --
-    "github/copilot.vim",
-
-
-    {-- ChatGPT -- 
-        "jackMort/ChatGPT.nvim",
-        event = "VeryLazy",
-        config = function()
-            require("chatgpt").setup()
-        end,
-        dependencies = {
-            "MunifTanjim/nui.nvim",
-            "nvim-lua/plenary.nvim",
-            "nvim-telescope/telescope.nvim"
-        }
-    },
-
-    {-- Highlight, edit, and navigate code
-        'nvim-treesitter/nvim-treesitter',
-        build = function()
-            pcall(require ('nvim-treesitter.install').update { with_sync = true })
-        end,
-        dependencies = {'nvim-treesitter/playground'}
-    },
-
 })
 
