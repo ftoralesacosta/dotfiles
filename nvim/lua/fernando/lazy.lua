@@ -20,6 +20,8 @@ require('lazy').setup({
     -- File Explorer Tree  --
     'nvim-tree/nvim-tree.lua',
 
+    -- Open Big Files Quickly --
+    'LunarVim/bigfile.nvim',
 
     {-- Fuzzy Finder (Text or Files) --
         'nvim-telescope/telescope.nvim',
@@ -72,6 +74,24 @@ require('lazy').setup({
         dependencies = { "nvim-tree/nvim-web-devicons" }
     },
 
+    {--LeetCode--
+        "kawre/leetcode.nvim",
+        build = ":TSUpdate html",
+        dependencies = {
+            "nvim-telescope/telescope.nvim",
+            "nvim-lua/plenary.nvim", -- required by telescope
+            "MunifTanjim/nui.nvim",
+
+            -- optional
+            "nvim-treesitter/nvim-treesitter",
+            "rcarriga/nvim-notify",
+            "nvim-tree/nvim-web-devicons",
+        },
+        opts = {
+            -- configuration goes here
+            lang = "python",
+        },
+    },
 
     { -- Chat GPT for Coding -- 
         "dpayne/CodeGPT.nvim",
@@ -90,6 +110,7 @@ require('lazy').setup({
     "LunarVim/onedarker",
     "rose-pine/neovim",
     'dracula/vim',
+    'navarasu/onedark.nvim',
 
     -- MISC --
     'folke/which-key.nvim',
