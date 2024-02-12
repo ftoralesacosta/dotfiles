@@ -104,6 +104,16 @@ require('lazy').setup({
         end
     },
 
+
+    {
+        "NeogitOrg/neogit",
+        dependencies = {
+            "nvim-lua/plenary.nvim",
+            "sindrets/diffview.nvim",
+        },
+        config = true
+    },
+
     -- Colorschemes --
     "morhetz/gruvbox",
     "sainnhe/everforest",
@@ -116,7 +126,7 @@ require('lazy').setup({
     'folke/which-key.nvim',
     "tpope/vim-commentary" ,
     "tpope/vim-surround",
-    "tpope/vim-fugitive",
+    -- "tpope/vim-fugitive",
     "mbbill/undotree",
     'lervag/vimtex',
     'eandrju/cellular-automaton.nvim',
