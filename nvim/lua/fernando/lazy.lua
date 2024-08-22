@@ -114,6 +114,12 @@ require('lazy').setup({
         config = true
     },
 
+    {"lewis6991/gitsigns.nvim"},
+
+    {
+    "Isrothy/neominimap.nvim",
+    },
+
     -- Colorschemes --
     "morhetz/gruvbox",
     "sainnhe/everforest",

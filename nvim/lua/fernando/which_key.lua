@@ -40,6 +40,11 @@ wk.register(
             r = {"<cmd> set rnu! <cr>", "Relative Numbers"},
         },
 
+        m = {name = "MiniMap",
+            m = {"<cmd>Neominimap toggle<cr>", "Toggle MiniMap"},
+            r = {"<cmd>Neominimap refresh<cr>", "Refresh MiniMap"},
+        },
+
         g = {name = "FuGitive",
         },
 
@@ -71,13 +76,6 @@ wk.register(
             e = {"<plug>(vimtex-errors)","Errors"},
         },
 
-        b = {name = "LeetCode Buddy",
-            q = {"<cmd>LBQuestions<cr>", "List Questions" },
-            l = {"<cmd>LBQuestion<cr>", "View Question" },
-            r = {"<cmd>LBReset<cr>", "Reset Code" },
-            t = {"<cmd>LBTest<cr>", "Run Code" },
-            s = {"<cmd>LBSubmit<cr>", "Submit Code" },
-        },
 
         e = {"<cmd> NvimTreeToggle <cr>", "Explorer (NvimTree)"},
         w = {"<cmd> w  <cr>", "Write File"},
