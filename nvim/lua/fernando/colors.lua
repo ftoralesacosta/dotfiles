@@ -2,6 +2,7 @@ require('onedarker').setup({
     disable_background = true
 })
 
+
 function ColorMyPencils(color)
 	color = color or "onedarker"
 	vim.cmd.colorscheme(color)
@@ -11,11 +12,26 @@ function ColorMyPencils(color)
 
 end
 
+-- Lua
+require('onedark').setup {
+    style = 'cool'
+    -- style = 'darker'
+    -- style = 'deep'
+}
+require('onedark').load()
+
+-- ColorMyPencils('onedark')
 -- ColorMyPencils('gruvbox')
-ColorMyPencils('onedarker')
+-- ColorMyPencils('onedarker')
+-- ColorMyPencils('rose-pine')
+-- ColorMyPencils('everforest')
+
 
 --MacOS Terminal kinda sucks
 --vim.g.termguicolors=True
 --vim.g.term=xterm
 --vim.g.t_Co=256
 --vim.g.background=light
+
+  vim.opt.termguicolors = false
+  vim.o.termguicolors = true                                                         vim.g.termguicolors= false

@@ -54,10 +54,11 @@ vim.api.nvim_exec([[ autocmd BufEnter * set fo-=o fo-=c fo-=r ]],false)
 vim.opt.cursorline = true         -- highlight the current line
 vim.opt.cmdheight = 1             -- more space in the neovim command line for displaying messages
 vim.cmd [[set mouse=]]            -- use mouse to scroll line by line
-vim.opt.termguicolors = true     -- mac term colors suck. Just use inside tmux...
 vim.opt.wrap.timeoutlen = 100     -- time (ms) to wait for a mapped sequence to complete
 vim.opt.conceallevel = 0          -- so that `` is visible in markdown files
 vim.opt.clipboard = "unnamedplus" -- allows neovim to access the system clipboard
 
 -- vim.g.copilot_no_tab_map = true
+vim.g.neominimap ={
+    auto_enable = false}
 

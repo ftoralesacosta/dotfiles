@@ -7,8 +7,8 @@ if not vim.loop.fs_stat(lazypath) then
         "clone",
         "--filter=blob:none",
         "https://github.com/folke/lazy.nvim.git",
-        "--branch=stable", -- latest stable release
-        lazypath,
+        "--branch=stable", -- latest stable rlease
+        lzypath,
     })
 end
 
@@ -62,6 +62,7 @@ require('lazy').setup({
             {'hrsh7th/cmp-path'},         -- Optional
             {'saadparwaiz1/cmp_luasnip'}, -- Optional
             {'hrsh7th/cmp-nvim-lua'},     -- Optional
+            {"robitx/gp.nvim"},
 
             -- Snippets
             {'L3MON4D3/LuaSnip'},             -- Required
@@ -69,9 +70,15 @@ require('lazy').setup({
         }
     },
 
+    {--Formatter--
+        "averms/black-nvim"
+    },
+
     {--Trouble--
         "folke/trouble.nvim",
-        dependencies = { "nvim-tree/nvim-web-devicons" }
+        cmd = "Trouble",
+        dependencies = { "nvim-tree/nvim-web-devicons" },
+        opts = {},
     },
 
     {--LeetCode--
@@ -93,16 +100,16 @@ require('lazy').setup({
         },
     },
 
-    { -- Chat GPT for Coding -- 
-        "dpayne/CodeGPT.nvim",
-        dependencies = {
-            'nvim-lua/plenary.nvim',
-            'MunifTanjim/nui.nvim',
-        },
-        config = function()
-            require("codegpt.config")
-        end
-    },
+    -- { -- Chat GPT for Coding -- 
+    --     "dpayne/CodeGPT.nvim",
+    --     dependencies = {
+    --         'nvim-lua/plenary.nvim',
+    --         'MunifTanjim/nui.nvim',
+    --     },
+    --     config = function()
+    --         require("codegpt.config")
+    --     end
+    -- },
 
 
     {
@@ -127,9 +134,18 @@ require('lazy').setup({
     "rose-pine/neovim",
     'dracula/vim',
     'navarasu/onedark.nvim',
+    'shaunsingh/nord.nvim',
+    'onedark.nvim',
+
+    {--Key Mappings--
+    'folke/which-key.nvim',
+        dependencies = {
+            "nvim-tree/nvim-web-devicons",
+            "echasnovski/mini.icons"
+        }
+    },
 
     -- MISC --
-    'folke/which-key.nvim',
     "tpope/vim-commentary" ,
     "tpope/vim-surround",
     -- "tpope/vim-fugitive",
