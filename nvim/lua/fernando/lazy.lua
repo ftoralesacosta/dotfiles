@@ -7,8 +7,8 @@ if not vim.loop.fs_stat(lazypath) then
         "clone",
         "--filter=blob:none",
         "https://github.com/folke/lazy.nvim.git",
-        "--branch=stable", -- latest stable rlease
-        lzypath,
+        "--branch=stable", -- latest stable release
+        lazypath,
     })
 end
 
@@ -28,16 +28,16 @@ require('lazy').setup({
         dependencies =  {'nvim-lua/plenary.nvim'},
     },
 
-
     -- TreeSitter --
-    {-- Highlight, edit, and navigate code
-        'nvim-treesitter/nvim-treesitter',
-        build = function()
-            pcall(require ('nvim-treesitter.install').update /
-                { with_sync = true })
-        end,
-        dependencies = {'nvim-treesitter/playground'}
-    },
+    'nvim-treesitter/nvim-treesitter',
+    -- {-- Highlight, edit, and navigate code
+    --     'nvim-treesitter/nvim-treesitter',
+    --     build = function()
+    --         pcall(require ('nvim-treesitter.install').update /
+    --             { with_sync = true })
+    --     end,
+    --     dependencies = {'nvim-treesitter/playground'}
+    -- },
 
 
     {-- LSP --
