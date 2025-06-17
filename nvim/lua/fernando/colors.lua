@@ -13,12 +13,7 @@ function ColorMyPencils(color)
 end
 
 -- Lua
-require('onedark').setup {
-    style = 'cool'
-    -- style = 'darker'
-    -- style = 'deep'
-}
-require('onedark').load()
+
 
 -- ColorMyPencils('onedark')
 -- ColorMyPencils('gruvbox')

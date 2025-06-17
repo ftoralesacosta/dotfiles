@@ -1,0 +1,90 @@
+-- Define the ToggleDiagnostics function
+local diagnostics_active = true
+function ToggleDiagnostics()
+  diagnostics_active = not diagnostics_active
+  vim.diagnostic.config({ virtual_text = diagnostics_active })
+  print("Inline diagnostics " .. (diagnostics_active and "enabled" or "disabled"))
+end
+
+-- Require which-key
+local wk = require("which-key")
+
+
+-- Add keybindings using the new v3 API
+wk.add({
+    -- General Commands
+    { "<leader>Q", "<cmd>q<cr>", desc = "Quit without Saving" },
+    { "<leader>e", "<cmd>NvimTreeToggle<cr>", desc = "Explorer (NvimTree)" },
+    { "<leader>q", "<cmd>wq<cr>", desc = "Quit File" },
+    { "<leader>w", "<cmd>w<cr>", desc = "Write File" },
+    { "<leader>s", "<cmd>so<cr>", desc = "Source File" },
+    { "<leader>t", "<cmd>Telescope live_grep<cr>", desc = "Text Finder [ripgrep]" },
+    { "<leader>u", "<cmd>UndotreeToggle<cr>", desc = "Undo Tree" },
+
+    -- File Finder Group
+    { "<leader>f", group = "File Finder" },
+    { "<leader>ff", "<cmd>Telescope find_files<cr>", desc = "Find File" },
+    { "<leader>fg", "<cmd>Telescope git_files<cr>", desc = "Git Files" },
+    { "<leader>fl", "<cmd>Telescope live_grep<cr>", desc = "Live Grep [ripgrep]" },
+
+    -- Git Group
+    { "<leader>g", group = "FuGitive" },
+
+    -- LaTeX Group
+    { "<leader>l", group = "LaTeX" },
+    { "<leader>lc", "<plug>(vimtex-compile)", desc = "Compile" },
+    { "<leader>le", "<plug>(vimtex-errors)", desc = "Errors" },
+    { "<leader>li", "<plug>(vimtex-info)", desc = "VimtexInfo" },
+    { "<leader>ll", "<plug>(vimtex-log)", desc = "Log" },
+    { "<leader>lp", "<plug>(vimtex-stop)", desc = "Pause Compile" },
+    { "<leader>ls", "<plug>(vimtex-status)", desc = "Status" },
+    { "<leader>lt", "<plug>(vimtex-toc-toggle)", desc = "Table of Contents" },
+    { "<leader>lw", "<plug>(vimtex-clean)", desc = "Wipe (Clean)" },
+
+    -- MiniMap Group
+    { "<leader>m", group = "MiniMap" },
+    { "<leader>mm", "<cmd>Neominimap Toggle<cr>", desc = "Toggle MiniMap" },
+    { "<leader>mr", "<cmd>Neominimap refresh<cr>", desc = "Refresh MiniMap" },
+
+    -- NumberLines Group
+    { "<leader>n", group = "NumberLines" },
+    { "<leader>na", "<cmd>set nu!<cr>", desc = "Absolute Numbers" },
+    { "<leader>nn", "<cmd>set nu! rnu!<cr>", desc = "Toggle Numbers" },
+    { "<leader>nr", "<cmd>set rnu!<cr>", desc = "Relative Numbers" },
+
+    W = {
+        name = "Window Management",
+        s = { "<cmd>split<cr>", "Horizontal Split" },
+        v = { "<cmd>vsplit<cr>", "Vertical Split" },
+        h = { "<C-w>h", "Move to Left Window" },
+        j = { "<C-w>j", "Move to Lower Window" },
+        k = { "<C-w>k", "Move to Upper Window" },
+        l = { "<C-w>l", "Move to Right Window" },
+        q = { "<cmd>close<cr>", "Close Window" },
+        o = { "<C-w>o", "Close Other Windows" },
+        ["="] = { "<C-w>=", "Equalize Window Sizes" },
+        ["+"] = { "<C-w>+", "Increase Height" },
+        ["-"] = { "<C-w>-", "Decrease Height" },
+        [">"] = { "<C-w>>", "Increase Width" },
+        ["<"] = { "<C-w><", "Decrease Width" },
+    },
+
+    -- Trouble Group
+    { "<leader>x", group = "Trouble" },
+    { "<leader>xx", "<cmd>Trouble diagnostics toggle<cr>", desc = "Diagnostics (Trouble)" },
+    { "<leader>xX", "<cmd>Trouble diagnostics toggle filter.buf=0<cr>",
+        desc = "Buffer Diagnostics (Trouble)" },
+    { "<leader>xL", "<cmd>Trouble loclist toggle<cr>", desc = "Location List (Trouble)" },
+    { "<leader>xQ", "<cmd>Trouble qflist toggle<cr>", desc = "Quickfix List (Trouble)" },
+    { "<leader>xd", "<cmd>lua ToggleDiagnostics()<CR>", desc = "Toggle Inline Diagnostics" },
+    { "<leader>xj", function() require("trouble").next({ skip_groups = true, jump = true }) end,
+        desc = "Next Trouble item" },
+    { "<leader>xk", function() require("trouble").previous({ skip_groups = true, jump = true }) end,
+        desc = "Previous Trouble item" },
+
+    -- Code Group
+    { "<leader>c", group = "Code" },
+    { "<leader>cs", "<cmd>Trouble symbols toggle focus=false<cr>", desc = "Symbols (Trouble)" },
+    { "<leader>cl", "<cmd>Trouble lsp toggle focus=false win.position=right<cr>",
+        desc = "LSP Definitions / references / ... (Trouble)" },
+})

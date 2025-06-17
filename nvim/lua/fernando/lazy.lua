@@ -30,6 +30,7 @@ require('lazy').setup({
 
     -- TreeSitter --
     'nvim-treesitter/nvim-treesitter',
+
     -- {-- Highlight, edit, and navigate code
     --     'nvim-treesitter/nvim-treesitter',
     --     build = function()
@@ -40,35 +41,35 @@ require('lazy').setup({
     -- },
 
 
-    {-- LSP --
-        'VonHeikemen/lsp-zero.nvim',
-        branch = 'v1.x',
-        dependencies = {
-            -- LSP Support
-            {'neovim/nvim-lspconfig'},             -- Required
-            {                                      -- Optional
-                'williamboman/mason.nvim',
-                build = function()
-                    pcall(vim.cmd, 'MasonUpdate')
-                end,
-            },
+    -- {-- LSP --
+    --     'VonHeikemen/lsp-zero.nvim',
+    --     branch = 'v1.x',
+    --     dependencies = {
+    --         -- LSP Support
+    --         {'neovim/nvim-lspconfig'},             -- Required
+    --         {                                      -- Optional
+    --             'williamboman/mason.nvim',
+    --             build = function()
+    --                 pcall(vim.cmd, 'MasonUpdate')
+    --             end,
+    --         },
 
-            {'williamboman/mason-lspconfig.nvim'}, -- Optional
+    --         {'williamboman/mason-lspconfig.nvim'}, -- Optional
 
-            -- Autocompletion
-            {'hrsh7th/nvim-cmp'},         -- Required
-            {'hrsh7th/cmp-nvim-lsp'},     -- Required
-            {'hrsh7th/cmp-buffer'},       -- Optional
-            {'hrsh7th/cmp-path'},         -- Optional
-            {'saadparwaiz1/cmp_luasnip'}, -- Optional
-            {'hrsh7th/cmp-nvim-lua'},     -- Optional
-            {"robitx/gp.nvim"},
+    --         -- Autocompletion
+    --         {'hrsh7th/nvim-cmp'},         -- Required
+    --         {'hrsh7th/cmp-nvim-lsp'},     -- Required
+    --         {'hrsh7th/cmp-buffer'},       -- Optional
+    --         {'hrsh7th/cmp-path'},         -- Optional
+    --         {'saadparwaiz1/cmp_luasnip'}, -- Optional
+    --         {'hrsh7th/cmp-nvim-lua'},     -- Optional
+    --         {"robitx/gp.nvim"},
 
-            -- Snippets
-            {'L3MON4D3/LuaSnip'},             -- Required
-            {'rafamadriz/friendly-snippets'}, -- Optional
-        }
-    },
+    --         -- Snippets
+    --         {'L3MON4D3/LuaSnip'},             -- Required
+    --         {'rafamadriz/friendly-snippets'}, -- Optional
+    --     }
+    -- },
 
     {--Formatter--
         "averms/black-nvim"
@@ -80,36 +81,6 @@ require('lazy').setup({
         dependencies = { "nvim-tree/nvim-web-devicons" },
         opts = {},
     },
-
-    {--LeetCode--
-        "kawre/leetcode.nvim",
-        build = ":TSUpdate html",
-        dependencies = {
-            "nvim-telescope/telescope.nvim",
-            "nvim-lua/plenary.nvim", -- required by telescope
-            "MunifTanjim/nui.nvim",
-
-            -- optional
-            "nvim-treesitter/nvim-treesitter",
-            "rcarriga/nvim-notify",
-            "nvim-tree/nvim-web-devicons",
-        },
-        opts = {
-            -- configuration goes here
-            lang = "python",
-        },
-    },
-
-    -- { -- Chat GPT for Coding -- 
-    --     "dpayne/CodeGPT.nvim",
-    --     dependencies = {
-    --         'nvim-lua/plenary.nvim',
-    --         'MunifTanjim/nui.nvim',
-    --     },
-    --     config = function()
-    --         require("codegpt.config")
-    --     end
-    -- },
 
 
     {
@@ -133,12 +104,17 @@ require('lazy').setup({
     "LunarVim/onedarker",
     "rose-pine/neovim",
     'dracula/vim',
-    'navarasu/onedark.nvim',
     'shaunsingh/nord.nvim',
-    'onedark.nvim',
+    {
+        'navarasu/onedark.nvim',
+        config = function()
+            require('onedark').setup {style = 'warm'}
+            require('onedark').load()
+        end,
+    },
 
     {--Key Mappings--
-    'folke/which-key.nvim',
+        'folke/which-key.nvim',
         dependencies = {
             "nvim-tree/nvim-web-devicons",
             "echasnovski/mini.icons"

@@ -62,3 +62,12 @@ vim.opt.clipboard = "unnamedplus" -- allows neovim to access the system clipboar
 vim.g.neominimap ={
     auto_enable = false}
 
+
+local status_ok, onedark = pcall(require, 'onedark')
+if status_ok then
+    onedark.setup {
+        style = 'cool' --'darker', 'deep', or 'warm'
+    }
+    onedark.load()
+end
+
