@@ -7,7 +7,7 @@ vim.g.maplocalleader = " "
 vim.opt.termguicolors = true
 vim.opt.number = true
 vim.opt.relativenumber = true
-vim.opt.mouse = "a"
+vim.opt.mouse = ""
 vim.opt.clipboard = "unnamedplus"
 vim.opt.undofile = true
 vim.opt.signcolumn = "yes"
@@ -38,8 +38,7 @@ vim.diagnostic.config({
 vim.keymap.set("n", "<Esc>", "<cmd>nohlsearch<CR>")
 
 -- INFO: colorscheme
-vim.pack.add({ "https://github.com/catppuccin/nvim" }, { confirm = false })
-vim.cmd.colorscheme("catppuccin")
+vim.cmd.colorscheme("unokai")
 
 -- INFO: formatting and syntax highlighting (Treesitter)
 -- NOTE: We explicitly target the 'main' branch for Neovim 0.12 compatibility
@@ -142,7 +141,7 @@ wk.add({
   { "<leader>s", "<cmd>so %<cr>", desc = "Source File", remap = false },
   { "<leader>t", "<cmd>Telescope live_grep<cr>", desc = "Live Grep", remap = false },
   { "<leader>f", "<cmd>Telescope find_files<cr>", desc = "Find File", remap = false },
-  { "<leader>u", "<cmd>UndotreeToggle<cr>", desc = "Undo Tree", remap = false },
+  { "<leader>u", "<cmd>Undotree<cr>", desc = "Undo Tree", remap = false },
   { "<leader>e", "<cmd>NvimTreeToggle<cr>", desc = "File Explorer", remap = false },
 
   -- Line Numbers
