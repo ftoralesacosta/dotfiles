@@ -68,29 +68,38 @@ require("blink.cmp").setup({
   fuzzy = { implementation = "lua" },
 })
 
--- INFO: lsp server installation and configuration
-local lsp_servers = {
-  lua_ls = {
-    Lua = { workspace = { library = vim.api.nvim_get_runtime_file("lua", true) } },
-  },
-  clangd = {},
-  rust_analyzer = {},
-  gopls = {},
-}
+-- INFO: lsp server configuration (pure native, no plugins)
+vim.lsp.config('clangd', {
+  cmd = { 'clangd' },
+  filetypes = { 'c', 'cpp', 'objc', 'objcpp' },
+  root_markers = { '.git', 'compile_commands.json' },
+})
 
-vim.pack.add({
-  "https://github.com/neovim/nvim-lspconfig",
-}, { confirm = false })
+vim.lsp.config('bashls', {
+  cmd = { 'bash-language-server', 'start' },
+  filetypes = { 'sh', 'bash' },
+  root_markers = { '.git' },
+})
 
-for server, config in pairs(lsp_servers) do
-  vim.lsp.config(server, {
-    settings = config,
-    on_attach = function(_, bufnr)
-      vim.keymap.set("n", "grd", vim.lsp.buf.definition, { buffer = bufnr })
-      vim.keymap.set("n", "grf", vim.lsp.buf.format, { buffer = bufnr })
-    end,
-  })
-end
+vim.lsp.config('ty', {
+  cmd = { 'ty', 'server' },
+  filetypes = { 'python' },
+  root_markers = { '.git', 'pyproject.toml', 'requirements.txt' },
+})
+
+-- Enable the servers
+vim.lsp.enable('clangd')
+vim.lsp.enable('bashls')
+vim.lsp.enable('ty')
+
+-- Apply keymaps globally whenever ANY language server attaches to a buffer
+vim.api.nvim_create_autocmd('LspAttach', {
+  desc = 'LSP Buffer Keymaps',
+  callback = function(event)
+    vim.keymap.set("n", "grd", vim.lsp.buf.definition, { buffer = event.buf, desc = "Go to Definition" })
+    vim.keymap.set("n", "grf", vim.lsp.buf.format, { buffer = event.buf, desc = "Format File" })
+  end,
+})
 
 -- INFO: fuzzy finder
 vim.pack.add({
