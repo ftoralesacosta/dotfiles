@@ -87,10 +87,54 @@ vim.lsp.config('ty', {
   root_markers = { '.git', 'pyproject.toml', 'requirements.txt' },
 })
 
+vim.lsp.config('jsonls', {
+  cmd = { 'vscode-json-language-server', '--stdio' },
+  filetypes = { 'json', 'jsonc' },
+  root_markers = { '.git', 'package.json' },
+})
+
+vim.lsp.config('yamlls', {
+  cmd = { 'yaml-language-server', '--stdio' },
+  filetypes = { 'yaml', 'yaml.docker-compose', 'yaml.gitlab' },
+  root_markers = { '.git' },
+})
+
+-- HTML
+vim.lsp.config('html', {
+  cmd = { 'vscode-html-language-server', '--stdio' },
+  filetypes = { 'html' },
+  root_markers = { '.git', 'package.json' },
+})
+
+-- Lua (with special Neovim API configuration)
+vim.lsp.config('lua_ls', {
+  cmd = { 'lua-language-server' },
+  filetypes = { 'lua' },
+  root_markers = { '.git', '.luarc.json', '.luacheckrc' },
+  settings = {
+    Lua = {
+      runtime = { version = 'LuaJIT' },
+      diagnostics = {
+        globals = { 'vim' }, -- Stops it from yelling about the 'vim' global
+      },
+      workspace = {
+        library = vim.api.nvim_get_runtime_file("", true), -- Loads Neovim's API into autocomplete
+        checkThirdParty = false,
+      },
+      telemetry = { enable = false },
+    },
+  },
+})
+
 -- Enable the servers
 vim.lsp.enable('clangd')
 vim.lsp.enable('bashls')
 vim.lsp.enable('ty')
+vim.lsp.enable('jsonls')
+vim.lsp.enable('yamlls')
+vim.lsp.enable('html')
+vim.lsp.enable('lua_ls')
+
 
 -- Apply keymaps globally whenever ANY language server attaches to a buffer
 vim.api.nvim_create_autocmd('LspAttach', {
