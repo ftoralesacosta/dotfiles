@@ -1,0 +1,32 @@
+VENTOY HEADLESS DEBIAN INSTALLATION GUIDE
+
+1. INITIAL PREPARATION
+sudo apt update && sudo apt install -y wget tar util-linux
+
+2. DOWNLOAD AND EXTRACT
+wget https://github.com/ventoy/Ventoy/releases/download/v1.1.11/ventoy-1.1.11-linux.tar.gz
+tar -xvf ventoy-1.1.11-linux.tar.gz
+
+3. CONFIGURE GLOBAL COMMAND (WRAPPER SCRIPT)
+sudo mv ventoy-1.1.11 /opt/ventoy
+sudo bash -c 'printf "#!/bin/bash\ncd /opt/ventoy && ./Ventoy2Disk.sh \"\$@\"\n" > /usr/local/bin/ventoy'
+sudo chmod +x /usr/local/bin/ventoy
+
+4. INSTALL TO USB DRIVE (/dev/sda)
+# Flags: -i (install), -s (secure boot), -g (GPT partition style)
+sudo ventoy -i -s -g /dev/sda
+
+5. ADDING ISO FILES (VIA CLI)
+sudo mkdir -p /mnt/usb
+sudo mount /dev/sda1 /mnt/usb
+sudo cp /path/to/your/image.iso /mnt/usb/
+sync
+sudo umount /mnt/usb
+
+6. SECURE BOOT ENROLLMENT (ONE-TIME PER MACHINE)
+- Boot from USB.
+- On blue screen, select "Enroll key from disk".
+- Choose "VTOY_EFI" partition.
+- Select "ENROLL_THIS_KEY_IN_MOKMANAGER.cer".
+- Confirm and reboot.
+
